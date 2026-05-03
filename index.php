@@ -15,7 +15,7 @@ require __DIR__ . '/includes/header.php';
           <h1>Best Online Betting India with YaarWin Games</h1>
           <p class="hero-copy">Play and explore Aviator, Teen Patti, Rummy, Wingo colour prediction, cricket betting, slots, live casino and fast UPI withdrawal guidance from one simple lobby-style platform.</p>
           <div class="hero-actions">
-            <a class="btn btn-primary" href="/register/">Play Now</a>
+            <a class="btn btn-primary" href="<?= e($site['register_url']) ?>" rel="nofollow noopener" target="_blank">Play Now</a>
             <a class="btn btn-ghost" href="/yaarwin-game-login/">YaarWin Login Guide</a>
           </div>
         </div>
@@ -86,7 +86,7 @@ require __DIR__ . '/includes/header.php';
       <article class="promo-card">
         <h3>Mega Welcome Bonus Guide</h3>
         <p>Use the official YaarWin register path, keep the invite code locked, and check bonus terms before adding funds.</p>
-        <a class="btn btn-primary" href="/register/">Claim Access</a>
+        <a class="btn btn-primary" href="<?= e($site['register_url']) ?>" rel="nofollow noopener" target="_blank">Claim Access</a>
       </article>
       <article class="promo-card light">
         <h3>Fast Withdrawal India</h3>

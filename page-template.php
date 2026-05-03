@@ -176,8 +176,8 @@ require __DIR__ . '/includes/header.php';
     <h1><?= e($data['h1']) ?></h1>
     <p><?= e($data['intro']) ?></p>
     <div class="hero-actions">
-      <a class="btn btn-primary" href="/register/">Register with YaarWin</a>
-      <a class="btn btn-ghost" href="/login/">Login</a>
+      <a class="btn btn-primary" href="<?= e($site['register_url']) ?>" rel="nofollow noopener" target="_blank">Register with YaarWin</a>
+      <a class="btn btn-ghost" href="<?= e($site['login_url']) ?>" rel="nofollow noopener" target="_blank">Login</a>
     </div>
   </div>
 </section>
@@ -191,7 +191,7 @@ require __DIR__ . '/includes/header.php';
   <div class="cta-band">
     <h2>Ready to start with YaarWin?</h2>
     <p>If you are ready to play smarter with BOBI x YaarWin, use the register button below and keep your invite code fixed.</p>
-    <a class="btn btn-primary" href="/register/">Open YaarWin Register</a>
+    <a class="btn btn-primary" href="<?= e($site['register_url']) ?>" rel="nofollow noopener" target="_blank">Open YaarWin Register</a>
   </div>
 </article>
 <?php require __DIR__ . '/includes/footer.php'; ?>

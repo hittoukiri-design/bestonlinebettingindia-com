@@ -7,8 +7,8 @@
       </div>
       <div>
         <h2>YaarWin Access</h2>
-        <a href="/register/">Register</a>
-        <a href="/login/">Login</a>
+        <a href="<?= e($site['register_url']) ?>" rel="nofollow noopener" target="_blank">Register</a>
+        <a href="<?= e($site['login_url']) ?>" rel="nofollow noopener" target="_blank">Login</a>
         <a href="/yaarwin-game-login/">YaarWin Game Login</a>
         <a href="/fast-withdrawal-betting-india/">Fast Withdrawal</a>
       </div>
