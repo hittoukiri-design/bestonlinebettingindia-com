@@ -1,0 +1,66 @@
+<?php
+require_once __DIR__ . '/config.php';
+$meta = page_meta($meta ?? []);
+$body_class = $body_class ?? '';
+?>
+<!doctype html>
+<html lang="en-IN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title><?= e($meta['title']) ?></title>
+  <meta name="description" content="<?= e($meta['description']) ?>">
+  <meta name="robots" content="<?= e($meta['robots'] ?? 'index, follow') ?>">
+  <link rel="canonical" href="<?= e($meta['canonical']) ?>">
+  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="/assets/css/styles.css" as="style">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <meta property="og:title" content="<?= e($meta['title']) ?>">
+  <meta property="og:description" content="<?= e($meta['description']) ?>">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="<?= e($meta['canonical']) ?>">
+  <meta property="og:image" content="<?= e($site['url']) ?>/assets/img/bobi-yaarwin-logo.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "<?= e($site['name']) ?>",
+    "url": "<?= e($site['url']) ?>",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "<?= e($site['url']) ?>/search/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+</head>
+<body class="<?= e($body_class) ?>">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="top-strip">
+      <span>Welcome to BOBI x YaarWin</span>
+      <span>India betting games</span>
+      <span>Fast UPI access</span>
+      <span>18+ play responsibly</span>
+    </div>
+    <nav class="nav-shell" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="BOBI x YaarWin home">
+        <img src="/assets/img/bobi-yaarwin-logo.webp" alt="BOBI x YaarWin" width="156" height="156">
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-menu">Menu</button>
+      <div class="nav-menu" id="site-menu">
+        <a href="/" class="nav-item">Home</a>
+        <a href="/best-online-betting-india/" class="nav-item">Best Betting</a>
+        <a href="/aviator-betting-india/" class="nav-item">Aviator</a>
+        <a href="/teen-patti-online/" class="nav-item">Teen Patti</a>
+        <a href="/fast-withdrawal-betting-india/" class="nav-item">Withdraw</a>
+        <a href="/blog/" class="nav-item">Guides</a>
+      </div>
+      <div class="nav-actions">
+        <a class="btn btn-ghost" href="/login/">Login</a>
+        <a class="btn btn-primary" href="/register/">Sign Up</a>
+      </div>
+    </nav>
+  </header>
+  <main id="main">
