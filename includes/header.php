@@ -12,7 +12,10 @@ $body_class = $body_class ?? '';
   <meta name="description" content="<?= e($meta['description']) ?>">
   <meta name="robots" content="<?= e($meta['robots'] ?? 'index, follow') ?>">
   <link rel="canonical" href="<?= e($meta['canonical']) ?>">
-  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/assets/img/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="/assets/img/favicon-64.png" sizes="64x64" type="image/png">
+  <link rel="shortcut icon" href="/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="/assets/img/favicon-192.png">
   <link rel="preload" href="/assets/css/styles.css" as="style">
   <link rel="stylesheet" href="/assets/css/styles.css">
   <meta property="og:title" content="<?= e($meta['title']) ?>">
