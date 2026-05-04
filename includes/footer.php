@@ -2,7 +2,7 @@
   <footer class="site-footer">
     <div class="footer-grid">
       <div>
-        <img src="/assets/img/bobi-yaarwin-logo.webp" alt="BOBI x YaarWin" width="130" height="130" class="footer-logo">
+        <img src="/assets/img/bobi-yaarwin-logo-transparent.png" alt="BOBI x YaarWin" width="130" height="130" class="footer-logo">
         <p>BOBI x YaarWin helps Indian players find cleaner access to online betting games, login support, bonus checks and withdrawal guidance.</p>
       </div>
       <div>

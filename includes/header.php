@@ -37,6 +37,11 @@ $body_class = $body_class ?? '';
     }
   }
   </script>
+  <?php if (!empty($schema_items) && is_array($schema_items)): ?>
+  <script type="application/ld+json">
+  <?= json_encode(['@context' => 'https://schema.org', '@graph' => $schema_items], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) ?>
+  </script>
+  <?php endif; ?>
 </head>
 <body class="<?= e($body_class) ?>">
   <a class="skip-link" href="#main">Skip to content</a>

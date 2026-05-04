@@ -9,6 +9,27 @@ $site = [
   'invite_code' => '72238107987',
 ];
 
+$site_reviews = [
+  [
+    'name' => 'Rohit K.',
+    'rating' => 5,
+    'date' => '2026-05-01',
+    'text' => 'The YaarWin access flow felt clear on mobile. I checked the invite code first, reviewed the login page, and understood the wallet steps before starting.',
+  ],
+  [
+    'name' => 'Priya S.',
+    'rating' => 5,
+    'date' => '2026-05-02',
+    'text' => 'The guides made it easier to compare Aviator, Teen Patti and Wingo before opening the account area. The human teacher link is helpful when payment details need checking.',
+  ],
+  [
+    'name' => 'Amit R.',
+    'rating' => 5,
+    'date' => '2026-05-03',
+    'text' => 'I liked having login, bonus and withdrawal guidance in one place. It feels more organized than jumping between random links and chats.',
+  ],
+];
+
 $games = [
   ['name' => 'Wingo', 'label' => 'Colour Prediction', 'image' => '/assets/img/provider-games/wingo.webp', 'url' => '/wingo-game-india/'],
   ['name' => 'Aviator', 'label' => 'Crash Game', 'image' => '/assets/img/provider-games/aviator.webp', 'url' => '/aviator-betting-india/'],

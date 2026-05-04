@@ -2,6 +2,37 @@
 require_once __DIR__ . '/includes/config.php';
 
 $slug = trim(parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH), '/');
+$promotion_cards = [
+  [
+    'title' => 'YaarWin Daily Salary Promotion India: Do Not Miss the Promoter Window',
+    'label' => 'YaarWin Promotion',
+    'description' => 'Daily salary promotion guide for serious YaarWin promoters in India, covering referral habits, support readiness and the timing window before attention rises.',
+    'image' => '/assets/img/promos/daily-salary.webp',
+    'url' => 'https://yaarwinapp.co/blog/yaarwin-daily-salary-promotion-india/',
+  ],
+  [
+    'title' => 'YaarWin Referral Promotion India: Build Your Network Before the Next Wave',
+    'label' => 'YaarWin Promotion',
+    'description' => 'Referral promotion guide for YaarWin users who want to build a cleaner member-get-member flow before launch momentum rises.',
+    'image' => '/assets/img/promos/referral.webp',
+    'url' => 'https://yaarwinapp.co/blog/yaarwin-referral-promotion-india/',
+  ],
+  [
+    'title' => 'YaarWin Deposit Bonus India: Claim the Offer Before Your First Serious Session',
+    'label' => 'YaarWin Promotion',
+    'description' => 'Deposit bonus promotion guide explaining how adult users should prepare wallet details, screenshots, terms and first-session limits.',
+    'image' => '/assets/img/promos/deposit-bonus.webp',
+    'url' => 'https://yaarwinapp.co/blog/yaarwin-deposit-bonus-promotion-india/',
+  ],
+  [
+    'title' => 'YaarWin Ads Fee Promotion India: Turn Promotion Effort Into a Smarter Opportunity',
+    'label' => 'YaarWin Promotion',
+    'description' => 'Ads fee promotion guide for users planning traffic, community posting or paid promotion with cleaner records and better support context.',
+    'image' => '/assets/img/promos/ads-fee.webp',
+    'url' => 'https://yaarwinapp.co/blog/yaarwin-ads-fee-promotion-india/',
+  ],
+];
+
 $pages = [
   'best-online-betting-india' => [
     'title' => 'Best Online Betting India 2026 | YaarWin, Aviator, Teen Patti, Rummy & Cricket Betting',
@@ -136,16 +167,33 @@ $pages = [
     ],
   ],
   'blog' => [
-    'title' => 'YaarWin Betting Guides India | Aviator, Wingo, Teen Patti, UPI & Fast Withdrawal',
-    'description' => 'YaarWin betting guides for India covering Aviator, Wingo, Teen Patti, Rummy, cricket betting, UPI payments, bonus checks and fast withdrawal support.',
-    'h1' => 'YaarWin Betting Guides India',
-    'kicker' => 'Support articles',
-    'intro' => 'Use these guides to understand YaarWin access, popular games, payment readiness and safer play habits before starting a session.',
+    'title' => 'YaarWin Promotion Guides India | Salary, Referral, Deposit Bonus & Ads Fee',
+    'description' => 'YaarWin promotion guides for India covering daily salary, referral rewards, deposit bonus, ads fee support, account readiness and safer first-session habits.',
+    'h1' => 'YaarWin Promotion Guides India',
+    'kicker' => 'Promotion guide hub',
+    'intro' => 'Use this promotion lobby as a clean starting point before you register, promote or prepare your first serious session with YaarWin.',
     'sections' => [
-      ['How to register safely', 'Use the official register path, keep the invite code fixed and avoid sharing OTP or password details with anyone.'],
-      ['How to contact a human teacher', 'If login, recharge, salary or withdrawal issues need manual review, prepare screenshots and contact support clearly.'],
-      ['Beginner guide for popular games', 'Aviator, Teen Patti, Rummy, Wingo, cricket betting and live casino all need different pacing and budget rules.'],
+      ['Why this hub exists', 'BOBI x YaarWin gives readers a polished first stop, then sends serious users to the original YaarWin promotion guides for full details.'],
     ],
+    'promo_hub' => true,
+  ],
+  'guides' => [
+    'title' => 'YaarWin Promotion Guides India | Salary, Referral, Deposit Bonus & Ads Fee',
+    'description' => 'YaarWin promotion guides for India covering daily salary, referral rewards, deposit bonus, ads fee support, account readiness and safer first-session habits.',
+    'h1' => 'YaarWin Promotion Guides India',
+    'kicker' => 'Promotion guide hub',
+    'intro' => 'Use this promotion lobby as a clean starting point before you register, promote or prepare your first serious session with YaarWin.',
+    'sections' => [],
+    'promo_hub' => true,
+  ],
+  'how-to' => [
+    'title' => 'How to Start with YaarWin Promotions | India Bonus, Referral & Promoter Guides',
+    'description' => 'How to start with YaarWin promotions in India, including daily salary, referral, deposit bonus, ads fee guidance, account checks and human teacher support.',
+    'h1' => 'How to Start with YaarWin Promotions',
+    'kicker' => 'How-to hub',
+    'intro' => 'Start here if you want a simple path from BOBI x YaarWin into the original YaarWin promotion guides and official access links.',
+    'sections' => [],
+    'promo_hub' => true,
   ],
 ];
 
@@ -168,8 +216,120 @@ $meta = [
   'canonical' => $site['url'] . '/' . ($slug ? $slug . '/' : ''),
   'robots' => $slug ? 'index, follow' : 'noindex, follow',
 ];
+$schema_items = [
+  [
+    '@type' => 'BreadcrumbList',
+    'itemListElement' => [
+      [
+        '@type' => 'ListItem',
+        'position' => 1,
+        'name' => 'Home',
+        'item' => $site['url'] . '/',
+      ],
+      [
+        '@type' => 'ListItem',
+        'position' => 2,
+        'name' => $data['h1'],
+        'item' => $meta['canonical'],
+      ],
+    ],
+  ],
+  [
+    '@type' => 'Article',
+    'headline' => $data['h1'],
+    'description' => $data['description'],
+    'mainEntityOfPage' => $meta['canonical'],
+    'author' => [
+      '@type' => 'Organization',
+      'name' => $site['name'],
+    ],
+    'publisher' => [
+      '@type' => 'Organization',
+      'name' => $site['name'],
+      'logo' => [
+        '@type' => 'ImageObject',
+        'url' => $site['url'] . '/assets/img/favicon-192.png',
+      ],
+    ],
+    'datePublished' => '2026-05-04',
+    'dateModified' => '2026-05-04',
+  ],
+];
+if (!empty($data['promo_hub'])) {
+  $schema_items[] = [
+    '@type' => 'ItemList',
+    'name' => 'YaarWin Promotion Guides India',
+    'itemListElement' => array_map(static function ($card, $index) {
+      return [
+        '@type' => 'ListItem',
+        'position' => $index + 1,
+        'url' => $card['url'],
+        'name' => $card['title'],
+      ];
+    }, $promotion_cards, array_keys($promotion_cards)),
+  ];
+}
 require __DIR__ . '/includes/header.php';
 ?>
+<?php if (!empty($data['promo_hub'])): ?>
+<section class="page-hero promo-hero">
+  <div class="container">
+    <span class="eyebrow"><?= e($data['kicker']) ?></span>
+    <h1><?= e($data['h1']) ?></h1>
+    <p><?= e($data['intro']) ?></p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="<?= e($site['register_url']) ?>" rel="nofollow noopener" target="_blank">Open YaarWin Register</a>
+      <a class="btn btn-ghost" href="/yaarwin-game-login/">Read Login Guide</a>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow">Featured promotion guides</span>
+        <h2>Four YaarWin articles worth reading before you act</h2>
+      </div>
+      <p>Each card gives a short summary here, then opens the complete YaarWin article for deeper details. This keeps the journey simple: quick comparison here, full context on YaarWinApp.co.</p>
+    </div>
+    <div class="promotion-grid">
+      <?php foreach ($promotion_cards as $card): ?>
+        <article class="promotion-card">
+          <img src="<?= e($card['image']) ?>" alt="<?= e($card['title']) ?>" loading="lazy" decoding="async" width="520" height="782">
+          <div class="promotion-card__body">
+            <span><?= e($card['label']) ?></span>
+            <h3><?= e($card['title']) ?></h3>
+            <p><?= e($card['description']) ?></p>
+            <a class="btn btn-primary" href="<?= e($card['url']) ?>" rel="noopener" target="_blank">Read Promotion Guide</a>
+          </div>
+        </article>
+      <?php endforeach; ?>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <div class="promo-support">
+      <article>
+        <span class="eyebrow">Clean promotion path</span>
+        <h2>BOBI works as a simple YaarWin promotion lobby</h2>
+        <p>This page helps Indian users compare salary, referral, deposit bonus and ads fee opportunities from one clean screen. Use the summaries to choose what matters, then open the original YaarWin guide when you want full details.</p>
+      </article>
+      <article>
+        <h3>Continue with the YaarWin access path</h3>
+        <p>Before acting on any promotion, users should understand login, registration, invite code, game categories and payment readiness.</p>
+        <div class="link-row">
+          <a href="/yaarwin-game-login/">YaarWin Game Login</a>
+          <a href="/best-online-betting-india/">Best Online Betting India</a>
+          <a href="/fast-withdrawal-betting-india/">Fast Withdrawal Guide</a>
+          <a href="<?= e($site['telegram_url']) ?>" rel="nofollow noopener" target="_blank">Human Teacher</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+<?php require __DIR__ . '/includes/footer.php'; return; ?>
+<?php endif; ?>
 <section class="page-hero">
   <div class="container">
     <span class="eyebrow"><?= e($data['kicker']) ?></span>
