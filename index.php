@@ -198,18 +198,31 @@ require __DIR__ . '/includes/header.php';
         </div>
       </article>
       <article class="live-card">
-        <h3>Live Cricket Betting</h3>
-        <p>IPL-style match interest, cricket betting guides and responsible game selection for India.</p>
-        <div class="match"><span>Mumbai</span><span>VS</span><span>Chennai</span></div>
-        <div class="odds"><span>1.72</span><span>2.10</span><span>Live</span></div>
+        <div class="live-card__top">
+          <span>Today • 7:30 PM IST</span>
+          <strong>Match 47</strong>
+        </div>
+        <h3>Cricket Match Spotlight</h3>
+        <p>Mumbai Indians vs Lucknow Super Giants at Wankhede Stadium, Mumbai. High-interest T20 match timing for Indian cricket betting readers.</p>
+        <div class="match">
+          <span>MI</span>
+          <span>VS</span>
+          <span>LSG</span>
+        </div>
+        <div class="cricket-tags">
+          <span>Wankhede Stadium</span>
+          <span>IPL 2026</span>
+          <span>Match build-up</span>
+        </div>
+        <a class="cricket-link" href="/cricket-betting-india/">Open Cricket Betting Guide →</a>
       </article>
       <article class="panel">
-        <h3>Live Winnings Signals</h3>
+        <h3>Next Cricket Fixtures</h3>
         <div class="win-list">
-          <div class="win-row"><span>Aviator cashout</span><span class="amount">2.35x</span></div>
-          <div class="win-row"><span>Teen Patti round</span><span class="amount">₹32,450</span></div>
-          <div class="win-row"><span>Wingo colour</span><span class="amount">Green</span></div>
-          <div class="win-row"><span>Slots jackpot</span><span class="amount">₹19,500</span></div>
+          <div class="win-row"><span>Delhi Capitals vs Chennai Super Kings</span><span class="amount">May 5</span></div>
+          <div class="win-row"><span>Sunrisers Hyderabad vs Punjab Kings</span><span class="amount">May 6</span></div>
+          <div class="win-row"><span>Lucknow Super Giants vs Royal Challengers Bengaluru</span><span class="amount">May 7</span></div>
+          <div class="win-row"><span>Delhi Capitals vs Kolkata Knight Riders</span><span class="amount">May 8</span></div>
         </div>
       </article>
     </div>
