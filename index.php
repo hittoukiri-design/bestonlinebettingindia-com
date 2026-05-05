@@ -136,6 +136,49 @@ $schema_items = [
     }, $games, array_keys($games)),
   ],
 ];
+
+$cricket_matches = [
+  [
+    'league' => 'Indian Premier League',
+    'teams' => 'SRH vs PBKS',
+    'team_a' => 'SRH',
+    'team_b' => 'PBKS',
+    'date_label' => 'Today',
+    'time_label' => '7:30 PM',
+    'venue' => 'Rajiv Gandhi International Stadium, Hyderabad',
+    'calendar_dates' => '20260506T140000Z/20260506T173000Z',
+  ],
+  [
+    'league' => 'Indian Premier League',
+    'teams' => 'LSG vs RCB',
+    'team_a' => 'LSG',
+    'team_b' => 'RCB',
+    'date_label' => 'Tomorrow',
+    'time_label' => '7:30 PM',
+    'venue' => 'Ekana Cricket Stadium, Lucknow',
+    'calendar_dates' => '20260507T140000Z/20260507T173000Z',
+  ],
+  [
+    'league' => 'Indian Premier League',
+    'teams' => 'DC vs KKR',
+    'team_a' => 'DC',
+    'team_b' => 'KKR',
+    'date_label' => 'May 8',
+    'time_label' => '7:30 PM',
+    'venue' => 'Arun Jaitley Stadium, Delhi',
+    'calendar_dates' => '20260508T140000Z/20260508T173000Z',
+  ],
+];
+
+function calendar_url(array $match): string {
+  return 'https://calendar.google.com/calendar/render?' . http_build_query([
+    'action' => 'TEMPLATE',
+    'text' => 'BOBI Cricket Reminder: ' . $match['teams'],
+    'dates' => $match['calendar_dates'],
+    'details' => 'Cricket reminder from BOBI x YaarWin. Check the match guide before playing and keep betting decisions responsible.',
+    'location' => $match['venue'],
+  ]);
+}
 require __DIR__ . '/includes/header.php';
 ?>
 <section class="hero">
@@ -184,7 +227,85 @@ require __DIR__ . '/includes/header.php';
       </div>
       <p>These sections are built for real player intent: login, register, game choice, UPI recharge, bonus check and withdrawal readiness.</p>
     </div>
-    <div class="dashboard-grid">
+    <div class="cricket-lobby">
+      <div class="cricket-main">
+        <div class="cricket-tabs" aria-label="Cricket match tabs">
+          <span class="tab active">Today Match</span>
+          <span class="tab">Upcoming</span>
+          <span class="tab">Highlights</span>
+        </div>
+        <div class="cricket-filter" aria-label="Cricket filters">
+          <span class="filter-chip active">All</span>
+          <span class="filter-chip">T20</span>
+          <span class="filter-chip">IPL</span>
+          <span class="filter-chip">International</span>
+          <span class="filter-chip">Domestic</span>
+        </div>
+        <article class="cricket-scoreboard">
+          <div class="scoreboard-head">
+            <div>
+              <span class="live-dot">Upcoming</span>
+              <h3>Sunrisers Hyderabad vs Punjab Kings</h3>
+              <p>IPL 2026 Match 49 • Rajiv Gandhi International Stadium, Hyderabad • Today, 7:30 PM IST</p>
+            </div>
+            <a class="reminder-btn" href="<?= e(calendar_url($cricket_matches[0])) ?>" target="_blank" rel="nofollow noopener" aria-label="Set reminder for Sunrisers Hyderabad vs Punjab Kings">🔔</a>
+          </div>
+          <div class="score-grid">
+            <div class="team-score">
+              <span class="team-badge">SRH</span>
+              <div><strong>Sunrisers Hyderabad</strong><small>Match starts 7:30 PM IST</small></div>
+            </div>
+            <div class="team-score">
+              <span class="team-badge gold">PBKS</span>
+              <div><strong>Punjab Kings</strong><small>Awaiting toss and playing XI</small></div>
+            </div>
+            <div class="score-status">
+              <strong>No final score yet</strong>
+              <span>Latest completed: MI 229/4 beat LSG 228/5</span>
+            </div>
+          </div>
+          <div class="market-tabs">
+            <span class="active">All Markets</span>
+            <span>Main</span>
+            <span>Runs</span>
+            <span>Wickets</span>
+            <span>Players</span>
+          </div>
+          <div class="market-list">
+            <div class="market-row"><span>Match Winner Watchlist</span><strong>SRH vs PBKS</strong></div>
+            <div class="market-row"><span>Toss / Playing XI</span><strong>Wait for update</strong></div>
+            <div class="market-row"><span>Total Runs Range</span><strong>Check after pitch report</strong></div>
+            <div class="market-row"><span>Top Batter Interest</span><strong>Abhishek Sharma • Prabhsimran Singh</strong></div>
+          </div>
+          <a class="cricket-link" href="/cricket-betting-india/">Open Cricket Betting Guide →</a>
+        </article>
+      </div>
+      <aside class="cricket-sidebar">
+        <article class="upcoming-card">
+          <h3>Upcoming Matches</h3>
+          <?php foreach ($cricket_matches as $match): ?>
+            <div class="upcoming-row">
+              <div>
+                <small><?= e($match['league']) ?></small>
+                <strong><?= e($match['team_a']) ?> <span>vs</span> <?= e($match['team_b']) ?></strong>
+              </div>
+              <span><?= e($match['date_label']) ?><br><?= e($match['time_label']) ?></span>
+              <a class="bell-link" href="<?= e(calendar_url($match)) ?>" target="_blank" rel="nofollow noopener" aria-label="Set reminder for <?= e($match['teams']) ?>">🔔</a>
+            </div>
+          <?php endforeach; ?>
+          <a class="view-all" href="/cricket-betting-india/">View Cricket Guide</a>
+        </article>
+        <article class="side-benefit green">
+          <h3>Fast Withdrawals</h3>
+          <p>Prepare UPI and wallet details before requesting cashout.</p>
+        </article>
+        <article class="side-benefit">
+          <h3>Responsible Play</h3>
+          <p>Check limits, local rules and match timing before entering a session.</p>
+        </article>
+      </aside>
+    </div>
+    <div class="dashboard-grid compact-dashboard">
       <article class="panel">
         <h3>Trending Games</h3>
         <div class="trending-list">
@@ -197,32 +318,13 @@ require __DIR__ . '/includes/header.php';
           <?php endforeach; ?>
         </div>
       </article>
-      <article class="live-card">
-        <div class="live-card__top">
-          <span>Today • 7:30 PM IST</span>
-          <strong>IPL 2026</strong>
-        </div>
-        <h3>Cricket Match Spotlight</h3>
-        <p>Delhi Capitals vs Chennai Super Kings is the main India cricket fixture to watch today. Follow the game, compare match momentum and keep betting decisions responsible.</p>
-        <div class="match">
-          <span>DC</span>
-          <span>VS</span>
-          <span>CSK</span>
-        </div>
-        <div class="cricket-tags">
-          <span>May 5, 2026</span>
-          <span>IPL 2026</span>
-          <span>Score snapshot: DC 37/2, CSK 0/0</span>
-        </div>
-        <a class="cricket-link" href="/cricket-betting-india/">Open Cricket Betting Guide →</a>
-      </article>
       <article class="panel">
         <h3>Cricket Scores & Fixtures</h3>
         <div class="win-list">
           <div class="win-row"><span>Mumbai Indians 229/4 vs Lucknow Super Giants 228/5</span><span class="amount">MI won</span></div>
-          <div class="win-row"><span>Delhi Capitals vs Chennai Super Kings</span><span class="amount">May 5</span></div>
           <div class="win-row"><span>Sunrisers Hyderabad vs Punjab Kings</span><span class="amount">May 6</span></div>
           <div class="win-row"><span>Lucknow Super Giants vs Royal Challengers Bengaluru</span><span class="amount">May 7</span></div>
+          <div class="win-row"><span>Delhi Capitals vs Kolkata Knight Riders</span><span class="amount">May 8</span></div>
         </div>
       </article>
     </div>
