@@ -200,29 +200,29 @@ require __DIR__ . '/includes/header.php';
       <article class="live-card">
         <div class="live-card__top">
           <span>Today • 7:30 PM IST</span>
-          <strong>Match 47</strong>
+          <strong>IPL 2026</strong>
         </div>
         <h3>Cricket Match Spotlight</h3>
-        <p>Mumbai Indians vs Lucknow Super Giants at Wankhede Stadium, Mumbai. High-interest T20 match timing for Indian cricket betting readers.</p>
+        <p>Delhi Capitals vs Chennai Super Kings is the main India cricket fixture to watch today. Follow the game, compare match momentum and keep betting decisions responsible.</p>
         <div class="match">
-          <span>MI</span>
+          <span>DC</span>
           <span>VS</span>
-          <span>LSG</span>
+          <span>CSK</span>
         </div>
         <div class="cricket-tags">
-          <span>Wankhede Stadium</span>
+          <span>May 5, 2026</span>
           <span>IPL 2026</span>
-          <span>Match build-up</span>
+          <span>Score snapshot: DC 37/2, CSK 0/0</span>
         </div>
         <a class="cricket-link" href="/cricket-betting-india/">Open Cricket Betting Guide →</a>
       </article>
       <article class="panel">
-        <h3>Next Cricket Fixtures</h3>
+        <h3>Cricket Scores & Fixtures</h3>
         <div class="win-list">
+          <div class="win-row"><span>Mumbai Indians 229/4 vs Lucknow Super Giants 228/5</span><span class="amount">MI won</span></div>
           <div class="win-row"><span>Delhi Capitals vs Chennai Super Kings</span><span class="amount">May 5</span></div>
           <div class="win-row"><span>Sunrisers Hyderabad vs Punjab Kings</span><span class="amount">May 6</span></div>
           <div class="win-row"><span>Lucknow Super Giants vs Royal Challengers Bengaluru</span><span class="amount">May 7</span></div>
-          <div class="win-row"><span>Delhi Capitals vs Kolkata Knight Riders</span><span class="amount">May 8</span></div>
         </div>
       </article>
     </div>
