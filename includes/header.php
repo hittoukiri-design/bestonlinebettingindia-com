@@ -54,7 +54,7 @@ $body_class = $body_class ?? '';
     </div>
     <nav class="nav-shell" aria-label="Main navigation">
       <a class="brand" href="/" aria-label="BOBI x YaarWin home">
-        <img src="/assets/img/bobi-yaarwin-logo.webp" alt="BOBI x YaarWin" width="156" height="156">
+        <img src="/assets/img/bobi-yaarwin-logo-header.webp" alt="BOBI x YaarWin" width="128" height="128">
       </a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-menu">Menu</button>
       <div class="nav-menu" id="site-menu">
