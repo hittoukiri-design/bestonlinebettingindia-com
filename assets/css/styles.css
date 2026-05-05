@@ -1,5 +1,6 @@
 :root {
   --green: #16a03f;
+  --green-contrast: #087327;
   --green-dark: #087327;
   --green-soft: #eaf8ee;
   --gold: #d59a1b;
@@ -348,8 +349,9 @@ h1 {
 .tab.active,
 .filter-chip.active,
 .market-tabs .active {
-  background: var(--green);
+  background: var(--green-contrast);
   color: #fff;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .18);
 }
 .cricket-scoreboard,
 .upcoming-card,
@@ -449,13 +451,15 @@ h1 {
   width: 46px;
   height: 46px;
   border-radius: 15px;
-  background: var(--green);
+  background: var(--green-contrast);
   color: #fff;
   font-size: 13px;
   font-weight: 950;
 }
 .team-badge.gold {
   background: linear-gradient(135deg, #f3c04d, #cc850b);
+  color: #1d1300;
+  text-shadow: none;
 }
 .score-status {
   display: block;
