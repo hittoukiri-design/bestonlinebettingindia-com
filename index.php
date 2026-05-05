@@ -1,20 +1,24 @@
 <?php
 require_once __DIR__ . '/includes/config.php';
 $meta = ['canonical' => 'https://bestonlinebettingindia.com/'];
-$schema_reviews = array_map(static function ($review) use ($site) {
+$reviewed_item = [
+  '@type' => 'Organization',
+  '@id' => $site['url'] . '/#organization',
+  'name' => $site['name'],
+  'url' => $site['url'],
+];
+
+$schema_reviews = array_map(static function ($review) use ($reviewed_item) {
   return [
     '@type' => 'Review',
+    'name' => 'BOBI x YaarWin user note by ' . $review['name'],
     'author' => [
       '@type' => 'Person',
       'name' => $review['name'],
     ],
     'datePublished' => $review['date'],
     'reviewBody' => $review['text'],
-    'itemReviewed' => [
-      '@type' => 'Organization',
-      'name' => $site['name'],
-      'url' => $site['url'],
-    ],
+    'itemReviewed' => $reviewed_item,
     'reviewRating' => [
       '@type' => 'Rating',
       'ratingValue' => (string) $review['rating'],
@@ -38,6 +42,7 @@ $schema_items = [
   ],
   [
     '@type' => 'Organization',
+    '@id' => $site['url'] . '/#organization',
     'name' => $site['name'],
     'url' => $site['url'],
     'logo' => $site['url'] . '/assets/img/favicon-192.png',
@@ -52,8 +57,8 @@ $schema_items = [
       'bestRating' => '5',
       'worstRating' => '1',
     ],
-    'review' => $schema_reviews,
   ],
+  ...$schema_reviews,
   [
     '@type' => 'SoftwareApplication',
     'name' => 'YaarWin',
@@ -396,10 +401,10 @@ require __DIR__ . '/includes/header.php';
     </div>
     <div class="review-grid">
       <?php foreach ($site_reviews as $review): ?>
-        <article class="review-card" itemprop="review" itemscope itemtype="https://schema.org/Review">
+        <article class="review-card">
           <div class="stars" aria-label="<?= e($review['rating']) ?> out of 5 stars">★★★★★</div>
-          <p itemprop="reviewBody"><?= e($review['text']) ?></p>
-          <strong itemprop="author"><?= e($review['name']) ?></strong>
+          <p><?= e($review['text']) ?></p>
+          <strong><?= e($review['name']) ?></strong>
         </article>
       <?php endforeach; ?>
     </div>
