@@ -66,7 +66,6 @@ $body_class = $body_class ?? '';
         <a href="/blog/" class="nav-item">Guides</a>
       </div>
       <div class="nav-actions">
-        <a class="btn btn-ghost" href="<?= e($site['login_url']) ?>" rel="nofollow noopener" target="_blank">Login</a>
         <a class="btn btn-primary" href="<?= e($site['register_url']) ?>" rel="nofollow noopener" target="_blank">Sign Up</a>
       </div>
     </nav>

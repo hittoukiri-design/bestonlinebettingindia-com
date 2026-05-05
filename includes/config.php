@@ -4,7 +4,6 @@ $site = [
   'short_name' => 'BOBI',
   'url' => 'https://bestonlinebettingindia.com',
   'register_url' => 'https://yaarwin.org/#/register?invitationCode=72238107987',
-  'login_url' => 'https://yaarwin.org/#/login',
   'telegram_url' => 'https://t.me/bestonlinebettingindia',
   'invite_code' => '72238107987',
 ];

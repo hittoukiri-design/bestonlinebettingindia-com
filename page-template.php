@@ -337,7 +337,7 @@ require __DIR__ . '/includes/header.php';
     <p><?= e($data['intro']) ?></p>
     <div class="hero-actions">
       <a class="btn btn-primary" href="<?= e($site['register_url']) ?>" rel="nofollow noopener" target="_blank">Register with YaarWin</a>
-      <a class="btn btn-ghost" href="<?= e($site['login_url']) ?>" rel="nofollow noopener" target="_blank">Login</a>
+      <a class="btn btn-ghost" href="/yaarwin-game-login/">Read Access Guide</a>
     </div>
   </div>
 </section>
