@@ -145,20 +145,10 @@ $schema_items = [
 $cricket_matches = [
   [
     'league' => 'Indian Premier League',
-    'teams' => 'SRH vs PBKS',
-    'team_a' => 'SRH',
-    'team_b' => 'PBKS',
-    'date_label' => 'Today',
-    'time_label' => '7:30 PM',
-    'venue' => 'Rajiv Gandhi International Stadium, Hyderabad',
-    'calendar_dates' => '20260506T140000Z/20260506T173000Z',
-  ],
-  [
-    'league' => 'Indian Premier League',
     'teams' => 'LSG vs RCB',
     'team_a' => 'LSG',
     'team_b' => 'RCB',
-    'date_label' => 'Tomorrow',
+    'date_label' => 'Today',
     'time_label' => '7:30 PM',
     'venue' => 'Ekana Cricket Stadium, Lucknow',
     'calendar_dates' => '20260507T140000Z/20260507T173000Z',
@@ -168,10 +158,20 @@ $cricket_matches = [
     'teams' => 'DC vs KKR',
     'team_a' => 'DC',
     'team_b' => 'KKR',
-    'date_label' => 'May 8',
+    'date_label' => 'Tomorrow',
     'time_label' => '7:30 PM',
     'venue' => 'Arun Jaitley Stadium, Delhi',
     'calendar_dates' => '20260508T140000Z/20260508T173000Z',
+  ],
+  [
+    'league' => 'Indian Premier League',
+    'teams' => 'RR vs GT',
+    'team_a' => 'RR',
+    'team_b' => 'GT',
+    'date_label' => 'May 9',
+    'time_label' => '7:30 PM',
+    'venue' => 'Sawai Mansingh Stadium, Jaipur',
+    'calendar_dates' => '20260509T140000Z/20260509T173000Z',
   ],
 ];
 
@@ -249,24 +249,24 @@ require __DIR__ . '/includes/header.php';
         <article class="cricket-scoreboard">
           <div class="scoreboard-head">
             <div>
-              <span class="live-dot">Upcoming</span>
-              <h3>Sunrisers Hyderabad vs Punjab Kings</h3>
-              <p>IPL 2026 Match 49 • Rajiv Gandhi International Stadium, Hyderabad • Today, 7:30 PM IST</p>
+              <span class="live-dot">Today Match</span>
+              <h3>Lucknow Super Giants vs Royal Challengers Bengaluru</h3>
+              <p>IPL 2026 • Ekana Cricket Stadium, Lucknow • Today, 7:30 PM IST</p>
             </div>
-            <a class="reminder-btn" href="<?= e(calendar_url($cricket_matches[0])) ?>" target="_blank" rel="nofollow noopener" aria-label="Set reminder for Sunrisers Hyderabad vs Punjab Kings">🔔</a>
+            <a class="reminder-btn" href="<?= e(calendar_url($cricket_matches[0])) ?>" target="_blank" rel="nofollow noopener" aria-label="Set reminder for Lucknow Super Giants vs Royal Challengers Bengaluru">🔔</a>
           </div>
           <div class="score-grid">
             <div class="team-score">
-              <span class="team-badge">SRH</span>
-              <div><strong>Sunrisers Hyderabad</strong><small>Match starts 7:30 PM IST</small></div>
+              <span class="team-badge">LSG</span>
+              <div><strong>Lucknow Super Giants</strong><small>Home watchlist starts 7:30 PM IST</small></div>
             </div>
             <div class="team-score">
-              <span class="team-badge gold">PBKS</span>
-              <div><strong>Punjab Kings</strong><small>Awaiting toss and playing XI</small></div>
+              <span class="team-badge gold">RCB</span>
+              <div><strong>Royal Challengers Bengaluru</strong><small>Awaiting toss and playing XI</small></div>
             </div>
             <div class="score-status">
-              <strong>No final score yet</strong>
-              <span>Latest completed: CSK 159/2 beat DC 155/7</span>
+              <strong>Latest watch update</strong>
+              <span>SRH posted 235/4; PBKS were 74/4 after 9 overs in the latest public feed.</span>
             </div>
           </div>
           <div class="market-tabs">
@@ -277,12 +277,13 @@ require __DIR__ . '/includes/header.php';
             <span>Players</span>
           </div>
           <div class="market-list">
-            <div class="market-row"><span>Match Winner Watchlist</span><strong>SRH vs PBKS</strong></div>
-            <div class="market-row"><span>Toss / Playing XI</span><strong>Wait for update</strong></div>
-            <div class="market-row"><span>Total Runs Range</span><strong>Check after pitch report</strong></div>
-            <div class="market-row"><span>Top Batter Interest</span><strong>Abhishek Sharma • Prabhsimran Singh</strong></div>
+            <div class="market-row"><span>Match Winner Watchlist</span><strong>LSG vs RCB</strong></div>
+            <div class="market-row"><span>Toss / Playing XI</span><strong>Check before first ball</strong></div>
+            <div class="market-row"><span>Total Runs Range</span><strong>Review after pitch report</strong></div>
+            <div class="market-row"><span>Search Intent</span><strong>YaarWin cricket betting India</strong></div>
           </div>
           <div class="cricket-article-links" aria-label="Cricket match articles">
+            <a href="/srh-vs-pbks-235-4-recap-ipl-2026/">Read SRH vs PBKS 235/4 Recap</a>
             <a href="/dc-vs-csk-result-ipl-2026/">Read DC vs CSK Recap</a>
             <a href="/srh-vs-pbks-preview-ipl-2026/">Read SRH vs PBKS Preview</a>
           </div>
@@ -330,14 +331,23 @@ require __DIR__ . '/includes/header.php';
       <article class="panel">
         <h3>Cricket Scores & Fixtures</h3>
         <div class="win-list">
+          <div class="win-row"><span>Sunrisers Hyderabad 235/4 vs Punjab Kings 74/4</span><span class="amount">Latest feed</span></div>
           <div class="win-row"><span>Delhi Capitals 155/7 vs Chennai Super Kings 159/2</span><span class="amount">CSK won</span></div>
-          <div class="win-row"><span>Sunrisers Hyderabad vs Punjab Kings</span><span class="amount">May 6</span></div>
-          <div class="win-row"><span>Lucknow Super Giants vs Royal Challengers Bengaluru</span><span class="amount">May 7</span></div>
+          <div class="win-row"><span>Lucknow Super Giants vs Royal Challengers Bengaluru</span><span class="amount">Today</span></div>
           <div class="win-row"><span>Delhi Capitals vs Kolkata Knight Riders</span><span class="amount">May 8</span></div>
         </div>
       </article>
     </div>
     <div class="match-article-grid">
+      <article class="match-article-card">
+        <img src="/assets/img/articles/cricket-betting-india-match.webp" alt="SRH vs PBKS 235 for 4 cricket betting India recap" loading="lazy" decoding="async" width="1200" height="675">
+        <div>
+          <span class="eyebrow">IPL 2026 Watch Recap</span>
+          <h3>SRH vs PBKS 235/4: Hyderabad runfest before the next YaarWin cricket window</h3>
+          <p>SRH put 235/4 on the board and PBKS were already under pressure in the chase. Use the recap before opening a YaarWin register or cricket betting India session.</p>
+          <a class="text-link" href="/srh-vs-pbks-235-4-recap-ipl-2026/">Read watch recap</a>
+        </div>
+      </article>
       <article class="match-article-card">
         <img src="/assets/img/articles/cricket-betting-india-match.webp" alt="Cricket betting India match recap" loading="lazy" decoding="async" width="1200" height="675">
         <div>

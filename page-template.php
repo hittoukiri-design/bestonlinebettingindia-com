@@ -148,6 +148,21 @@ $pages = [
       ['FOMO, but with limits', 'Cricket betting, Aviator, Teen Patti, Rummy, Wingo colour prediction, slots and live casino are all high-interest categories, but every session should start with a budget. If you are ready to join the next match-day action, open the YaarWin register path first and play responsibly.'],
     ],
   ],
+  'srh-vs-pbks-235-4-recap-ipl-2026' => [
+    'title' => 'SRH vs PBKS 235/4 Recap IPL 2026 | YaarWin Cricket Betting India Watch Report',
+    'description' => 'SRH vs PBKS IPL 2026 watch recap: Hyderabad posted 235/4 and Punjab were under chase pressure. Read the YaarWin cricket betting India notes, register reminder and next match schedule.',
+    'h1' => 'SRH vs PBKS 235/4 Recap IPL 2026: Hyderabad Runfest and YaarWin Match-Day Watchlist',
+    'kicker' => 'IPL 2026 cricket recap',
+    'intro' => 'Sunrisers Hyderabad turned the May 6 match into a high-score cricket betting India watchlist by posting 235/4. Punjab Kings were already under chase pressure in the latest verified public feed, making this a useful recap before the next YaarWin cricket session.',
+    'image' => '/assets/img/articles/cricket-betting-india-match.webp',
+    'image_alt' => 'SRH vs PBKS 235 for 4 cricket betting India recap',
+    'sections' => [
+      ['Quick score update', 'The latest public cricket feed showed Sunrisers Hyderabad at 235/4, with Punjab Kings at 74/4 after 9 overs during the chase. Because the final score was not locked in every source available to us, this recap keeps the wording honest and focuses on the verified match state.'],
+      ['Why this match matters for India cricket betting searches', 'A 235/4 first innings always attracts attention from users searching for IPL betting, cricket betting India, live match score, YaarWin register and YaarWin cricket betting guide topics. High totals create FOMO, but smart users still wait for toss notes, team balance, pitch conditions and personal limits before entering any real-money session.'],
+      ['Did you prepare your YaarWin account before the runfest?', 'If you had already completed your YaarWin register path before the match, you had more time to compare the market calmly. If you missed the window, do not chase late. Prepare early for the next fixture, keep your invite code ready and review your wallet details before match time.'],
+      ['Next fixtures to watch', 'The next watchlist includes Lucknow Super Giants vs Royal Challengers Bengaluru, Delhi Capitals vs Kolkata Knight Riders and Rajasthan Royals vs Gujarat Titans. Before opening any YaarWin login, Aviator, Teen Patti, Rummy, Wingo or cricket betting India page, decide your limit and treat the match as entertainment.'],
+    ],
+  ],
   'fast-withdrawal-betting-india' => [
     'title' => 'Fast Withdrawal Betting India | YaarWin UPI Cashout, Wallet & Payment Guide',
     'description' => 'Fast Withdrawal Betting India guide for YaarWin users covering UPI cashout readiness, wallet details, order checks, account safety and common delay reasons.',
@@ -283,7 +298,7 @@ $schema_items = [
       ],
     ],
     'datePublished' => '2026-05-04',
-    'dateModified' => '2026-05-06',
+    'dateModified' => '2026-05-07',
   ],
 ];
 if (!empty($data['promo_hub'])) {
@@ -385,6 +400,7 @@ require __DIR__ . '/includes/header.php';
   <?php endforeach; ?>
   <h2>Popular YaarWin game links</h2>
   <p>Continue with <a href="/aviator-betting-india/">Aviator betting India</a>, <a href="/teen-patti-online/">Teen Patti online</a>, <a href="/wingo-game-india/">Wingo colour prediction</a>, <a href="/cricket-betting-india/">cricket betting India</a>, <a href="/fast-withdrawal-betting-india/">fast withdrawal betting India</a> and the main <a href="/yaarwin-game-login/">YaarWin Game Login</a> guide.</p>
+  <p>For deeper cross-checking, compare the original <a href="https://yaarwinapp.co/yaarwin-game-login/">YaarWin Game Login</a>, <a href="https://yaarwinapp.co/yaarwin-online-betting/">YaarWin online betting</a>, <a href="https://yaarwinapp.co/yaarwin-fast-withdrawal/">YaarWin fast withdrawal</a>, <a href="https://yaarwingames.pro/blog/">YaarWin Games blog</a> and <a href="https://www.dostwincash.com/blog/yaarwin-online-betting-site-india/">DostWinCash YaarWin betting guide</a> before starting a match-day session.</p>
   <div class="cta-band">
     <h2>Ready to start with YaarWin?</h2>
     <p>If you are ready to play smarter with BOBI x YaarWin, use the register button below and keep your invite code fixed.</p>
