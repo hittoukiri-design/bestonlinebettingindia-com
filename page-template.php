@@ -118,6 +118,36 @@ $pages = [
       ['Related betting games', 'Cricket users often explore Aviator, Teen Patti, Rummy and slots when sports events are not active.'],
     ],
   ],
+  'dc-vs-csk-result-ipl-2026' => [
+    'title' => 'DC vs CSK Result IPL 2026 | Chennai Win by 8 Wickets, YaarWin Cricket Betting Recap',
+    'description' => 'DC vs CSK IPL 2026 result recap: Chennai Super Kings chased Delhi Capitals by 8 wickets. Read the quick score, betting notes, YaarWin register reminder and next match guide.',
+    'h1' => 'DC vs CSK Result IPL 2026: Chennai Super Kings Win by 8 Wickets',
+    'kicker' => 'IPL 2026 match recap',
+    'intro' => 'Chennai Super Kings beat Delhi Capitals by 8 wickets after chasing 156 with control. For India cricket betting readers, this is a quick recap before the next YaarWin match-day session.',
+    'image' => '/assets/img/articles/cricket-betting-india-match.webp',
+    'image_alt' => 'Cricket betting India match recap for DC vs CSK result',
+    'sections' => [
+      ['Quick score summary', 'Delhi Capitals finished on 155/7, but Chennai Super Kings reached 159/2 and completed the chase by 8 wickets. Sanju Samson led the response with an unbeaten 87, while CSK stayed calm through the middle overs and turned a tricky target into a clean result.'],
+      ['What India cricket betting users should note', 'This was the type of match where early preparation mattered. Users who checked team form, pitch behavior and batting depth before match time had a clearer view before opening any cricket betting India session. Betting is never guaranteed, but preparation helps users avoid rushed decisions.'],
+      ['Did you register before the match?', 'Did you already register with YaarWin before yesterday’s match and place your cricket betting pick on the winning side? If your team won, congratulations. If your result was not lucky this time, stay patient, keep your limits, and prepare earlier for the next match instead of chasing losses.'],
+      ['Next step for YaarWin users', 'Before the next IPL 2026 fixture, open the YaarWin register path, keep the invite code ready and review the cricket betting guide, Aviator, Teen Patti, Rummy, Wingo colour prediction and fast withdrawal pages. Serious users should be ready before toss time, not after the odds start moving.'],
+    ],
+  ],
+  'srh-vs-pbks-preview-ipl-2026' => [
+    'title' => 'SRH vs PBKS Preview IPL 2026 | Today Match Prediction, YaarWin Cricket Betting Guide',
+    'description' => 'SRH vs PBKS IPL 2026 preview for today: Hyderabad conditions, Punjab batting watch, responsible prediction notes, YaarWin registration and cricket betting India guide.',
+    'h1' => 'SRH vs PBKS Preview IPL 2026: Today Match Watchlist for India Betting Users',
+    'kicker' => 'Upcoming cricket match',
+    'intro' => 'Sunrisers Hyderabad vs Punjab Kings is the next major IPL 2026 match on the cricket betting India watchlist. Use this short preview to prepare before toss, playing XI and match momentum change the market.',
+    'image' => '/assets/img/articles/cricket-betting-india-match.webp',
+    'image_alt' => 'SRH vs PBKS preview for cricket betting India users',
+    'sections' => [
+      ['Match timing and venue', 'SRH vs PBKS is scheduled for today at 7:30 PM IST at Rajiv Gandhi International Stadium, Hyderabad. The match should attract strong India search interest because both sides can create fast-scoring phases when the powerplay opens up.'],
+      ['Prediction angle to watch', 'For SRH, top-order rhythm and home conditions are the main watch points. For PBKS, early wickets and finishing discipline may decide whether the chase or defence stays alive. Wait for toss, playing XI and pitch report before making any serious cricket betting decision.'],
+      ['Do not wait until the last minute', 'If you plan to follow today’s match, register with YaarWin early, keep your invite code attached and check your wallet details before the first ball. Many users miss the best preparation window because they open the account area only after the match has already started.'],
+      ['FOMO, but with limits', 'Cricket betting, Aviator, Teen Patti, Rummy, Wingo colour prediction, slots and live casino are all high-interest categories, but every session should start with a budget. If you are ready to join the next match-day action, open the YaarWin register path first and play responsibly.'],
+    ],
+  ],
   'fast-withdrawal-betting-india' => [
     'title' => 'Fast Withdrawal Betting India | YaarWin UPI Cashout, Wallet & Payment Guide',
     'description' => 'Fast Withdrawal Betting India guide for YaarWin users covering UPI cashout readiness, wallet details, order checks, account safety and common delay reasons.',
@@ -239,6 +269,7 @@ $schema_items = [
     'headline' => $data['h1'],
     'description' => $data['description'],
     'mainEntityOfPage' => $meta['canonical'],
+    'image' => $site['url'] . ($data['image'] ?? '/assets/img/favicon-192.png'),
     'author' => [
       '@type' => 'Organization',
       'name' => $site['name'],
@@ -252,7 +283,7 @@ $schema_items = [
       ],
     ],
     'datePublished' => '2026-05-04',
-    'dateModified' => '2026-05-04',
+    'dateModified' => '2026-05-06',
   ],
 ];
 if (!empty($data['promo_hub'])) {
@@ -342,6 +373,12 @@ require __DIR__ . '/includes/header.php';
   </div>
 </section>
 <article class="container article-body">
+  <?php if (!empty($data['image'])): ?>
+    <figure class="article-figure">
+      <img src="<?= e($data['image']) ?>" alt="<?= e($data['image_alt'] ?? $data['h1']) ?>" loading="eager" decoding="async" width="1200" height="675">
+      <figcaption>Cricket image adapted from Wikimedia Commons as a lightweight visual guide for India match-day betting readers.</figcaption>
+    </figure>
+  <?php endif; ?>
   <?php foreach ($data['sections'] as $section): ?>
     <h2><?= e($section[0]) ?></h2>
     <p><?= e($section[1]) ?></p>

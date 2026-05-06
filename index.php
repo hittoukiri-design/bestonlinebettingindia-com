@@ -126,7 +126,7 @@ $schema_items = [
       ],
     ],
     'datePublished' => '2026-05-04',
-    'dateModified' => '2026-05-04',
+    'dateModified' => '2026-05-06',
   ],
   [
     '@type' => 'ItemList',
@@ -197,7 +197,7 @@ require __DIR__ . '/includes/header.php';
         <div>
           <div class="kicker">Best Online Betting India • YaarWin Access</div>
           <h1>Best Online Betting India with YaarWin Games</h1>
-          <p class="hero-copy">Play and explore Aviator, Teen Patti, Rummy, Wingo colour prediction, cricket betting, slots, live casino and fast UPI withdrawal guidance from one simple lobby-style platform.</p>
+          <p class="hero-copy">Use BOBI as a clean YaarWin register and YaarWin login guide for Aviator, Teen Patti, Rummy, Wingo colour prediction, cricket betting, slots, live casino and fast UPI withdrawal guidance from one simple lobby-style platform.</p>
           <div class="hero-actions">
             <a class="btn btn-primary" href="<?= e($site['register_url']) ?>" rel="nofollow noopener" target="_blank">Play Now</a>
             <a class="btn btn-ghost" href="/yaarwin-game-login/">YaarWin Login Guide</a>
@@ -205,7 +205,7 @@ require __DIR__ . '/includes/header.php';
         </div>
         <aside class="hero-card" aria-label="YaarWin quick access">
           <h2>One Platform. Popular Games. Fast Access.</h2>
-          <p>Start with the official YaarWin registration path, keep your invite code ready, and check payment details before playing.</p>
+          <p>Start with the official YaarWin register path, keep your invite code ready, and check YaarWin login, payment and withdrawal details before playing.</p>
           <div class="win-pill"><span>Welcome access</span><strong>₹25,000</strong></div>
           <div class="win-pill"><span>Invite code</span><strong><?= e($site['invite_code']) ?></strong></div>
         </aside>
@@ -223,14 +223,14 @@ require __DIR__ . '/includes/header.php';
   </div>
 </section>
 
-<section class="section">
+<section class="section" id="cricket-live">
   <div class="container">
     <div class="section-head">
       <div>
         <span class="eyebrow">Live lobby</span>
         <h2>Trending YaarWin betting games Indian players check first</h2>
       </div>
-      <p>These sections are built for real player intent: login, register, game choice, UPI recharge, bonus check and withdrawal readiness.</p>
+      <p>These sections are built for real player intent: YaarWin login, YaarWin register, game choice, UPI recharge, bonus check and withdrawal readiness.</p>
     </div>
     <div class="cricket-lobby">
       <div class="cricket-main">
@@ -266,7 +266,7 @@ require __DIR__ . '/includes/header.php';
             </div>
             <div class="score-status">
               <strong>No final score yet</strong>
-              <span>Latest completed: MI 229/4 beat LSG 228/5</span>
+              <span>Latest completed: CSK 159/2 beat DC 155/7</span>
             </div>
           </div>
           <div class="market-tabs">
@@ -281,6 +281,10 @@ require __DIR__ . '/includes/header.php';
             <div class="market-row"><span>Toss / Playing XI</span><strong>Wait for update</strong></div>
             <div class="market-row"><span>Total Runs Range</span><strong>Check after pitch report</strong></div>
             <div class="market-row"><span>Top Batter Interest</span><strong>Abhishek Sharma • Prabhsimran Singh</strong></div>
+          </div>
+          <div class="cricket-article-links" aria-label="Cricket match articles">
+            <a href="/dc-vs-csk-result-ipl-2026/">Read DC vs CSK Recap</a>
+            <a href="/srh-vs-pbks-preview-ipl-2026/">Read SRH vs PBKS Preview</a>
           </div>
           <a class="cricket-link" href="/cricket-betting-india/">Open Cricket Betting Guide →</a>
         </article>
@@ -326,10 +330,30 @@ require __DIR__ . '/includes/header.php';
       <article class="panel">
         <h3>Cricket Scores & Fixtures</h3>
         <div class="win-list">
-          <div class="win-row"><span>Mumbai Indians 229/4 vs Lucknow Super Giants 228/5</span><span class="amount">MI won</span></div>
+          <div class="win-row"><span>Delhi Capitals 155/7 vs Chennai Super Kings 159/2</span><span class="amount">CSK won</span></div>
           <div class="win-row"><span>Sunrisers Hyderabad vs Punjab Kings</span><span class="amount">May 6</span></div>
           <div class="win-row"><span>Lucknow Super Giants vs Royal Challengers Bengaluru</span><span class="amount">May 7</span></div>
           <div class="win-row"><span>Delhi Capitals vs Kolkata Knight Riders</span><span class="amount">May 8</span></div>
+        </div>
+      </article>
+    </div>
+    <div class="match-article-grid">
+      <article class="match-article-card">
+        <img src="/assets/img/articles/cricket-betting-india-match.webp" alt="Cricket betting India match recap" loading="lazy" decoding="async" width="1200" height="675">
+        <div>
+          <span class="eyebrow">IPL 2026 Recap</span>
+          <h3>DC vs CSK Result: Chennai chase fast in Delhi</h3>
+          <p>CSK beat DC by 8 wickets after Sanju Samson's 87 kept the chase under control. Missed the match window? Read the recap before the next YaarWin cricket betting session.</p>
+          <a class="text-link" href="/dc-vs-csk-result-ipl-2026/">Read match recap</a>
+        </div>
+      </article>
+      <article class="match-article-card">
+        <img src="/assets/img/articles/cricket-betting-india-match.webp" alt="SRH vs PBKS cricket betting preview India" loading="lazy" decoding="async" width="1200" height="675">
+        <div>
+          <span class="eyebrow">Upcoming Match</span>
+          <h3>SRH vs PBKS Preview: Hyderabad night session</h3>
+          <p>SRH vs PBKS is next on the cricket betting watchlist. Check toss, playing XI and limits early so you do not rush your YaarWin registration before match time.</p>
+          <a class="text-link" href="/srh-vs-pbks-preview-ipl-2026/">Read match preview</a>
         </div>
       </article>
     </div>
