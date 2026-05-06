@@ -46,8 +46,7 @@ img { max-width: 100%; height: auto; }
   position: sticky;
   top: 0;
   z-index: 50;
-  background: rgba(255, 255, 255, .92);
-  backdrop-filter: blur(14px);
+  background: rgba(255, 255, 255, .98);
   border-bottom: 1px solid var(--line);
 }
 .top-strip {
@@ -270,6 +269,8 @@ h1 {
 
 .section {
   padding: clamp(42px, 6vw, 76px) 0;
+  content-visibility: auto;
+  contain-intrinsic-size: 760px;
 }
 .section-head {
   display: flex;
@@ -312,50 +313,13 @@ h1 {
 }
 .cricket-lobby {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 320px;
+  grid-template-columns: 1fr;
   gap: 18px;
+  contain: layout paint;
 }
 .cricket-main,
 .cricket-sidebar {
   min-width: 0;
-}
-.cricket-tabs,
-.cricket-filter,
-.market-tabs {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 10px;
-  border: 1px solid var(--line);
-  background: #fff;
-  border-radius: 18px;
-  box-shadow: 0 10px 28px rgba(11, 91, 35, .08);
-}
-.cricket-filter,
-.market-tabs {
-  margin-top: 10px;
-  overflow-x: auto;
-}
-.tab,
-.filter-chip,
-.market-tabs span {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 36px;
-  padding: 0 16px;
-  border-radius: 12px;
-  color: var(--muted);
-  white-space: nowrap;
-  font-size: 13px;
-  font-weight: 900;
-}
-.tab.active,
-.filter-chip.active,
-.market-tabs .active {
-  background: var(--green-contrast);
-  color: #fff;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, .18);
 }
 .cricket-scoreboard,
 .upcoming-card,
@@ -363,10 +327,9 @@ h1 {
   border: 1px solid var(--line);
   border-radius: 22px;
   background: #fff;
-  box-shadow: var(--shadow);
+  box-shadow: 0 12px 30px rgba(11, 91, 35, .08);
 }
 .cricket-scoreboard {
-  margin-top: 10px;
   padding: 20px;
 }
 .scoreboard-head {
@@ -489,7 +452,9 @@ h1 {
 }
 .cricket-sidebar {
   display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
   gap: 14px;
+  align-items: stretch;
 }
 .upcoming-card,
 .side-benefit {
@@ -500,14 +465,18 @@ h1 {
   margin: 0 0 14px;
   font-size: 22px;
 }
+.upcoming-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
 .upcoming-row {
   display: grid;
-  grid-template-columns: 1fr auto auto;
+  grid-template-columns: 1fr auto;
   gap: 10px;
   align-items: center;
   padding: 12px;
   border-radius: 15px;
-  margin-bottom: 10px;
 }
 .upcoming-row small {
   display: block;
@@ -531,7 +500,8 @@ h1 {
   text-align: right;
 }
 .bell-link {
-  width: 36px;
+  grid-column: 1 / -1;
+  width: 100%;
   height: 36px;
   border-radius: 12px;
   font-size: 16px;
@@ -686,36 +656,32 @@ h1 {
 }
 .match-article-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 18px;
   margin-top: 18px;
+  contain: layout paint;
 }
 .match-article-card {
   display: grid;
-  grid-template-columns: 180px 1fr;
-  gap: 18px;
-  align-items: center;
+  grid-template-columns: 1fr;
+  gap: 14px;
+  align-items: start;
   padding: 16px;
   border: 1px solid var(--line);
   border-radius: 24px;
   background: #fff;
-  box-shadow: var(--shadow);
+  box-shadow: 0 12px 30px rgba(11, 91, 35, .08);
 }
 .match-article-card img {
   width: 100%;
-  aspect-ratio: 16 / 10;
+  aspect-ratio: 16 / 8.6;
   border-radius: 18px;
   object-fit: cover;
 }
 .match-article-card h3 {
   margin: 6px 0 8px;
-  font-size: 24px;
+  font-size: 21px;
   line-height: 1.13;
-}
-.match-article-card p {
-  margin: 0 0 10px;
-  color: var(--muted);
-  font-weight: 700;
 }
 .win-list { display: grid; gap: 12px; }
 .win-row {
@@ -1036,9 +1002,8 @@ h1 {
   .hero-inner,
   .register-shell { grid-template-columns: 1fr; }
   .game-lobby { grid-template-columns: repeat(4, 1fr); }
-  .cricket-lobby,
+  .cricket-sidebar,
   .score-grid { grid-template-columns: 1fr; }
-  .match-article-grid { grid-template-columns: 1fr; }
   .dashboard-grid,
   .promotion-grid,
   .promo-grid,
@@ -1173,18 +1138,6 @@ h1 {
     width: 52px;
     height: 52px;
   }
-  .cricket-tabs,
-  .cricket-filter,
-  .market-tabs {
-    overflow-x: auto;
-    justify-content: flex-start;
-    scrollbar-width: none;
-  }
-  .cricket-tabs::-webkit-scrollbar,
-  .cricket-filter::-webkit-scrollbar,
-  .market-tabs::-webkit-scrollbar {
-    display: none;
-  }
   .scoreboard-head {
     display: grid;
   }
@@ -1236,6 +1189,9 @@ h1 {
   .market-list,
   .cricket-sidebar {
     gap: 12px;
+  }
+  .score-grid {
+    margin: 12px 0;
   }
   .team-score,
   .score-status,
@@ -1301,11 +1257,33 @@ h1 {
     color: var(--green-dark);
   }
   .win-pill { display: block; }
+  .upcoming-card {
+    overflow: hidden;
+  }
+  .upcoming-list,
+  .match-article-grid {
+    display: flex;
+    gap: 12px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    padding-bottom: 2px;
+  }
+  .upcoming-list::-webkit-scrollbar,
+  .match-article-grid::-webkit-scrollbar {
+    display: none;
+  }
+  .upcoming-row {
+    flex: 0 0 min(78vw, 250px);
+    scroll-snap-align: start;
+    margin-bottom: 0;
+  }
   .match-article-card {
-    grid-template-columns: 1fr;
+    flex: 0 0 min(82vw, 280px);
+    scroll-snap-align: start;
   }
   .match-article-card img {
-    aspect-ratio: 16 / 9;
+    aspect-ratio: 16 / 8.8;
   }
   .win-pill strong { display: block; margin-top: 6px; font-size: 21px; overflow-wrap: anywhere; }
   .section-head { display: block; }

@@ -234,18 +234,6 @@ require __DIR__ . '/includes/header.php';
     </div>
     <div class="cricket-lobby">
       <div class="cricket-main">
-        <div class="cricket-tabs" aria-label="Cricket match tabs">
-          <span class="tab active">Today Match</span>
-          <span class="tab">Upcoming</span>
-          <span class="tab">Highlights</span>
-        </div>
-        <div class="cricket-filter" aria-label="Cricket filters">
-          <span class="filter-chip active">All</span>
-          <span class="filter-chip">T20</span>
-          <span class="filter-chip">IPL</span>
-          <span class="filter-chip">International</span>
-          <span class="filter-chip">Domestic</span>
-        </div>
         <article class="cricket-scoreboard">
           <div class="scoreboard-head">
             <div>
@@ -269,13 +257,6 @@ require __DIR__ . '/includes/header.php';
               <span>SRH posted 235/4; PBKS were 74/4 after 9 overs in the latest public feed.</span>
             </div>
           </div>
-          <div class="market-tabs">
-            <span class="active">All Markets</span>
-            <span>Main</span>
-            <span>Runs</span>
-            <span>Wickets</span>
-            <span>Players</span>
-          </div>
           <div class="market-list">
             <div class="market-row"><span>Match Winner Watchlist</span><strong>LSG vs RCB</strong></div>
             <div class="market-row"><span>Toss / Playing XI</span><strong>Check before first ball</strong></div>
@@ -293,16 +274,18 @@ require __DIR__ . '/includes/header.php';
       <aside class="cricket-sidebar">
         <article class="upcoming-card">
           <h3>Upcoming Matches</h3>
-          <?php foreach ($cricket_matches as $match): ?>
-            <div class="upcoming-row">
-              <div>
-                <small><?= e($match['league']) ?></small>
-                <strong><?= e($match['team_a']) ?> <span>vs</span> <?= e($match['team_b']) ?></strong>
+          <div class="upcoming-list">
+            <?php foreach ($cricket_matches as $match): ?>
+              <div class="upcoming-row">
+                <div>
+                  <small><?= e($match['league']) ?></small>
+                  <strong><?= e($match['team_a']) ?> <span>vs</span> <?= e($match['team_b']) ?></strong>
+                </div>
+                <span><?= e($match['date_label']) ?><br><?= e($match['time_label']) ?></span>
+                <a class="bell-link" href="<?= e(calendar_url($match)) ?>" target="_blank" rel="nofollow noopener" aria-label="Set reminder for <?= e($match['teams']) ?>">🔔</a>
               </div>
-              <span><?= e($match['date_label']) ?><br><?= e($match['time_label']) ?></span>
-              <a class="bell-link" href="<?= e(calendar_url($match)) ?>" target="_blank" rel="nofollow noopener" aria-label="Set reminder for <?= e($match['teams']) ?>">🔔</a>
-            </div>
-          <?php endforeach; ?>
+            <?php endforeach; ?>
+          </div>
           <a class="view-all" href="/cricket-betting-india/">View Cricket Guide</a>
         </article>
         <article class="side-benefit green">
@@ -344,7 +327,6 @@ require __DIR__ . '/includes/header.php';
         <div>
           <span class="eyebrow">IPL 2026 Watch Recap</span>
           <h3>SRH vs PBKS 235/4: Hyderabad runfest before the next YaarWin cricket window</h3>
-          <p>SRH put 235/4 on the board and PBKS were already under pressure in the chase. Use the recap before opening a YaarWin register or cricket betting India session.</p>
           <a class="text-link" href="/srh-vs-pbks-235-4-recap-ipl-2026/">Read watch recap</a>
         </div>
       </article>
@@ -353,7 +335,6 @@ require __DIR__ . '/includes/header.php';
         <div>
           <span class="eyebrow">IPL 2026 Recap</span>
           <h3>DC vs CSK Result: Chennai chase fast in Delhi</h3>
-          <p>CSK beat DC by 8 wickets after Sanju Samson's 87 kept the chase under control. Missed the match window? Read the recap before the next YaarWin cricket betting session.</p>
           <a class="text-link" href="/dc-vs-csk-result-ipl-2026/">Read match recap</a>
         </div>
       </article>
@@ -362,7 +343,6 @@ require __DIR__ . '/includes/header.php';
         <div>
           <span class="eyebrow">Upcoming Match</span>
           <h3>SRH vs PBKS Preview: Hyderabad night session</h3>
-          <p>SRH vs PBKS is next on the cricket betting watchlist. Check toss, playing XI and limits early so you do not rush your YaarWin registration before match time.</p>
           <a class="text-link" href="/srh-vs-pbks-preview-ipl-2026/">Read match preview</a>
         </div>
       </article>
