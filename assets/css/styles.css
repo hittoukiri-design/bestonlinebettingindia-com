@@ -256,10 +256,13 @@ h1 {
 }
 .game-tile:last-child { border-right: 0; }
 .game-tile img {
-  width: 50px;
-  height: 50px;
-  border-radius: 15px;
-  object-fit: cover;
+  width: 58px;
+  height: 58px;
+  padding: 3px;
+  border-radius: 16px;
+  object-fit: contain;
+  background: #f4fff6;
+  box-shadow: inset 0 0 0 1px rgba(8, 115, 39, .12);
 }
 .game-tile strong { display: block; font-size: 14px; text-transform: uppercase; }
 .game-tile span { color: var(--muted); font-size: 12px; font-weight: 800; }
@@ -1078,6 +1081,10 @@ h1 {
   .game-lobby { grid-template-columns: repeat(2, 1fr); }
   .game-tile { min-width: 0; }
   .game-tile { min-height: 104px; }
+  .game-tile img {
+    width: 52px;
+    height: 52px;
+  }
   .cricket-tabs,
   .cricket-filter,
   .market-tabs {

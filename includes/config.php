@@ -30,14 +30,14 @@ $site_reviews = [
 ];
 
 $games = [
-  ['name' => 'Wingo', 'label' => 'Colour Prediction', 'image' => '/assets/img/provider-games/wingo-88.webp', 'url' => '/wingo-game-india/'],
-  ['name' => 'Aviator', 'label' => 'Crash Game', 'image' => '/assets/img/provider-games/aviator-88.webp', 'url' => '/aviator-betting-india/'],
-  ['name' => 'Teen Patti', 'label' => 'Card Game', 'image' => '/assets/img/provider-games/teen-patti-88.webp', 'url' => '/teen-patti-online/'],
-  ['name' => 'Cricket', 'label' => 'Sports Betting', 'image' => '/assets/img/provider-games/cricket-exchange-88.webp', 'url' => '/cricket-betting-india/'],
-  ['name' => 'Rummy', 'label' => 'Real Money Cards', 'image' => '/assets/img/provider-games/teen-patti-88.webp', 'url' => '/rummy-game-india/'],
-  ['name' => 'Slots', 'label' => 'Jackpot Games', 'image' => '/assets/img/provider-games/wingo-88.webp', 'url' => '/slots-game-india/'],
-  ['name' => 'Live Casino', 'label' => 'Real Dealer', 'image' => '/assets/img/provider-games/teen-patti-88.webp', 'url' => '/live-casino-india/'],
-  ['name' => 'Andar Bahar', 'label' => 'Fast Card Round', 'image' => '/assets/img/provider-games/teen-patti-88.webp', 'url' => '/andar-bahar-online/'],
+  ['name' => 'Wingo', 'label' => 'Colour Prediction', 'image' => '/assets/img/provider-games/wingo-thumb.webp', 'url' => '/wingo-game-india/'],
+  ['name' => 'Aviator', 'label' => 'Crash Game', 'image' => '/assets/img/provider-games/aviator-thumb.webp', 'url' => '/aviator-betting-india/'],
+  ['name' => 'Teen Patti', 'label' => 'Card Game', 'image' => '/assets/img/provider-games/teen-patti-thumb.webp', 'url' => '/teen-patti-online/'],
+  ['name' => 'Cricket', 'label' => 'Sports Betting', 'image' => '/assets/img/provider-games/cricket-thumb.webp', 'url' => '/cricket-betting-india/'],
+  ['name' => 'Rummy', 'label' => 'Real Money Cards', 'image' => '/assets/img/provider-games/rummy-thumb.webp', 'url' => '/rummy-game-india/'],
+  ['name' => 'Slots', 'label' => 'Jackpot Games', 'image' => '/assets/img/provider-games/slots-thumb.webp', 'url' => '/slots-game-india/'],
+  ['name' => 'Live Casino', 'label' => 'Real Dealer', 'image' => '/assets/img/provider-games/live-casino-thumb.webp', 'url' => '/live-casino-india/'],
+  ['name' => 'Andar Bahar', 'label' => 'Fast Card Round', 'image' => '/assets/img/provider-games/andar-bahar-thumb.webp', 'url' => '/andar-bahar-online/'],
 ];
 
 function e($value) {
