@@ -113,9 +113,14 @@ $schema_items = [
     'headline' => 'Best Online Betting India with YaarWin Games',
     'description' => $meta['description'] ?? page_meta()['description'],
     'mainEntityOfPage' => $site['url'] . '/',
+    'image' => [
+      $site['url'] . '/assets/img/bobi-yaarwin-logo.webp',
+      $site['url'] . '/assets/img/bobi-yaarwin-logo-header.webp',
+    ],
     'author' => [
       '@type' => 'Organization',
       'name' => $site['name'],
+      'url' => $site['url'] . '/',
     ],
     'publisher' => [
       '@type' => 'Organization',
@@ -126,7 +131,7 @@ $schema_items = [
       ],
     ],
     'datePublished' => '2026-05-04',
-    'dateModified' => '2026-05-06',
+    'dateModified' => '2026-05-07',
   ],
   [
     '@type' => 'ItemList',
