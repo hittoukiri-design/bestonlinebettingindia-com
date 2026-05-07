@@ -65,15 +65,33 @@ if (navToggle && navMenu) {
     promo.className = 'promo-nudge';
     promo.setAttribute('role', 'dialog');
     promo.setAttribute('aria-label', 'YaarWin registration reminder');
-    promo.innerHTML = `
-      <button class="promo-nudge__close" type="button" aria-label="Close promotion">×</button>
-      <div class="promo-nudge__eyebrow">YaarWin register window</div>
-      <strong>Ready to start with invite code 72238107987?</strong>
-      <p>Open the official YaarWin registration path before the next cricket betting India session.</p>
-      <a class="promo-nudge__cta" href="${registerUrl}" target="_blank" rel="nofollow noopener">Register Now</a>
-    `;
 
-    promo.querySelector('.promo-nudge__close').addEventListener('click', () => {
+    const closeButton = document.createElement('button');
+    closeButton.className = 'promo-nudge__close';
+    closeButton.type = 'button';
+    closeButton.setAttribute('aria-label', 'Close promotion');
+    closeButton.textContent = '×';
+
+    const eyebrow = document.createElement('div');
+    eyebrow.className = 'promo-nudge__eyebrow';
+    eyebrow.textContent = 'YaarWin register window';
+
+    const headline = document.createElement('strong');
+    headline.textContent = 'Ready to start with invite code 72238107987?';
+
+    const copy = document.createElement('p');
+    copy.textContent = 'Open the official YaarWin registration path before the next cricket betting India session.';
+
+    const cta = document.createElement('a');
+    cta.className = 'promo-nudge__cta';
+    cta.href = registerUrl;
+    cta.target = '_blank';
+    cta.rel = 'nofollow noopener';
+    cta.textContent = 'Register Now';
+
+    promo.append(closeButton, eyebrow, headline, copy, cta);
+
+    closeButton.addEventListener('click', () => {
       promo.remove();
     });
 
