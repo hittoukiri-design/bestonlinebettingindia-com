@@ -16,8 +16,8 @@ $body_class = $body_class ?? '';
   <link rel="icon" href="/assets/img/favicon-64.png" sizes="64x64" type="image/png">
   <link rel="shortcut icon" href="/favicon.png" type="image/png">
   <link rel="apple-touch-icon" href="/assets/img/favicon-192.png">
-  <link rel="preload" href="/assets/css/styles.css?v=202605070205" as="style">
-  <link rel="stylesheet" href="/assets/css/styles.css?v=202605070205">
+  <link rel="preload" href="/assets/css/styles.css?v=202605080105" as="style">
+  <link rel="stylesheet" href="/assets/css/styles.css?v=202605080105">
   <meta property="og:title" content="<?= e($meta['title']) ?>">
   <meta property="og:description" content="<?= e($meta['description']) ?>">
   <meta property="og:type" content="website">
@@ -43,7 +43,7 @@ $body_class = $body_class ?? '';
   </script>
   <?php endif; ?>
 </head>
-<body class="<?= e($body_class) ?>">
+<body class="<?= e($body_class) ?>" data-register-url="<?= e($site['register_url']) ?>" data-visit-endpoint="/api/visit-signal.php">
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
     <div class="top-strip">
