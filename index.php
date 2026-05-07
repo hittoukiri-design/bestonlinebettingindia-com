@@ -130,8 +130,8 @@ $schema_items = [
         'url' => $site['url'] . '/assets/img/favicon-192.png',
       ],
     ],
-    'datePublished' => '2026-05-04',
-    'dateModified' => '2026-05-07',
+    'datePublished' => '2026-05-04T00:00:00+05:30',
+    'dateModified' => '2026-05-07T00:00:00+05:30',
   ],
   [
     '@type' => 'ItemList',
