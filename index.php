@@ -147,38 +147,9 @@ $schema_items = [
   ],
 ];
 
-$cricket_matches = [
-  [
-    'league' => 'Indian Premier League',
-    'teams' => 'DC vs KKR',
-    'team_a' => 'DC',
-    'team_b' => 'KKR',
-    'date_label' => 'Today',
-    'time_label' => '7:30 PM',
-    'venue' => 'Arun Jaitley Stadium, Delhi',
-    'calendar_dates' => '20260508T140000Z/20260508T173000Z',
-  ],
-  [
-    'league' => 'Indian Premier League',
-    'teams' => 'RR vs GT',
-    'team_a' => 'RR',
-    'team_b' => 'GT',
-    'date_label' => 'Tomorrow',
-    'time_label' => '7:30 PM',
-    'venue' => 'Sawai Mansingh Stadium, Jaipur',
-    'calendar_dates' => '20260509T140000Z/20260509T173000Z',
-  ],
-  [
-    'league' => 'Indian Premier League',
-    'teams' => 'CSK vs LSG',
-    'team_a' => 'CSK',
-    'team_b' => 'LSG',
-    'date_label' => 'May 10',
-    'time_label' => '3:30 PM',
-    'venue' => 'MA Chidambaram Stadium, Chennai',
-    'calendar_dates' => '20260510T100000Z/20260510T133000Z',
-  ],
-];
+$cricket_data = bobi_load_cricket_data();
+$cricket_featured = $cricket_data['featured'];
+$cricket_matches = $cricket_data['matches'];
 
 function calendar_url(array $match): string {
   return 'https://calendar.google.com/calendar/render?' . http_build_query([
@@ -242,31 +213,30 @@ require __DIR__ . '/includes/header.php';
         <article class="cricket-scoreboard">
           <div class="scoreboard-head">
             <div>
-              <span class="live-dot">Latest Result</span>
-              <h3>LSG vs RCB: Lucknow win by 9 runs</h3>
-              <p>IPL 2026 • Ekana Cricket Stadium, Lucknow • May 7, DLS result</p>
+              <span class="live-dot"><?= e($cricket_featured['badge'] ?? 'Latest Result') ?></span>
+              <h3><?= e($cricket_featured['title'] ?? 'IPL match watchlist updated for today') ?></h3>
+              <p><?= e($cricket_featured['subtitle'] ?? 'BOBI x YaarWin cricket betting India guide') ?></p>
             </div>
-            <a class="reminder-btn" href="<?= e(calendar_url($cricket_matches[0])) ?>" target="_blank" rel="nofollow noopener" aria-label="Set reminder for DC vs KKR">🔔</a>
+            <a class="reminder-btn" href="<?= e(calendar_url($cricket_matches[0])) ?>" target="_blank" rel="nofollow noopener" aria-label="Set reminder for <?= e($cricket_matches[0]['teams'] ?? 'today cricket match') ?>">🔔</a>
           </div>
           <div class="score-grid">
             <div class="team-score">
-              <span class="team-badge">LSG</span>
-              <div><strong>Lucknow Super Giants</strong><small>209/3 in 19 overs, powered by Mitchell Marsh</small></div>
+              <span class="team-badge"><?= e($cricket_featured['team_a']['code'] ?? 'IPL') ?></span>
+              <div><strong><?= e($cricket_featured['team_a']['name'] ?? 'Today Match') ?></strong><small><?= e($cricket_featured['team_a']['note'] ?? 'Check the match update before playing') ?></small></div>
             </div>
             <div class="team-score">
-              <span class="team-badge gold">RCB</span>
-              <div><strong>Royal Challengers Bengaluru</strong><small>203/6, fell short by 9 runs</small></div>
+              <span class="team-badge gold"><?= e($cricket_featured['team_b']['code'] ?? 'BOBI') ?></span>
+              <div><strong><?= e($cricket_featured['team_b']['name'] ?? 'Next Watch') ?></strong><small><?= e($cricket_featured['team_b']['note'] ?? 'Review YaarWin register and cricket guides early') ?></small></div>
             </div>
             <div class="score-status">
-              <strong>Result note</strong>
-              <span>Congratulations if your YaarWin cricket betting pick stayed with Lucknow. If you missed it, prepare before DC vs KKR.</span>
+              <strong><?= e($cricket_featured['status_title'] ?? 'Match-day note') ?></strong>
+              <span><?= e($cricket_featured['status_text'] ?? 'Check official cricket feeds before placing any YaarWin cricket betting session.') ?></span>
             </div>
           </div>
           <div class="market-list">
-            <div class="market-row"><span>Latest Score</span><strong>LSG 209/3, RCB 203/6</strong></div>
-            <div class="market-row"><span>Winning Margin</span><strong>LSG by 9 runs DLS</strong></div>
-            <div class="market-row"><span>Next Watchlist</span><strong>DC vs KKR today</strong></div>
-            <div class="market-row"><span>YaarWin Keyword</span><strong>Cricket betting India</strong></div>
+            <?php foreach (array_slice($cricket_featured['markets'] ?? [], 0, 4) as $market): ?>
+              <div class="market-row"><span><?= e($market[0] ?? 'Market') ?></span><strong><?= e($market[1] ?? 'Check update') ?></strong></div>
+            <?php endforeach; ?>
           </div>
           <div class="cricket-article-links" aria-label="Cricket match articles">
             <a href="/lsg-vs-rcb-result-ipl-2026/">Read LSG vs RCB Result</a>

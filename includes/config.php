@@ -52,4 +52,93 @@ function page_meta($overrides = []) {
   ];
   return array_merge($defaults, $overrides);
 }
+
+function bobi_default_cricket_data(): array {
+  return [
+    'updated_at' => date('c'),
+    'source' => 'fallback-cache',
+    'featured' => [
+      'badge' => 'Daily Watchlist',
+      'title' => 'IPL match watchlist updated for today',
+      'subtitle' => 'BOBI x YaarWin cricket betting India guide - check toss, playing XI and responsible limits before match time',
+      'team_a' => [
+        'code' => 'IPL',
+        'name' => 'Today Match',
+        'note' => 'Use the YaarWin register path early and avoid rushed match-day decisions',
+      ],
+      'team_b' => [
+        'code' => 'BOBI',
+        'name' => 'Next Watch',
+        'note' => 'Review cricket betting India, Aviator, Teen Patti, Rummy and Wingo guides before playing',
+      ],
+      'status_title' => 'Match-day note',
+      'status_text' => 'Cricket schedules can change. Check official match feeds before placing any YaarWin cricket betting session.',
+      'markets' => [
+        ['Today Focus', 'Cricket betting India'],
+        ['YaarWin Prep', 'Register, wallet, limits'],
+        ['Game Cluster', 'Aviator, Teen Patti, Rummy, Wingo'],
+        ['Responsible Play', 'Wait for toss and team news'],
+      ],
+    ],
+    'matches' => [
+      [
+        'league' => 'Indian Premier League',
+        'teams' => 'Today IPL Watchlist',
+        'team_a' => 'IPL',
+        'team_b' => 'T20',
+        'date_label' => 'Today',
+        'time_label' => '7:30 PM',
+        'venue' => 'India',
+        'calendar_dates' => gmdate('Ymd\T140000\Z') . '/' . gmdate('Ymd\T173000\Z'),
+      ],
+      [
+        'league' => 'Indian Premier League',
+        'teams' => 'Tomorrow IPL Watchlist',
+        'team_a' => 'IPL',
+        'team_b' => 'Next',
+        'date_label' => 'Tomorrow',
+        'time_label' => '7:30 PM',
+        'venue' => 'India',
+        'calendar_dates' => gmdate('Ymd\T140000\Z', strtotime('+1 day')) . '/' . gmdate('Ymd\T173000\Z', strtotime('+1 day')),
+      ],
+      [
+        'league' => 'Indian Premier League',
+        'teams' => 'Upcoming Cricket Watchlist',
+        'team_a' => 'T20',
+        'team_b' => 'Match',
+        'date_label' => date('M j', strtotime('+2 days')),
+        'time_label' => '7:30 PM',
+        'venue' => 'India',
+        'calendar_dates' => gmdate('Ymd\T140000\Z', strtotime('+2 days')) . '/' . gmdate('Ymd\T173000\Z', strtotime('+2 days')),
+      ],
+    ],
+  ];
+}
+
+function bobi_normalize_cricket_data(array $payload): array {
+  $payload = array_replace_recursive(bobi_default_cricket_data(), $payload);
+  $payload['matches'] = array_values(array_slice(array_filter($payload['matches'] ?? [], static function ($match): bool {
+    return is_array($match) && trim((string)($match['team_a'] ?? '')) !== '' && trim((string)($match['team_b'] ?? '')) !== '';
+  }), 0, 3));
+
+  if (count($payload['matches']) < 1) {
+    $payload['matches'] = bobi_default_cricket_data()['matches'];
+  }
+
+  return $payload;
+}
+
+function bobi_load_cricket_data(): array {
+  $cacheFile = dirname(__DIR__) . '/data/cricket.json';
+  if (!is_file($cacheFile)) {
+    return bobi_default_cricket_data();
+  }
+
+  $json = json_decode((string) file_get_contents($cacheFile), true);
+  if (!is_array($json)) {
+    return bobi_default_cricket_data();
+  }
+
+  return bobi_normalize_cricket_data($json);
+}
 ?>
