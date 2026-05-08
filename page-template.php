@@ -133,6 +133,21 @@ $pages = [
       ['Next step for YaarWin users', 'Before the next IPL 2026 fixture, open the YaarWin register path, keep the invite code ready and review the cricket betting guide, Aviator, Teen Patti, Rummy, Wingo colour prediction and fast withdrawal pages. Serious users should be ready before toss time, not after the odds start moving.'],
     ],
   ],
+  'lsg-vs-rcb-result-ipl-2026' => [
+    'title' => 'LSG vs RCB Result IPL 2026 | Lucknow Win by 9 Runs, YaarWin Cricket Betting Recap',
+    'description' => 'LSG vs RCB IPL 2026 result recap: Lucknow Super Giants 209/3 beat Royal Challengers Bengaluru 203/6 by 9 runs DLS. Read YaarWin cricket betting India notes and next match prep.',
+    'h1' => 'LSG vs RCB Result IPL 2026: Lucknow Win by 9 Runs',
+    'kicker' => 'IPL 2026 match result',
+    'intro' => 'Lucknow Super Giants beat Royal Challengers Bengaluru by 9 runs after a tense DLS finish. This quick YaarWin cricket betting India recap helps readers catch the score, the match-day lesson and the next preparation window.',
+    'image' => '/assets/img/articles/cricket-betting-india-match.webp',
+    'image_alt' => 'LSG vs RCB IPL 2026 result recap for cricket betting India users',
+    'sections' => [
+      ['Quick score summary', 'Lucknow Super Giants finished on 209/3, while Royal Challengers Bengaluru reached 203/6 and lost by 9 runs under the DLS method. It was exactly the kind of close IPL 2026 result that makes cricket betting India searches spike after the match.'],
+      ['Congratulations to winning YaarWin users', 'If you had already completed your YaarWin register path before match time and backed Lucknow with discipline, congratulations. A tight finish like this rewards users who prepared early instead of rushing after the chase started moving.'],
+      ['Missed the match-day window?', 'If you had not registered yet, this was the kind of cricket night that creates real FOMO. Do not wait until the next match is already live. Prepare your YaarWin login, invite code, wallet details and personal limits before toss time.'],
+      ['Prepare for the next IPL watchlist', 'DC vs KKR, RR vs GT and CSK vs LSG are the next key fixtures on the BOBI x YaarWin watchlist. Before entering Aviator, Teen Patti, Rummy, Wingo colour prediction or cricket betting India sessions, review the guide pages and keep play responsible.'],
+    ],
+  ],
   'srh-vs-pbks-preview-ipl-2026' => [
     'title' => 'SRH vs PBKS Preview IPL 2026 | Today Match Prediction, YaarWin Cricket Betting Guide',
     'description' => 'SRH vs PBKS IPL 2026 preview for today: Hyderabad conditions, Punjab batting watch, responsible prediction notes, YaarWin registration and cricket betting India guide.',
@@ -297,8 +312,8 @@ $schema_items = [
         'url' => $site['url'] . '/assets/img/favicon-192.png',
       ],
     ],
-    'datePublished' => '2026-05-04',
-    'dateModified' => '2026-05-07',
+    'datePublished' => '2026-05-04T00:00:00+05:30',
+    'dateModified' => '2026-05-08T00:00:00+05:30',
   ],
 ];
 if (!empty($data['promo_hub'])) {
