@@ -1,7 +1,7 @@
 <?php
 $meta = [
-  'title' => 'Privacy Policy | BOBI x YaarWin',
-  'description' => 'Privacy policy for BOBI x YaarWin access guides and online betting information pages.',
+  'title' => 'Privacy Policy | Best Online Betting India',
+  'description' => 'Privacy policy for Best Online Betting India access guides and online betting information pages.',
   'canonical' => 'https://bestonlinebettingindia.com/privacy/',
 ];
 require dirname(__DIR__) . '/includes/header.php';

@@ -39,12 +39,90 @@ $pages = [
     'description' => 'Best Online Betting India guide with YaarWin access, Aviator, Teen Patti, Rummy, Wingo colour prediction, cricket betting, UPI recharge, bonuses and fast withdrawal.',
     'h1' => 'Best Online Betting India with YaarWin Access',
     'kicker' => 'India betting guide',
-    'intro' => 'BOBI x YaarWin gives Indian players a clean starting point for popular online betting games, account access, payment checks and safer first-session habits.',
+    'intro' => 'Best Online Betting India gives Indian players an independent starting point for popular betting games, YaarWin account access, payment checks and safer first-session habits.',
     'sections' => [
       ['Why YaarWin fits Indian betting intent', 'YaarWin is presented as a simple access path for players who want Aviator, Teen Patti, Rummy, Wingo colour prediction, slots, cricket betting and live casino categories in one mobile-friendly place. The goal is not only to start fast, but to understand login, bonus, recharge and withdrawal steps before adding funds.'],
       ['Popular games to compare before playing', 'Aviator is popular because cashout timing feels fast and exciting. Teen Patti, Rummy and Andar Bahar keep card-game players active. Wingo and colour prediction attract users who like short rounds. Cricket betting remains one of the strongest India-focused topics during match season.'],
       ['Payment and withdrawal readiness', 'Before playing, users should keep account details consistent, confirm UPI or wallet information, understand bonus terms and avoid switching payment methods too often during active sessions.'],
     ],
+  ],
+  'yaarwin' => [
+    'title' => 'YaarWin India Guide: Register, Login, App, Bonus, Games & Withdrawal',
+    'description' => 'Independent YaarWin India guide covering registration, login access, mobile app guidance, Aviator, Teen Patti, Rummy, Wingo, bonuses, UPI payments and withdrawals.',
+    'h1' => 'YaarWin India Guide for Register, Login, Games and Withdrawal',
+    'kicker' => 'Independent YaarWin guide',
+    'intro' => 'Use this independent guide to understand YaarWin registration, login access, popular games, payment checks and withdrawal readiness before you start.',
+    'sections' => [
+      ['What is YaarWin?', 'YaarWin is searched by Indian users who want access to Aviator, Teen Patti, Rummy, Wingo colour prediction, cricket betting, slots, live casino and fast payment guidance. This page helps users understand the journey before opening the register path.'],
+      ['Start with registration and login basics', 'New users should begin with the YaarWin register guide, keep the invite code fixed, then review the YaarWin login guide before adding funds or joining any game category.'],
+      ['Game and payment checks', 'Compare Aviator, Teen Patti, Rummy, Wingo and cricket betting interests with UPI payment readiness, bonus terms, wallet details and responsible play limits.'],
+    ],
+    'faqs' => true,
+  ],
+  'yaarwin-login' => [
+    'title' => 'YaarWin Login India: Account Access, Games & Safety Guide',
+    'description' => 'YaarWin Login India guide for account access, OTP safety, mobile login checks, Aviator, Teen Patti, Rummy, Wingo, cricket betting and withdrawal readiness.',
+    'h1' => 'YaarWin Login India: Account Access, Games and Safety Guide',
+    'kicker' => 'Login guide',
+    'intro' => 'A clean YaarWin login guide for Indian users who want to understand account access, OTP safety, wallet checks and game menu readiness.',
+    'sections' => [
+      ['Where can I find the YaarWin login page?', 'Use the guided access links from this site or the YaarWin register flow after account creation. Keep OTP, password and wallet details private, especially on shared devices.'],
+      ['Common login checks', 'Before entering account information, confirm the page address, use a stable connection, avoid saving passwords on shared phones and contact a human teacher if account messages look unusual.'],
+      ['After login', 'Review wallet status, bonus terms, Aviator, Teen Patti, Rummy, Wingo, cricket betting and fast withdrawal pages before starting any real-money session.'],
+    ],
+    'faqs' => true,
+  ],
+  'yaarwin-register' => [
+    'title' => 'YaarWin Register India: Invite Code, Signup Steps & Account Guide',
+    'description' => 'YaarWin Register India guide with invite code 72238107987, signup steps, mobile account setup, bonus checks, UPI readiness and safer first-session reminders.',
+    'h1' => 'YaarWin Register India: Invite Code, Signup Steps and Account Guide',
+    'kicker' => 'Register guide',
+    'intro' => 'Start here before creating a YaarWin account. This guide explains the invite code, signup path, account checks and safer first-session habits.',
+    'sections' => [
+      ['Invite code and registration path', 'The invite code should stay fixed at 72238107987. If the code is missing, return to the guided register button and open the registration path again.'],
+      ['Before adding funds', 'Keep your mobile number active, read bonus terms, confirm wallet details and set a personal limit before entering Aviator, Teen Patti, Rummy, Wingo or cricket betting categories.'],
+      ['After signup', 'Move from register to login, then check payment readiness, withdrawal rules and human teacher support before starting a longer session.'],
+    ],
+    'faqs' => true,
+  ],
+  'yaarwin-app' => [
+    'title' => 'YaarWin App Guide India: Mobile Access, Login & Games',
+    'description' => 'YaarWin App Guide India for mobile access, login checks, registration, Aviator, Teen Patti, Rummy, Wingo, cricket betting, UPI and withdrawal guidance.',
+    'h1' => 'YaarWin App Guide India: Mobile Access, Login and Games',
+    'kicker' => 'Mobile guide',
+    'intro' => 'Use this mobile-first guide to understand YaarWin account access, game navigation and payment checks from a phone.',
+    'sections' => [
+      ['Mobile access basics', 'Indian users usually want a fast mobile path for registration, login, wallet review and game menus. Always confirm the access path before entering personal details.'],
+      ['Games on mobile', 'Aviator, Teen Patti, Rummy, Wingo colour prediction, cricket betting, slots and live casino all need stable connection and clear personal limits.'],
+      ['Safety reminders', 'Avoid files or links from unknown chats, keep OTP private and use human teacher support if a mobile page or payment step feels unclear.'],
+    ],
+    'faqs' => true,
+  ],
+  'yaarwin-withdrawal' => [
+    'title' => 'YaarWin Withdrawal Guide: UPI Cashout, Wallet Checks & Delays',
+    'description' => 'YaarWin withdrawal guide for UPI cashout, wallet details, order number checks, common delay reasons, account safety and human teacher support.',
+    'h1' => 'YaarWin Withdrawal Guide: UPI Cashout, Wallet Checks and Delays',
+    'kicker' => 'Withdrawal guide',
+    'intro' => 'Withdrawal readiness starts before a cashout request. Use this guide to prepare wallet details, order numbers and support context.',
+    'sections' => [
+      ['Prepare details early', 'Keep UPI or wallet details consistent, avoid repeated changes and save the correct order number if you contact support.'],
+      ['Common delay reasons', 'Payment review, mismatched details, incomplete account checks, bonus terms and busy payout windows can slow a withdrawal request.'],
+      ['When to contact support', 'If withdrawal is pending or failed, prepare screenshots and order number before contacting a human teacher. Avoid submitting random repeated messages.'],
+    ],
+    'faqs' => true,
+  ],
+  'yaarwin-review' => [
+    'title' => 'YaarWin Review India: Games, Login, Bonus, Payments & Support',
+    'description' => 'YaarWin Review India covering games, login access, registration, bonus checks, UPI payments, withdrawal readiness, support path and responsible play.',
+    'h1' => 'YaarWin Review India: Games, Login, Bonus, Payments and Support',
+    'kicker' => 'Independent review',
+    'intro' => 'A balanced YaarWin review for Indian users who want to compare games, access, payment guidance and support before registering.',
+    'sections' => [
+      ['What users search first', 'Most users search YaarWin login, YaarWin register, YaarWin app, YaarWin bonus, YaarWin withdrawal and game categories like Aviator, Teen Patti, Rummy, Wingo and cricket betting.'],
+      ['Pros to check', 'Mobile access, familiar game categories, UPI payment guidance, fast withdrawal interest and human teacher support are the main reasons users compare YaarWin guides.'],
+      ['Things to check first', 'Read terms, confirm local rules, keep OTP private, set personal limits and remember that no betting game can guarantee profit or a safe win.'],
+    ],
+    'faqs' => true,
   ],
   'yaarwin-game-login' => [
     'title' => 'YaarWin Game Login India | Aviator, Teen Patti, Rummy, Wingo & Fast Withdrawal',
@@ -53,7 +131,7 @@ $pages = [
     'kicker' => 'Login and register guide',
     'intro' => 'Use this page before opening your YaarWin account area, checking games, adding funds or asking a human teacher for help.',
     'sections' => [
-      ['How YaarWin login should work', 'Open the official access path, use your registered mobile details, keep OTP and password private, then review wallet, bonus and game menus before placing any real money play.'],
+      ['How YaarWin login should work', 'Open the guided access path, use your registered mobile details, keep OTP and password private, then review wallet, bonus and game menus before placing any real money play.'],
       ['Register with the locked invite code', 'The invite code should stay fixed at 72238107987 so new users follow the intended YaarWin access path. If the code changes or the page looks unfamiliar, stop and contact support first.'],
       ['Game menu after login', 'After login, users usually compare Aviator, Wingo, Teen Patti, Rummy, slots, cricket betting and live casino categories. Start small, check rules and avoid chasing losses.'],
     ],
@@ -103,7 +181,7 @@ $pages = [
     'sections' => [
       ['How Wingo-style rounds feel', 'Users usually choose colours, numbers or round options depending on the interface. The simplicity is attractive, but outcomes are still risky.'],
       ['Start small', 'Short rounds can make users play too quickly. Set a limit before starting and avoid increasing bet size after losses.'],
-      ['YaarWin login path', 'Use the official YaarWin access path and confirm payment details before entering fast-round categories.'],
+      ['YaarWin login path', 'Use the guided YaarWin access path and confirm payment details before entering fast-round categories.'],
     ],
   ],
   'cricket-betting-india' => [
@@ -145,7 +223,7 @@ $pages = [
       ['Quick score summary', 'Lucknow Super Giants finished on 209/3, while Royal Challengers Bengaluru reached 203/6 and lost by 9 runs under the DLS method. It was exactly the kind of close IPL 2026 result that makes cricket betting India searches spike after the match.'],
       ['Congratulations to winning YaarWin users', 'If you had already completed your YaarWin register path before match time and backed Lucknow with discipline, congratulations. A tight finish like this rewards users who prepared early instead of rushing after the chase started moving.'],
       ['Missed the match-day window?', 'If you had not registered yet, this was the kind of cricket night that creates real FOMO. Do not wait until the next match is already live. Prepare your YaarWin login, invite code, wallet details and personal limits before toss time.'],
-      ['Prepare for the next IPL watchlist', 'DC vs KKR, RR vs GT and CSK vs LSG are the next key fixtures on the BOBI x YaarWin watchlist. Before entering Aviator, Teen Patti, Rummy, Wingo colour prediction or cricket betting India sessions, review the guide pages and keep play responsible.'],
+      ['Prepare for the next IPL watchlist', 'DC vs KKR, RR vs GT and CSK vs LSG are the next key fixtures on the Best Online Betting India watchlist. Before entering Aviator, Teen Patti, Rummy, Wingo colour prediction or cricket betting India sessions, review the guide pages and keep play responsible.'],
     ],
   ],
   'srh-vs-pbks-preview-ipl-2026' => [
@@ -233,7 +311,7 @@ $pages = [
     'kicker' => 'Promotion guide hub',
     'intro' => 'Use this promotion lobby as a clean starting point before you register, promote or prepare your first serious session with YaarWin.',
     'sections' => [
-      ['Why this hub exists', 'BOBI x YaarWin gives readers a polished first stop, then sends serious users to the original YaarWin promotion guides for full details.'],
+      ['Why this hub exists', 'Best Online Betting India gives readers a polished first stop, then sends serious users to detailed YaarWin promotion guides for full context.'],
     ],
     'promo_hub' => true,
   ],
@@ -251,7 +329,7 @@ $pages = [
     'description' => 'How to start with YaarWin promotions in India, including daily salary, referral, deposit bonus, ads fee guidance, account checks and human teacher support.',
     'h1' => 'How to Start with YaarWin Promotions',
     'kicker' => 'How-to hub',
-    'intro' => 'Start here if you want a simple path from BOBI x YaarWin into the original YaarWin promotion guides and official access links.',
+    'intro' => 'Start here if you want a simple path from Best Online Betting India into detailed YaarWin promotion guides and registration resources.',
     'sections' => [],
     'promo_hub' => true,
   ],
@@ -261,14 +339,34 @@ $data = $pages[$slug] ?? null;
 if (!$data) {
   http_response_code(404);
   $data = [
-    'title' => 'Page Not Found | BOBI x YaarWin',
-    'description' => 'The requested BOBI x YaarWin page could not be found.',
+    'title' => 'Page Not Found | Best Online Betting India',
+    'description' => 'The requested Best Online Betting India page could not be found.',
     'h1' => 'Page Not Found',
     'kicker' => '404',
-    'intro' => 'The page you are looking for is not available. Return to the BOBI x YaarWin lobby.',
+    'intro' => 'The page you are looking for is not available. Return to the Best Online Betting India guide hub.',
     'sections' => [],
   ];
 }
+
+$guide_faqs = [
+  [
+    'question' => 'What is YaarWin?',
+    'answer' => 'YaarWin is searched by Indian users who want information about registration, login access, popular games, payment checks, bonuses and withdrawal readiness.',
+  ],
+  [
+    'question' => 'How do I register on YaarWin?',
+    'answer' => 'Use the guided register path, keep the invite code fixed and review account, payment and bonus terms before adding funds.',
+  ],
+  [
+    'question' => 'Is this the official YaarWin website?',
+    'answer' => 'No. This is an independent guide that helps users understand YaarWin access, registration, login, games and payment-related information.',
+  ],
+  [
+    'question' => 'What should I check before depositing?',
+    'answer' => 'Check local rules, platform terms, wallet details, bonus conditions, personal limits and support options before depositing.',
+  ],
+];
+$page_faqs = !empty($data['faqs']) ? $guide_faqs : [];
 
 $meta = [
   'title' => $data['title'],
@@ -313,7 +411,7 @@ $schema_items = [
       ],
     ],
     'datePublished' => '2026-05-04T00:00:00+05:30',
-    'dateModified' => '2026-05-08T00:00:00+05:30',
+    'dateModified' => '2026-05-09T00:00:00+05:30',
   ],
 ];
 if (!empty($data['promo_hub'])) {
@@ -330,6 +428,21 @@ if (!empty($data['promo_hub'])) {
     }, $promotion_cards, array_keys($promotion_cards)),
   ];
 }
+if ($page_faqs) {
+  $schema_items[] = [
+    '@type' => 'FAQPage',
+    'mainEntity' => array_map(static function ($faq) {
+      return [
+        '@type' => 'Question',
+        'name' => $faq['question'],
+        'acceptedAnswer' => [
+          '@type' => 'Answer',
+          'text' => $faq['answer'],
+        ],
+      ];
+    }, $page_faqs),
+  ];
+}
 require __DIR__ . '/includes/header.php';
 ?>
 <?php if (!empty($data['promo_hub'])): ?>
@@ -340,8 +453,9 @@ require __DIR__ . '/includes/header.php';
     <p><?= e($data['intro']) ?></p>
     <div class="hero-actions">
       <a class="btn btn-primary" href="<?= e($site['register_url']) ?>" rel="nofollow noopener" target="_blank">Open YaarWin Register</a>
-      <a class="btn btn-ghost" href="/yaarwin-game-login/">Read Login Guide</a>
+      <a class="btn btn-ghost" href="/yaarwin-login/">Read Login Guide</a>
     </div>
+    <p class="guide-disclosure">This page is an independent guide and may contain referral links. Always check the platform's latest terms before registering.</p>
   </div>
 </section>
 <section class="section">
@@ -373,16 +487,17 @@ require __DIR__ . '/includes/header.php';
     <div class="promo-support">
       <article>
         <span class="eyebrow">Clean promotion path</span>
-        <h2>BOBI works as a simple YaarWin promotion lobby</h2>
-        <p>This page helps Indian users compare salary, referral, deposit bonus and ads fee opportunities from one clean screen. Use the summaries to choose what matters, then open the original YaarWin guide when you want full details.</p>
+        <h2>Best Online Betting India works as a simple YaarWin guide lobby</h2>
+        <p>This page helps Indian users compare salary, referral, deposit bonus and ads fee information from one clean screen. Use the summaries to choose what matters, then open the related YaarWin guide when you want full details.</p>
       </article>
       <article>
         <h3>Continue with the YaarWin access path</h3>
         <p>Before acting on any promotion, users should understand login, registration, invite code, game categories and payment readiness.</p>
         <div class="link-row">
-          <a href="/yaarwin-game-login/">YaarWin Game Login</a>
+          <a href="/yaarwin-login/">YaarWin Login</a>
+          <a href="/yaarwin-register/">YaarWin Register</a>
           <a href="/best-online-betting-india/">Best Online Betting India</a>
-          <a href="/fast-withdrawal-betting-india/">Fast Withdrawal Guide</a>
+          <a href="/yaarwin-withdrawal/">Withdrawal Guide</a>
           <a href="<?= e($site['telegram_url']) ?>" rel="nofollow noopener" target="_blank">Human Teacher</a>
         </div>
       </article>
@@ -398,8 +513,9 @@ require __DIR__ . '/includes/header.php';
     <p><?= e($data['intro']) ?></p>
     <div class="hero-actions">
       <a class="btn btn-primary" href="<?= e($site['register_url']) ?>" rel="nofollow noopener" target="_blank">Register with YaarWin</a>
-      <a class="btn btn-ghost" href="/yaarwin-game-login/">Read Access Guide</a>
+      <a class="btn btn-ghost" href="/yaarwin-login/">Read Access Guide</a>
     </div>
+    <p class="guide-disclosure">This page is an independent guide and may contain referral links. Always check the platform's latest terms before registering.</p>
   </div>
 </section>
 <article class="container article-body">
@@ -413,12 +529,23 @@ require __DIR__ . '/includes/header.php';
     <h2><?= e($section[0]) ?></h2>
     <p><?= e($section[1]) ?></p>
   <?php endforeach; ?>
+  <?php if ($page_faqs): ?>
+    <section class="faq-block" aria-labelledby="guide-faq-title">
+      <h2 id="guide-faq-title">YaarWin Guide FAQ</h2>
+      <?php foreach ($page_faqs as $faq): ?>
+        <details>
+          <summary><?= e($faq['question']) ?></summary>
+          <p><?= e($faq['answer']) ?></p>
+        </details>
+      <?php endforeach; ?>
+    </section>
+  <?php endif; ?>
   <h2>Popular YaarWin game links</h2>
-  <p>Continue with <a href="/aviator-betting-india/">Aviator betting India</a>, <a href="/teen-patti-online/">Teen Patti online</a>, <a href="/wingo-game-india/">Wingo colour prediction</a>, <a href="/cricket-betting-india/">cricket betting India</a>, <a href="/fast-withdrawal-betting-india/">fast withdrawal betting India</a> and the main <a href="/yaarwin-game-login/">YaarWin Game Login</a> guide.</p>
+  <p>Continue with <a href="/yaarwin-register/">YaarWin register</a>, <a href="/yaarwin-login/">YaarWin login</a>, <a href="/yaarwin-withdrawal/">YaarWin withdrawal</a>, <a href="/aviator-betting-india/">Aviator betting India</a>, <a href="/teen-patti-online/">Teen Patti online</a>, <a href="/wingo-game-india/">Wingo colour prediction</a>, <a href="/cricket-betting-india/">cricket betting India</a> and <a href="/fast-withdrawal-betting-india/">fast withdrawal betting India</a>.</p>
   <p>For deeper cross-checking, compare the original <a href="https://yaarwinapp.co/yaarwin-game-login/">YaarWin Game Login</a>, <a href="https://yaarwinapp.co/yaarwin-online-betting/">YaarWin online betting</a>, <a href="https://yaarwinapp.co/yaarwin-fast-withdrawal/">YaarWin fast withdrawal</a>, <a href="https://yaarwingames.pro/blog/">YaarWin Games blog</a> and <a href="https://www.dostwincash.com/blog/yaarwin-online-betting-site-india/">DostWinCash YaarWin betting guide</a> before starting a match-day session.</p>
   <div class="cta-band">
     <h2>Ready to start with YaarWin?</h2>
-    <p>If you are ready to play smarter with BOBI x YaarWin, use the register button below and keep your invite code fixed.</p>
+    <p>If you are ready to continue from Best Online Betting India, use the register button below and keep your invite code fixed.</p>
     <a class="btn btn-primary" href="<?= e($site['register_url']) ?>" rel="nofollow noopener" target="_blank">Open YaarWin Register</a>
   </div>
 </article>

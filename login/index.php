@@ -1,7 +1,7 @@
 <?php
 $meta = [
-  'title' => 'YaarWin Login India | Open Account Access, Games, UPI & Withdrawal',
-  'description' => 'YaarWin Login India access for Aviator, Teen Patti, Rummy, Wingo, cricket betting, UPI payments, bonuses and fast withdrawal support.',
+  'title' => 'YaarWin Login India: Account Access, Games & Safety Guide',
+  'description' => 'YaarWin Login India guide for account access, OTP safety, Aviator, Teen Patti, Rummy, Wingo, cricket betting, UPI payments and withdrawal support.',
   'canonical' => 'https://bestonlinebettingindia.com/login/',
 ];
 require dirname(__DIR__) . '/includes/header.php';
@@ -10,11 +10,12 @@ require dirname(__DIR__) . '/includes/header.php';
   <div class="container">
     <span class="eyebrow">YaarWin login</span>
     <h1>YaarWin Login India for Betting Games and Fast Withdrawal</h1>
-    <p>Use this page to understand YaarWin account access after registration. New visitors should start from the official register path so the invite code stays fixed.</p>
+    <p>Use this page to understand YaarWin account access after registration. New visitors should start from the guided register path so the invite code stays fixed.</p>
     <div class="hero-actions">
       <a class="btn btn-primary" href="<?= e($site['register_url']) ?>" rel="nofollow noopener" target="_blank">Register with Invite Code</a>
       <a class="btn btn-ghost" href="/yaarwin-game-login/">Read Access Guide</a>
     </div>
+    <p class="guide-disclosure">This page is an independent guide and may contain referral links. Always check the platform's latest terms before registering.</p>
   </div>
 </section>
 <article class="container article-body">

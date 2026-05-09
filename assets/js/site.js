@@ -80,7 +80,7 @@ if (navToggle && navMenu) {
     headline.textContent = 'Ready to start with invite code 72238107987?';
 
     const copy = document.createElement('p');
-    copy.textContent = 'Open the official YaarWin registration path before the next cricket betting India session.';
+    copy.textContent = 'Open the guided YaarWin registration path before the next cricket betting India session.';
 
     const cta = document.createElement('a');
     cta.className = 'promo-nudge__cta';

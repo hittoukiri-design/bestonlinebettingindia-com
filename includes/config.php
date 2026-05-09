@@ -1,6 +1,6 @@
 <?php
 $site = [
-  'name' => 'BOBI x YaarWin',
+  'name' => 'Best Online Betting India',
   'short_name' => 'BOBI',
   'url' => 'https://bestonlinebettingindia.com',
   'register_url' => 'https://yaarwin.org/#/register?invitationCode=72238107987',
@@ -46,8 +46,8 @@ function e($value) {
 
 function page_meta($overrides = []) {
   $defaults = [
-    'title' => 'Best Online Betting India 2026 | YaarWin, Aviator, Teen Patti, Rummy & Fast Withdrawal',
-    'description' => 'Best Online Betting India guide for YaarWin login, Aviator, Teen Patti, Rummy, Wingo colour prediction, cricket betting, UPI payments, bonuses and fast withdrawal access.',
+    'title' => 'YaarWin India Guide: Register, Login, Games & Withdrawal Help',
+    'description' => 'Independent YaarWin India guide for registration, login access, Aviator, Teen Patti, Rummy, Wingo, cricket betting, UPI payments, bonuses and withdrawal checks.',
     'canonical' => 'https://bestonlinebettingindia.com/',
   ];
   return array_merge($defaults, $overrides);
@@ -60,19 +60,19 @@ function bobi_default_cricket_data(): array {
     'featured' => [
       'badge' => 'Daily Watchlist',
       'title' => 'IPL match watchlist updated for today',
-      'subtitle' => 'BOBI x YaarWin cricket betting India guide - check toss, playing XI and responsible limits before match time',
+      'subtitle' => 'Best Online Betting India cricket guide - check toss, playing XI and responsible limits before match time',
       'team_a' => [
         'code' => 'IPL',
         'name' => 'Today Match',
         'note' => 'Use the YaarWin register path early and avoid rushed match-day decisions',
       ],
       'team_b' => [
-        'code' => 'BOBI',
+        'code' => 'Guide',
         'name' => 'Next Watch',
         'note' => 'Review cricket betting India, Aviator, Teen Patti, Rummy and Wingo guides before playing',
       ],
       'status_title' => 'Match-day note',
-      'status_text' => 'Cricket schedules can change. Check official match feeds before placing any YaarWin cricket betting session.',
+      'status_text' => 'Cricket schedules can change. Check current match feeds and your personal limits before opening any YaarWin cricket betting session.',
       'markets' => [
         ['Today Focus', 'Cricket betting India'],
         ['YaarWin Prep', 'Register, wallet, limits'],

@@ -1,7 +1,7 @@
 <?php
 $meta = [
-  'title' => 'YaarWin Register India | Locked Invite Code 72238107987',
-  'description' => 'Register for YaarWin through BOBI with locked invite code 72238107987. Open Aviator, Teen Patti, Rummy, Wingo, cricket betting and fast withdrawal access.',
+  'title' => 'YaarWin Register India: Invite Code, Signup Steps & Account Guide',
+  'description' => 'YaarWin Register India guide with locked invite code 72238107987, signup steps, Aviator, Teen Patti, Rummy, Wingo, cricket betting and withdrawal checks.',
   'canonical' => 'https://bestonlinebettingindia.com/register/',
 ];
 require dirname(__DIR__) . '/includes/header.php';
@@ -11,11 +11,12 @@ require dirname(__DIR__) . '/includes/header.php';
     <div>
       <span class="eyebrow">YaarWin register</span>
       <h1>YaarWin Register India with Locked Invite Code</h1>
-      <p>Use this page to open the official YaarWin registration path for Aviator, Teen Patti, Rummy, Wingo, cricket betting, slots, live casino and fast withdrawal access.</p>
+      <p>Use this independent guide to open the YaarWin registration path for Aviator, Teen Patti, Rummy, Wingo, cricket betting, slots, live casino and fast withdrawal access.</p>
       <div class="hero-actions">
         <a class="btn btn-primary" href="<?= e($site['register_url']) ?>" rel="nofollow noopener" target="_blank">Continue to YaarWin Register</a>
         <a class="btn btn-ghost" href="<?= e($site['telegram_url']) ?>" rel="nofollow noopener" target="_blank">Ask Human Teacher</a>
       </div>
+      <p class="guide-disclosure">This page is an independent guide and may contain referral links. Always check the platform's latest terms before registering.</p>
     </div>
     <aside class="invite-box">
       <h2>Invite Code</h2>

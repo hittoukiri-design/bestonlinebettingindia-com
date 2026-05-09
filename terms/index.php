@@ -1,7 +1,7 @@
 <?php
 $meta = [
-  'title' => 'Terms | BOBI x YaarWin',
-  'description' => 'Terms and responsible use notes for BOBI x YaarWin online betting guide pages.',
+  'title' => 'Terms | Best Online Betting India',
+  'description' => 'Terms and responsible use notes for Best Online Betting India online betting guide pages.',
   'canonical' => 'https://bestonlinebettingindia.com/terms/',
 ];
 require dirname(__DIR__) . '/includes/header.php';

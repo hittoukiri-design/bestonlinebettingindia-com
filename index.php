@@ -11,7 +11,7 @@ $reviewed_item = [
 $schema_reviews = array_map(static function ($review) use ($reviewed_item) {
   return [
     '@type' => 'Review',
-    'name' => 'BOBI x YaarWin user note by ' . $review['name'],
+    'name' => 'Best Online Betting India user note by ' . $review['name'],
     'author' => [
       '@type' => 'Person',
       'name' => $review['name'],
@@ -84,10 +84,10 @@ $schema_items = [
     'mainEntity' => [
       [
         '@type' => 'Question',
-        'name' => 'What is BOBI x YaarWin?',
+        'name' => 'What is Best Online Betting India?',
         'acceptedAnswer' => [
           '@type' => 'Answer',
-          'text' => 'BOBI x YaarWin is a clean India-focused access hub for YaarWin login, registration, popular betting games, UPI payment guidance, bonuses and withdrawal readiness.',
+          'text' => 'Best Online Betting India is an independent guide for Indian users researching YaarWin registration, login access, popular games, UPI payment guidance, bonuses and withdrawal readiness.',
         ],
       ],
       [
@@ -103,14 +103,22 @@ $schema_items = [
         'name' => 'How do I register with the YaarWin invite code?',
         'acceptedAnswer' => [
           '@type' => 'Answer',
-          'text' => 'Use the official register button on this page. The invite code is 72238107987 and should remain fixed during registration.',
+          'text' => 'Use the guided register button on this page. The invite code is 72238107987 and should remain fixed during registration.',
+        ],
+      ],
+      [
+        '@type' => 'Question',
+        'name' => 'Is this the official YaarWin website?',
+        'acceptedAnswer' => [
+          '@type' => 'Answer',
+          'text' => 'No. This is an independent guide that helps users understand YaarWin access, registration, login, games and payment-related information.',
         ],
       ],
     ],
   ],
   [
     '@type' => 'Article',
-    'headline' => 'Best Online Betting India with YaarWin Games',
+    'headline' => 'YaarWin India Guide: Register, Login, Games & Withdrawal Help',
     'description' => $meta['description'] ?? page_meta()['description'],
     'mainEntityOfPage' => $site['url'] . '/',
     'image' => [
@@ -131,7 +139,7 @@ $schema_items = [
       ],
     ],
     'datePublished' => '2026-05-04T00:00:00+05:30',
-    'dateModified' => '2026-05-08T00:00:00+05:30',
+    'dateModified' => '2026-05-09T00:00:00+05:30',
   ],
   [
     '@type' => 'ItemList',
@@ -154,9 +162,9 @@ $cricket_matches = $cricket_data['matches'];
 function calendar_url(array $match): string {
   return 'https://calendar.google.com/calendar/render?' . http_build_query([
     'action' => 'TEMPLATE',
-    'text' => 'BOBI Cricket Reminder: ' . $match['teams'],
+    'text' => 'Best Online Betting India Cricket Reminder: ' . $match['teams'],
     'dates' => $match['calendar_dates'],
-    'details' => 'Cricket reminder from BOBI x YaarWin. Check the match guide before playing and keep betting decisions responsible.',
+    'details' => 'Cricket reminder from Best Online Betting India. Check the match guide before playing and keep betting decisions responsible.',
     'location' => $match['venue'],
   ]);
 }
@@ -165,23 +173,24 @@ require __DIR__ . '/includes/header.php';
 <section class="hero">
   <div class="container">
     <div class="announcement">
-      <span>Welcome to BOBI x YaarWin, a cleaner betting and gaming access hub for India.</span>
+      <span>Independent YaarWin guide for Indian players.</span>
       <span>15:42 IST • India</span>
     </div>
     <div class="hero-banner">
       <div class="hero-inner">
         <div>
-          <div class="kicker">Best Online Betting India • YaarWin Access</div>
-          <h1>Best Online Betting India with YaarWin Games</h1>
-          <p class="hero-copy">Use BOBI as a clean YaarWin register and YaarWin login guide for Aviator, Teen Patti, Rummy, Wingo colour prediction, cricket betting, slots, live casino and fast UPI withdrawal guidance from one simple lobby-style platform.</p>
+          <div class="kicker">YaarWin India guide • Register • Login • Withdrawal</div>
+          <h1>YaarWin India Guide: Register, Login, Games & Withdrawal Help</h1>
+          <p class="hero-copy">A simple independent guide for Indian players who want to understand YaarWin registration, login access, Aviator, Teen Patti, Rummy, Wingo colour prediction, cricket betting, UPI payments, bonuses and withdrawal checks before getting started.</p>
           <div class="hero-actions">
-            <a class="btn btn-primary" href="<?= e($site['register_url']) ?>" rel="nofollow noopener" target="_blank">Play Now</a>
-            <a class="btn btn-ghost" href="/yaarwin-game-login/">YaarWin Login Guide</a>
+            <a class="btn btn-primary" href="<?= e($site['register_url']) ?>" rel="nofollow noopener" target="_blank">Open YaarWin Register</a>
+            <a class="btn btn-ghost" href="/yaarwin-login/">Read Login Guide</a>
           </div>
+          <p class="guide-disclosure">This page is an independent guide and may contain referral links. Always check the platform's latest terms before registering.</p>
         </div>
         <aside class="hero-card" aria-label="YaarWin quick access">
-          <h2>One Platform. Popular Games. Fast Access.</h2>
-          <p>Start with the official YaarWin register path, keep your invite code ready, and check YaarWin login, payment and withdrawal details before playing.</p>
+          <h2>One Guide. Popular Games. Safer Access.</h2>
+          <p>Start with the YaarWin register guide, keep your invite code ready, and check YaarWin login, payment and withdrawal details before playing.</p>
           <div class="win-pill"><span>Welcome access</span><strong>₹25,000</strong></div>
           <div class="win-pill"><span>Invite code</span><strong><?= e($site['invite_code']) ?></strong></div>
         </aside>
@@ -215,7 +224,7 @@ require __DIR__ . '/includes/header.php';
             <div>
               <span class="live-dot"><?= e($cricket_featured['badge'] ?? 'Latest Result') ?></span>
               <h3><?= e($cricket_featured['title'] ?? 'IPL match watchlist updated for today') ?></h3>
-              <p><?= e($cricket_featured['subtitle'] ?? 'BOBI x YaarWin cricket betting India guide') ?></p>
+              <p><?= e($cricket_featured['subtitle'] ?? 'Best Online Betting India cricket betting India guide') ?></p>
             </div>
             <a class="reminder-btn" href="<?= e(calendar_url($cricket_matches[0])) ?>" target="_blank" rel="nofollow noopener" aria-label="Set reminder for <?= e($cricket_matches[0]['teams'] ?? 'today cricket match') ?>">🔔</a>
           </div>
@@ -225,12 +234,12 @@ require __DIR__ . '/includes/header.php';
               <div><strong><?= e($cricket_featured['team_a']['name'] ?? 'Today Match') ?></strong><small><?= e($cricket_featured['team_a']['note'] ?? 'Check the match update before playing') ?></small></div>
             </div>
             <div class="team-score">
-              <span class="team-badge gold"><?= e($cricket_featured['team_b']['code'] ?? 'BOBI') ?></span>
+              <span class="team-badge gold"><?= e($cricket_featured['team_b']['code'] ?? 'Guide') ?></span>
               <div><strong><?= e($cricket_featured['team_b']['name'] ?? 'Next Watch') ?></strong><small><?= e($cricket_featured['team_b']['note'] ?? 'Review YaarWin register and cricket guides early') ?></small></div>
             </div>
             <div class="score-status">
               <strong><?= e($cricket_featured['status_title'] ?? 'Match-day note') ?></strong>
-              <span><?= e($cricket_featured['status_text'] ?? 'Check official cricket feeds before placing any YaarWin cricket betting session.') ?></span>
+              <span><?= e($cricket_featured['status_text'] ?? 'Check current cricket feeds before placing any YaarWin cricket betting session.') ?></span>
             </div>
           </div>
           <div class="market-list">
@@ -281,7 +290,7 @@ require __DIR__ . '/includes/header.php';
             <a class="trend-row" href="<?= e($game['url']) ?>">
               <span class="rank"><?= $index + 1 ?></span>
               <span><?= e($game['name']) ?> <small><?= e($game['label']) ?></small></span>
-              <span class="mini-btn">Play Now</span>
+              <span class="mini-btn">Guide</span>
             </a>
           <?php endforeach; ?>
         </div>
@@ -330,8 +339,8 @@ require __DIR__ . '/includes/header.php';
     <div class="promo-grid">
       <article class="promo-card">
         <h3>Mega Welcome Bonus Guide</h3>
-        <p>Use the official YaarWin register path, keep the invite code locked, and check bonus terms before adding funds.</p>
-        <a class="btn btn-primary" href="<?= e($site['register_url']) ?>" rel="nofollow noopener" target="_blank">Claim Access</a>
+        <p>Use the guided YaarWin register path, keep the invite code locked, and check bonus terms before adding funds.</p>
+        <a class="btn btn-primary" href="<?= e($site['register_url']) ?>" rel="nofollow noopener" target="_blank">Open Register</a>
       </article>
       <article class="promo-card light">
         <h3>Fast Withdrawal India</h3>
@@ -359,7 +368,7 @@ require __DIR__ . '/includes/header.php';
     <div class="section-head">
       <div>
         <span class="eyebrow">Player guide hub</span>
-        <h2>BOBI x YaarWin guides for safer first sessions</h2>
+        <h2>Independent YaarWin guides for safer first sessions</h2>
       </div>
       <p>Helpful pages stay below the lobby so visitors can move from game choice to login, bonus, payment and withdrawal checks without confusion.</p>
     </div>
@@ -376,6 +385,35 @@ require __DIR__ . '/includes/header.php';
         <div><h3>Teen Patti and Rummy</h3><p>Card game interest, account setup, bonus checks and game menu navigation.</p></div>
         <a class="text-link" href="/teen-patti-online/">Explore card games →</a>
       </article>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow">Independent guide FAQ</span>
+        <h2>YaarWin register, login and payment questions</h2>
+      </div>
+      <p>Quick answers for Indian users who want a clearer YaarWin access guide before registering, logging in, checking games or preparing withdrawals.</p>
+    </div>
+    <div class="faq-block">
+      <details>
+        <summary>What is Best Online Betting India?</summary>
+        <p>Best Online Betting India is an independent guide for users researching YaarWin registration, login access, popular games, payment checks and withdrawal readiness.</p>
+      </details>
+      <details>
+        <summary>How do I register on YaarWin?</summary>
+        <p>Use the guided register button, keep invite code <?= e($site['invite_code']) ?> fixed, and review bonus terms, wallet details and responsible play limits before adding funds.</p>
+      </details>
+      <details>
+        <summary>Is this the official YaarWin website?</summary>
+        <p>No. This is an independent guide that helps users understand YaarWin access, registration, login, games and payment-related information.</p>
+      </details>
+      <details>
+        <summary>What games are available on YaarWin?</summary>
+        <p>Users commonly search for Aviator, Teen Patti, Rummy, Wingo colour prediction, cricket betting, slots, live casino and Andar Bahar.</p>
+      </details>
     </div>
   </div>
 </section>

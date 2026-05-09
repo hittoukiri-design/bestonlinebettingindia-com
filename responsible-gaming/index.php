@@ -1,6 +1,6 @@
 <?php
 $meta = [
-  'title' => 'Responsible Gaming India | BOBI x YaarWin',
+  'title' => 'Responsible Gaming India | Best Online Betting India',
   'description' => 'Responsible gaming reminders for YaarWin users in India covering budget limits, breaks, OTP safety and support contact.',
   'canonical' => 'https://bestonlinebettingindia.com/responsible-gaming/',
 ];

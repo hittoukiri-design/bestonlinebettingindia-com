@@ -16,8 +16,8 @@ $body_class = $body_class ?? '';
   <link rel="icon" href="/assets/img/favicon-64.png" sizes="64x64" type="image/png">
   <link rel="shortcut icon" href="/favicon.png" type="image/png">
   <link rel="apple-touch-icon" href="/assets/img/favicon-192.png">
-  <link rel="preload" href="/assets/css/styles.css?v=202605080105" as="style">
-  <link rel="stylesheet" href="/assets/css/styles.css?v=202605080105">
+  <link rel="preload" href="/assets/css/styles.css?v=202605090150" as="style">
+  <link rel="stylesheet" href="/assets/css/styles.css?v=202605090150">
   <meta property="og:title" content="<?= e($meta['title']) ?>">
   <meta property="og:description" content="<?= e($meta['description']) ?>">
   <meta property="og:type" content="website">
@@ -47,14 +47,14 @@ $body_class = $body_class ?? '';
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
     <div class="top-strip">
-      <span>Welcome to BOBI x YaarWin</span>
+      <span>Independent YaarWin guide</span>
       <span>India betting games</span>
       <span>Fast UPI access</span>
       <span>18+ play responsibly</span>
     </div>
     <nav class="nav-shell" aria-label="Main navigation">
-      <a class="brand" href="/" aria-label="BOBI x YaarWin home">
-        <img src="/assets/img/bobi-yaarwin-logo-header.webp" alt="BOBI x YaarWin" width="128" height="128">
+      <a class="brand" href="/" aria-label="Best Online Betting India home">
+        <img src="/assets/img/bobi-yaarwin-logo-header.webp" alt="Best Online Betting India" width="128" height="128">
       </a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-menu">Menu</button>
       <div class="nav-menu" id="site-menu">
@@ -66,7 +66,7 @@ $body_class = $body_class ?? '';
         <a href="/blog/" class="nav-item">Guides</a>
       </div>
       <div class="nav-actions">
-        <a class="btn btn-primary" href="<?= e($site['register_url']) ?>" rel="nofollow noopener" target="_blank">Sign Up</a>
+        <a class="btn btn-primary" href="<?= e($site['register_url']) ?>" rel="nofollow noopener" target="_blank">Open Register</a>
       </div>
     </nav>
   </header>

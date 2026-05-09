@@ -2,13 +2,13 @@
   <footer class="site-footer">
     <div class="footer-grid">
       <div>
-        <img src="/assets/img/bobi-yaarwin-logo-footer.webp" alt="BOBI x YaarWin" width="160" height="160" class="footer-logo" loading="lazy">
-        <p>BOBI x YaarWin helps Indian players find cleaner access to online betting games, login support, bonus checks and withdrawal guidance.</p>
+        <img src="/assets/img/bobi-yaarwin-logo-footer.webp" alt="Best Online Betting India" width="160" height="160" class="footer-logo" loading="lazy">
+        <p>Best Online Betting India is an independent guide for Indian users comparing YaarWin registration, login access, games, payment checks and withdrawal guidance.</p>
       </div>
       <div>
-        <h2>YaarWin Access</h2>
-        <a href="<?= e($site['register_url']) ?>" rel="nofollow noopener" target="_blank">Register</a>
-        <a href="/yaarwin-game-login/">YaarWin Game Login</a>
+        <h2>YaarWin Guides</h2>
+        <a href="<?= e($site['register_url']) ?>" rel="nofollow noopener" target="_blank">Open Register</a>
+        <a href="/yaarwin-login/">YaarWin Login</a>
         <a href="/fast-withdrawal-betting-india/">Fast Withdrawal</a>
       </div>
       <div>
@@ -28,10 +28,10 @@
     </div>
     <p class="footer-bottom">18+ only. Online money gaming can involve financial risk. Check your local rules and play responsibly.</p>
   </footer>
-  <a class="floating-telegram" href="<?= e($site['telegram_url']) ?>" target="_blank" rel="nofollow noopener" aria-label="Open BOBI Telegram support">
+  <a class="floating-telegram" href="<?= e($site['telegram_url']) ?>" target="_blank" rel="nofollow noopener" aria-label="Open Best Online Betting India Telegram support">
     <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21.7 3.3 18.4 20c-.2 1-1 1.2-1.8.7l-5-3.7-2.4 2.3c-.3.3-.5.5-1 .5l.4-5.1 9.3-8.4c.4-.4-.1-.6-.6-.2L5.8 13.3.9 11.8c-1-.3-1-1 .2-1.5L20.3 2.9c.9-.3 1.7.2 1.4.4Z"/></svg>
   </a>
-  <script src="/assets/js/site.js?v=202605080230" defer></script>
+  <script src="/assets/js/site.js?v=202605090150" defer></script>
   <?php
   /*
    * this web is coded by © 人斬り Kawakami Gensai - tuama minahasa 2026
