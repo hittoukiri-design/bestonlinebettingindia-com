@@ -248,9 +248,9 @@ require __DIR__ . '/includes/header.php';
             <?php endforeach; ?>
           </div>
           <div class="cricket-article-links" aria-label="Cricket match articles">
-            <a href="/lsg-vs-rcb-result-ipl-2026/">Read LSG vs RCB Result</a>
-            <a href="/dc-vs-csk-result-ipl-2026/">Read DC vs CSK Recap</a>
-            <a href="/srh-vs-pbks-preview-ipl-2026/">Read SRH vs PBKS Preview</a>
+            <a href="/dc-vs-kkr-result-ipl-2026/">Read DC vs KKR Result</a>
+            <a href="/lsg-vs-rcb-result-ipl-2026/">Read LSG vs RCB Recap</a>
+            <a href="/cricket-betting-india/">Prepare for RR vs GT</a>
           </div>
           <a class="cricket-link" href="/cricket-betting-india/">Open Cricket Betting Guide →</a>
         </article>
@@ -298,10 +298,10 @@ require __DIR__ . '/includes/header.php';
       <article class="panel">
         <h3>Cricket Scores & Fixtures</h3>
         <div class="win-list">
+          <div class="win-row"><span>Delhi Capitals 142 vs Kolkata Knight Riders 143/2</span><span class="amount">KKR won</span></div>
           <div class="win-row"><span>Lucknow Super Giants 209/3 vs Royal Challengers Bengaluru 203/6</span><span class="amount">LSG won</span></div>
-          <div class="win-row"><span>Delhi Capitals 155/7 vs Chennai Super Kings 159/2</span><span class="amount">CSK won</span></div>
-          <div class="win-row"><span>Delhi Capitals vs Kolkata Knight Riders</span><span class="amount">Today</span></div>
-          <div class="win-row"><span>Rajasthan Royals vs Gujarat Titans</span><span class="amount">Tomorrow</span></div>
+          <div class="win-row"><span>Rajasthan Royals vs Gujarat Titans</span><span class="amount">Today</span></div>
+          <div class="win-row"><span>Chennai Super Kings vs Lucknow Super Giants</span><span class="amount">Tomorrow</span></div>
         </div>
       </article>
     </div>
@@ -310,23 +310,23 @@ require __DIR__ . '/includes/header.php';
         <img src="/assets/img/articles/cricket-betting-india-match.webp" alt="LSG vs RCB result IPL 2026 cricket betting India recap" loading="lazy" decoding="async" width="1200" height="675">
         <div>
           <span class="eyebrow">IPL 2026 Result</span>
-          <h3>LSG vs RCB 209/3: Lucknow win by 9 runs after Bengaluru chase pressure</h3>
-          <a class="text-link" href="/lsg-vs-rcb-result-ipl-2026/">Read match recap</a>
+          <h3>DC vs KKR Result: Finn Allen 100* powers Kolkata chase</h3>
+          <a class="text-link" href="/dc-vs-kkr-result-ipl-2026/">Read match recap</a>
         </div>
       </article>
       <article class="match-article-card">
         <img src="/assets/img/articles/cricket-betting-india-match.webp" alt="Cricket betting India match recap" loading="lazy" decoding="async" width="1200" height="675">
         <div>
           <span class="eyebrow">IPL 2026 Recap</span>
-          <h3>DC vs CSK Result: Chennai chase fast in Delhi</h3>
-          <a class="text-link" href="/dc-vs-csk-result-ipl-2026/">Read match recap</a>
+          <h3>LSG vs RCB 209/3: Lucknow win by 9 runs after Bengaluru chase pressure</h3>
+          <a class="text-link" href="/lsg-vs-rcb-result-ipl-2026/">Read match recap</a>
         </div>
       </article>
       <article class="match-article-card">
         <img src="/assets/img/articles/cricket-betting-india-match.webp" alt="SRH vs PBKS cricket betting preview India" loading="lazy" decoding="async" width="1200" height="675">
         <div>
           <span class="eyebrow">Upcoming Match</span>
-          <h3>DC vs KKR Watchlist: prepare your YaarWin register path before toss</h3>
+          <h3>RR vs GT Watchlist: prepare your YaarWin register path before toss</h3>
           <a class="text-link" href="/cricket-betting-india/">Open cricket guide</a>
         </div>
       </article>

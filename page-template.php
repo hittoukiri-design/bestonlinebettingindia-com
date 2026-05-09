@@ -226,6 +226,22 @@ $pages = [
       ['Prepare for the next IPL watchlist', 'DC vs KKR, RR vs GT and CSK vs LSG are the next key fixtures on the Best Online Betting India watchlist. Before entering Aviator, Teen Patti, Rummy, Wingo colour prediction or cricket betting India sessions, review the guide pages and keep play responsible.'],
     ],
   ],
+  'dc-vs-kkr-result-ipl-2026' => [
+    'title' => 'DC vs KKR Result IPL 2026 | Kolkata Win by 8 Wickets, YaarWin Cricket Betting Recap',
+    'description' => 'DC vs KKR IPL 2026 result recap: Kolkata Knight Riders chased 143 in 14.2 overs as Finn Allen hit 100 not out. Read YaarWin cricket betting India notes and next match prep.',
+    'h1' => 'DC vs KKR Result IPL 2026: Kolkata Knight Riders Win by 8 Wickets',
+    'kicker' => 'IPL 2026 match recap',
+    'intro' => 'Kolkata Knight Riders beat Delhi Capitals by 8 wickets after chasing 143 in only 14.2 overs. This Best Online Betting India recap gives YaarWin cricket betting users the result, the match lesson and the next registration window before the upcoming fixtures.',
+    'image' => '/assets/img/articles/cricket-betting-india-match.webp',
+    'image_alt' => 'DC vs KKR result IPL 2026 recap for YaarWin cricket betting India users',
+    'sections' => [
+      ['Quick score summary', 'Delhi Capitals set a 143 target, but Kolkata Knight Riders finished the chase at 143/2 in 14.2 overs. Finn Allen controlled the night with an unbeaten 100 from 47 balls, turning the match into a clean Kolkata result and a strong talking point for cricket betting India searches.'],
+      ['Commentator-style match note', 'This was not a slow chase that needed panic. Kolkata kept the scoreboard moving, protected wickets and let Finn Allen attack the right bowlers. Once the required rate dropped, DC needed a sudden collapse that never arrived. For YaarWin cricket betting users, it was a reminder that momentum can shift quickly when one opener owns the powerplay and middle overs.'],
+      ['Congratulations to winning YaarWin users', 'If you had already completed your YaarWin register path before match time and backed Kolkata with a clear limit, congratulations. Nights like DC vs KKR are exactly why prepared users check the YaarWin login guide, wallet readiness and cricket betting India watchlist before the first ball.'],
+      ['Missed the action?', 'If you missed registration before DC vs KKR, do not wait again until the match is already live. RR vs GT, CSK vs LSG and RCB vs MI are the next fixtures on the watchlist. Register early, keep invite code 72238107987 fixed, review YaarWin withdrawal guidance and place bets only within your personal limit before match pressure starts.'],
+      ['Where to go next', 'New users can move from this recap into the YaarWin register guide, YaarWin login guide, cricket betting India page, Aviator betting India, Teen Patti online, Rummy game India and fast withdrawal betting India pages. The goal is simple: prepare before match time, avoid rushed decisions and keep every session responsible.'],
+    ],
+  ],
   'srh-vs-pbks-preview-ipl-2026' => [
     'title' => 'SRH vs PBKS Preview IPL 2026 | Today Match Prediction, YaarWin Cricket Betting Guide',
     'description' => 'SRH vs PBKS IPL 2026 preview for today: Hyderabad conditions, Punjab batting watch, responsible prediction notes, YaarWin registration and cricket betting India guide.',

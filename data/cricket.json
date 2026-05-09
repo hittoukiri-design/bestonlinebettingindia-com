@@ -1,34 +1,34 @@
 {
-    "updated_at": "2026-05-09T00:27:35+05:30",
+    "updated_at": "2026-05-09T14:20:00+05:30",
     "source": "manual-cache",
     "featured": {
         "badge": "Latest Result",
-        "title": "LSG vs RCB: Lucknow win by 9 runs",
-        "subtitle": "IPL 2026 - Ekana Cricket Stadium, Lucknow - May 7, DLS result",
+        "title": "DC vs KKR: Kolkata win by 8 wickets",
+        "subtitle": "IPL 2026 - May 8 match recap - KKR chased 143 in 14.2 overs",
         "team_a": {
-            "code": "LSG",
-            "name": "Lucknow Super Giants",
-            "note": "209/3 in 19 overs, powered by Mitchell Marsh"
+            "code": "DC",
+            "name": "Delhi Capitals",
+            "note": "Set a 143 target after a quiet batting night"
         },
         "team_b": {
-            "code": "RCB",
-            "name": "Royal Challengers Bengaluru",
-            "note": "203/6, fell short by 9 runs"
+            "code": "KKR",
+            "name": "Kolkata Knight Riders",
+            "note": "143/2 in 14.2 overs, Finn Allen 100* off 47"
         },
         "status_title": "Result note",
-        "status_text": "Congratulations if your YaarWin cricket betting pick stayed with Lucknow. If you missed it, prepare before DC vs KKR.",
+        "status_text": "Congratulations if your YaarWin cricket betting pick stayed with Kolkata. If you missed it, prepare early before RR vs GT.",
         "markets": [
             [
                 "Latest Score",
-                "LSG 209/3, RCB 203/6"
+                "KKR 143/2, DC 142"
             ],
             [
                 "Winning Margin",
-                "LSG by 9 runs DLS"
+                "KKR by 8 wickets"
             ],
             [
                 "Next Watchlist",
-                "DC vs KKR today"
+                "RR vs GT today"
             ],
             [
                 "YaarWin Keyword",
@@ -39,33 +39,33 @@
     "matches": [
         {
             "league": "Indian Premier League",
-            "teams": "DC vs KKR",
-            "team_a": "DC",
-            "team_b": "KKR",
-            "date_label": "Today",
-            "time_label": "7:30 PM",
-            "venue": "Arun Jaitley Stadium, Delhi",
-            "calendar_dates": "20260509T140000Z/20260509T173000Z"
-        },
-        {
-            "league": "Indian Premier League",
             "teams": "RR vs GT",
             "team_a": "RR",
             "team_b": "GT",
-            "date_label": "Tomorrow",
+            "date_label": "Today",
             "time_label": "7:30 PM",
             "venue": "Sawai Mansingh Stadium, Jaipur",
-            "calendar_dates": "20260510T140000Z/20260510T173000Z"
+            "calendar_dates": "20260509T140000Z/20260509T173000Z"
         },
         {
             "league": "Indian Premier League",
             "teams": "CSK vs LSG",
             "team_a": "CSK",
             "team_b": "LSG",
-            "date_label": "May 11",
+            "date_label": "Tomorrow",
             "time_label": "3:30 PM",
             "venue": "MA Chidambaram Stadium, Chennai",
-            "calendar_dates": "20260511T100000Z/20260511T133000Z"
+            "calendar_dates": "20260510T100000Z/20260510T133000Z"
+        },
+        {
+            "league": "Indian Premier League",
+            "teams": "RCB vs MI",
+            "team_a": "RCB",
+            "team_b": "MI",
+            "date_label": "Tomorrow",
+            "time_label": "7:30 PM",
+            "venue": "M Chinnaswamy Stadium, Bengaluru",
+            "calendar_dates": "20260510T140000Z/20260510T173000Z"
         }
     ]
 }
