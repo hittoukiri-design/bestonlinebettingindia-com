@@ -4,33 +4,10 @@ declare(strict_types=1);
 header('Content-Type: application/json; charset=utf-8');
 header('Cache-Control: no-store, no-cache, must-revalidate, max-age=0');
 
-if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
-  http_response_code(405);
-  echo json_encode(['ok' => false, 'error' => 'method_not_allowed']);
-  exit;
-}
-
 $privateConfig = dirname(__DIR__, 2) . '/private_bot/config.php';
 $config = is_file($privateConfig) ? require $privateConfig : [];
 
-$raw = file_get_contents('php://input') ?: '';
-$data = json_decode($raw, true);
-if (!is_array($data)) {
-  $data = [];
-}
-
-$event = preg_replace('/[^a-z0-9_:-]/i', '', (string)($data['event'] ?? 'promo_shown'));
-$visitorId = preg_replace('/[^a-z0-9_-]/i', '', (string)($data['visitor_id'] ?? ''));
-$path = substr((string)($data['path'] ?? '/'), 0, 180);
-$title = substr((string)($data['title'] ?? ''), 0, 120);
-$referrer = substr((string)($data['referrer'] ?? ''), 0, 180);
-
-$ip = $_SERVER['HTTP_CF_CONNECTING_IP'] ?? $_SERVER['REMOTE_ADDR'] ?? '';
-$ua = $_SERVER['HTTP_USER_AGENT'] ?? '';
 $day = gmdate('Y-m-d');
-$now = gmdate('c');
-$visitorHash = hash('sha256', ($visitorId !== '' ? $visitorId : $ip . '|' . $ua));
-
 $storageDir = dirname(__DIR__, 2) . '/private_bot/storage';
 if (!is_dir($storageDir)) {
   mkdir($storageDir, 0755, true);
@@ -48,6 +25,83 @@ if (is_file($counterFile)) {
   }
 }
 
+if ($_SERVER['REQUEST_METHOD'] === 'GET' && (string)($_GET['mode'] ?? '') === 'stats') {
+  $key = (string)($_GET['key'] ?? '');
+  if (!hash_equals('bobi_admin', $key)) {
+    http_response_code(403);
+    echo json_encode(['ok' => false, 'error' => 'forbidden']);
+    exit;
+  }
+
+  $totalPageViews = 0;
+  $totalPromoShown = 0;
+  $totalDailyUniques = 0;
+  foreach ($counter['days'] as $date => $row) {
+    $totalPageViews += (int)($row['page_views'] ?? 0);
+    $totalPromoShown += (int)($row['promo_shown'] ?? 0);
+    $totalDailyUniques += count($row['unique_visitors'] ?? []);
+  }
+
+  $topPages = [];
+  foreach ($counter['events'] as $eventRow) {
+    if (($eventRow['event'] ?? '') !== 'page_view') {
+      continue;
+    }
+    $eventPath = (string)($eventRow['path'] ?? '/');
+    if ($eventPath === '') {
+      $eventPath = '/';
+    }
+    $topPages[$eventPath] = (int)($topPages[$eventPath] ?? 0) + 1;
+  }
+  arsort($topPages);
+
+  echo json_encode([
+    'ok' => true,
+    'stats' => [
+      'today' => [
+        'date' => $day,
+        'page_views' => (int)($counter['days'][$day]['page_views'] ?? 0),
+        'promo_shown' => (int)($counter['days'][$day]['promo_shown'] ?? 0),
+        'unique_visitors' => count($counter['days'][$day]['unique_visitors'] ?? []),
+      ],
+      'total' => [
+        'page_views' => $totalPageViews,
+        'promo_shown' => $totalPromoShown,
+        'daily_unique_visitors' => $totalDailyUniques,
+      ],
+      'top_pages' => array_slice($topPages, 0, 5, true),
+      'recent_events' => array_slice($counter['events'], -8),
+    ],
+  ]);
+  exit;
+}
+
+if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
+  http_response_code(405);
+  echo json_encode(['ok' => false, 'error' => 'method_not_allowed']);
+  exit;
+}
+
+$raw = file_get_contents('php://input') ?: '';
+$data = json_decode($raw, true);
+if (!is_array($data)) {
+  $data = [];
+}
+
+$event = preg_replace('/[^a-z0-9_:-]/i', '', (string)($data['event'] ?? 'page_view'));
+if (!in_array($event, ['page_view', 'promo_shown'], true)) {
+  $event = 'page_view';
+}
+$visitorId = preg_replace('/[^a-z0-9_-]/i', '', (string)($data['visitor_id'] ?? ''));
+$path = substr((string)($data['path'] ?? '/'), 0, 180);
+$title = substr((string)($data['title'] ?? ''), 0, 120);
+$referrer = substr((string)($data['referrer'] ?? ''), 0, 180);
+
+$ip = $_SERVER['HTTP_CF_CONNECTING_IP'] ?? $_SERVER['REMOTE_ADDR'] ?? '';
+$ua = $_SERVER['HTTP_USER_AGENT'] ?? '';
+$now = gmdate('c');
+$visitorHash = hash('sha256', ($visitorId !== '' ? $visitorId : $ip . '|' . $ua));
+
 $counter['days'][$day] = $counter['days'][$day] ?? [
   'unique_visitors' => [],
   'promo_shown' => 0,
@@ -59,7 +113,9 @@ if ($isNewVisitorToday) {
   $counter['days'][$day]['unique_visitors'][] = $visitorHash;
 }
 
-$counter['days'][$day]['page_views'] = (int)($counter['days'][$day]['page_views'] ?? 0) + 1;
+if ($event === 'page_view') {
+  $counter['days'][$day]['page_views'] = (int)($counter['days'][$day]['page_views'] ?? 0) + 1;
+}
 if ($event === 'promo_shown') {
   $counter['days'][$day]['promo_shown'] = (int)($counter['days'][$day]['promo_shown'] ?? 0) + 1;
 }

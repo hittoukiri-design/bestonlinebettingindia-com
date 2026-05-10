@@ -1116,6 +1116,108 @@ h1 {
   fill: #fff;
 }
 
+.admin-visit-panel {
+  display: none;
+  padding: 28px 0;
+  background: #f4fbf6;
+  border-top: 1px solid var(--line);
+}
+.admin-visit-panel.is-visible { display: block; }
+.admin-visit-card {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  padding: 20px;
+  box-shadow: var(--shadow);
+}
+.admin-visit-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+.admin-visit-head h2 {
+  margin: 4px 0 6px;
+  font-size: clamp(24px, 3vw, 36px);
+}
+.admin-visit-head p {
+  margin: 0;
+  color: var(--muted);
+  font-weight: 700;
+}
+.admin-visit-head code {
+  background: var(--green-soft);
+  border-radius: 8px;
+  padding: 2px 5px;
+}
+.admin-visit-pill {
+  flex: 0 0 auto;
+  display: inline-flex;
+  border: 1px solid #bfe3c7;
+  border-radius: 999px;
+  padding: 8px 12px;
+  background: var(--green-soft);
+  color: var(--green-dark);
+  font-size: 12px;
+  font-weight: 950;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+.admin-visit-grid {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 10px;
+}
+.admin-visit-grid > div {
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 14px;
+  background: #fbfffc;
+  min-height: 92px;
+}
+.admin-visit-grid span {
+  display: block;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+}
+.admin-visit-grid strong {
+  display: block;
+  margin-top: 10px;
+  color: var(--green-dark);
+  font-size: clamp(24px, 3vw, 36px);
+  line-height: 1;
+}
+.admin-visit-pages {
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-weight: 800;
+}
+.admin-visit-pages b { color: var(--ink); }
+.admin-visit-jump {
+  position: fixed;
+  left: 16px;
+  bottom: 18px;
+  z-index: 90;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 0 16px;
+  border-radius: 999px;
+  background: #0f2616;
+  color: #fff;
+  border: 1px solid rgba(22, 160, 63, .32);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, .22);
+  font-weight: 950;
+}
+.admin-visit-jump.is-visible { display: inline-flex; }
+
 .promo-nudge {
   position: fixed;
   right: 18px;
@@ -1496,6 +1598,25 @@ h1 {
   }
   .promotion-card img { aspect-ratio: 16 / 8; }
   .floating-telegram { width: 52px; height: 52px; }
+  .admin-visit-panel { padding: 20px 0; }
+  .admin-visit-card {
+    padding: 14px;
+    border-radius: 20px;
+  }
+  .admin-visit-head { display: block; }
+  .admin-visit-pill { margin-top: 12px; }
+  .admin-visit-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+  }
+  .admin-visit-grid > div {
+    min-height: 82px;
+    padding: 12px;
+  }
+  .admin-visit-jump {
+    left: 12px;
+    bottom: 12px;
+  }
   .promo-nudge {
     right: 12px;
     bottom: 78px;
