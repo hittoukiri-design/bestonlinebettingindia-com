@@ -17,7 +17,7 @@ RewriteCond %{REQUEST_FILENAME} -f [OR]
 RewriteCond %{REQUEST_FILENAME} -d
 RewriteRule ^ - [L]
 
-RewriteRule ^(best-online-betting-india|yaarwin|yaarwin-login|yaarwin-register|yaarwin-app|yaarwin-withdrawal|yaarwin-review|yaarwin-game-login|aviator-betting-india|teen-patti-online|rummy-game-india|wingo-game-india|cricket-betting-india|dc-vs-csk-result-ipl-2026|lsg-vs-rcb-result-ipl-2026|dc-vs-kkr-result-ipl-2026|srh-vs-pbks-preview-ipl-2026|srh-vs-pbks-235-4-recap-ipl-2026|fast-withdrawal-betting-india|slots-game-india|live-casino-india|andar-bahar-online|blog|guides|how-to)/?$ /page-template.php [L,QSA]
+RewriteRule ^(best-online-betting-india|yaarwin|yaarwin-login|yaarwin-register|yaarwin-app|yaarwin-withdrawal|yaarwin-review|yaarwin-game-login|aviator-betting-india|teen-patti-online|rummy-game-india|wingo-game-india|cricket-betting-india|dc-vs-csk-result-ipl-2026|lsg-vs-rcb-result-ipl-2026|dc-vs-kkr-result-ipl-2026|rr-vs-gt-result-ipl-2026|srh-vs-pbks-preview-ipl-2026|srh-vs-pbks-235-4-recap-ipl-2026|fast-withdrawal-betting-india|slots-game-india|live-casino-india|andar-bahar-online|blog|guides|how-to)/?$ /page-template.php [L,QSA]
 </IfModule>
 
 <IfModule mod_headers.c>

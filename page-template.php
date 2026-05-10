@@ -242,6 +242,22 @@ $pages = [
       ['Where to go next', 'New users can move from this recap into the YaarWin register guide, YaarWin login guide, cricket betting India page, Aviator betting India, Teen Patti online, Rummy game India and fast withdrawal betting India pages. The goal is simple: prepare before match time, avoid rushed decisions and keep every session responsible.'],
     ],
   ],
+  'rr-vs-gt-result-ipl-2026' => [
+    'title' => 'RR vs GT Result IPL 2026 | Gujarat Win by 77 Runs, YaarWin Cricket Betting Recap',
+    'description' => 'RR vs GT IPL 2026 result recap: Gujarat Titans posted 229/4 and bowled Rajasthan Royals out for 152 as Rashid Khan took 4/33. Read YaarWin cricket betting India notes and next match prep.',
+    'h1' => 'RR vs GT Result IPL 2026: Gujarat Titans Win by 77 Runs',
+    'kicker' => 'IPL 2026 match recap',
+    'intro' => 'Gujarat Titans beat Rajasthan Royals by 77 runs after posting 229/4 and closing the chase at 152 all out. This Best Online Betting India recap gives YaarWin cricket betting users the result, the match lesson and the next registration window before the upcoming fixtures.',
+    'image' => '/assets/img/articles/cricket-betting-india-match.webp',
+    'image_alt' => 'RR vs GT result IPL 2026 recap for YaarWin cricket betting India users',
+    'sections' => [
+      ['Quick score summary', 'Gujarat Titans made 229/4, powered by Shubman Gill’s 84 and Sai Sudharsan’s 55. Rajasthan Royals were bowled out for 152 in 16.3 overs, with Rashid Khan taking 4/33 to turn the chase into a decisive Gujarat win.'],
+      ['Commentator-style match note', 'GT controlled the night from the top order. The total gave their bowlers room to attack, and once Rashid Khan entered the middle overs with rhythm, RR needed a huge recovery that never arrived. For cricket betting India users, this was a reminder that one strong batting base plus a wicket-taking spell can shut down a chase quickly.'],
+      ['Congratulations to winning YaarWin users', 'If you had already completed your YaarWin register path before match time and backed Gujarat with discipline, congratulations. These are the nights prepared users remember because the account, invite code, wallet checks and personal limits were ready before the first ball.'],
+      ['Missed the match-day window?', 'If you were still not registered before RR vs GT, this is exactly the kind of IPL result that creates FOMO. Do not wait until CSK vs LSG or RCB vs MI is already live. Prepare your YaarWin login, keep invite code 72238107987 fixed, review the withdrawal checklist and only enter a cricket betting session within your own limit.'],
+      ['Where to go next', 'New users can move from this RR vs GT recap into the YaarWin register guide, YaarWin login guide, cricket betting India page, Aviator betting India, Teen Patti online, Rummy game India, Wingo colour prediction and fast withdrawal betting India pages. The smarter habit is simple: prepare early, check the latest match feed and play responsibly.'],
+    ],
+  ],
   'srh-vs-pbks-preview-ipl-2026' => [
     'title' => 'SRH vs PBKS Preview IPL 2026 | Today Match Prediction, YaarWin Cricket Betting Guide',
     'description' => 'SRH vs PBKS IPL 2026 preview for today: Hyderabad conditions, Punjab batting watch, responsible prediction notes, YaarWin registration and cricket betting India guide.',
@@ -427,7 +443,7 @@ $schema_items = [
       ],
     ],
     'datePublished' => '2026-05-04T00:00:00+05:30',
-    'dateModified' => '2026-05-09T00:00:00+05:30',
+    'dateModified' => '2026-05-10T00:00:00+05:30',
   ],
 ];
 if (!empty($data['promo_hub'])) {
