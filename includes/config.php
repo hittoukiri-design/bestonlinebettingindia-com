@@ -46,8 +46,8 @@ function e($value) {
 
 function page_meta($overrides = []) {
   $defaults = [
-    'title' => 'YaarWin India Guide: Register, Login, Games & Withdrawal Help',
-    'description' => 'Independent YaarWin India guide for registration, login access, Aviator, Teen Patti, Rummy, Wingo, cricket betting, UPI payments, bonuses and withdrawal checks.',
+    'title' => 'YaarWin India Guide 2026: Register, Login, Bonus, Games & Withdrawal',
+    'description' => 'Independent YaarWin India guide for register, login, bonus, UPI withdrawal, Aviator, Teen Patti, Wingo, Rummy, cricket betting and responsible play.',
     'canonical' => 'https://bestonlinebettingindia.com/',
   ];
   return array_merge($defaults, $overrides);

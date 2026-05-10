@@ -31,7 +31,7 @@
   <a class="floating-telegram" href="<?= e($site['telegram_url']) ?>" target="_blank" rel="nofollow noopener" aria-label="Open Best Online Betting India Telegram support">
     <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21.7 3.3 18.4 20c-.2 1-1 1.2-1.8.7l-5-3.7-2.4 2.3c-.3.3-.5.5-1 .5l.4-5.1 9.3-8.4c.4-.4-.1-.6-.6-.2L5.8 13.3.9 11.8c-1-.3-1-1 .2-1.5L20.3 2.9c.9-.3 1.7.2 1.4.4Z"/></svg>
   </a>
-  <script src="/assets/js/site.js?v=202605090150" defer></script>
+  <script src="/assets/js/site.js?v=2026051001" defer></script>
   <?php
   /*
    * this web is coded by © 人斬り Kawakami Gensai - tuama minahasa 2026

@@ -1,36 +1,81 @@
 <?php
 $meta = [
-  'title' => 'YaarWin Register India: Invite Code, Signup Steps & Account Guide',
-  'description' => 'YaarWin Register India guide with locked invite code 72238107987, signup steps, Aviator, Teen Patti, Rummy, Wingo, cricket betting and withdrawal checks.',
+  'title' => 'YaarWin Register India: Invite Code 72238107987, Signup Steps & Bonus Checks',
+  'description' => 'YaarWin Register India guide with invite code 72238107987, signup steps, bonus checks, UPI readiness, Aviator, Teen Patti, Wingo, Rummy and cricket betting links.',
   'canonical' => 'https://bestonlinebettingindia.com/register/',
+];
+$schema_items = [
+  [
+    '@type' => 'BreadcrumbList',
+    'itemListElement' => [
+      ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home', 'item' => 'https://bestonlinebettingindia.com/'],
+      ['@type' => 'ListItem', 'position' => 2, 'name' => 'YaarWin Register India', 'item' => 'https://bestonlinebettingindia.com/register/'],
+    ],
+  ],
+  [
+    '@type' => 'FAQPage',
+    'mainEntity' => [
+      ['@type' => 'Question', 'name' => 'How do I register with invite code 72238107987?', 'acceptedAnswer' => ['@type' => 'Answer', 'text' => 'Use the YaarWin register button on this page and check that invite code 72238107987 remains visible before continuing.']],
+      ['@type' => 'Question', 'name' => 'What should I check before adding funds?', 'acceptedAnswer' => ['@type' => 'Answer', 'text' => 'Check bonus terms, UPI or wallet details, account information, local rules and your personal play limit before depositing.']],
+      ['@type' => 'Question', 'name' => 'Is this an official YaarWin page?', 'acceptedAnswer' => ['@type' => 'Answer', 'text' => 'No. Best Online Betting India is an independent guide and may contain referral links.']],
+    ],
+  ],
 ];
 require dirname(__DIR__) . '/includes/header.php';
 ?>
 <section class="page-hero">
   <div class="container register-shell">
     <div>
-      <span class="eyebrow">YaarWin register</span>
-      <h1>YaarWin Register India with Locked Invite Code</h1>
-      <p>Use this independent guide to open the YaarWin registration path for Aviator, Teen Patti, Rummy, Wingo, cricket betting, slots, live casino and fast withdrawal access.</p>
+      <span class="eyebrow">YaarWin register guide</span>
+      <h1>YaarWin Register India with Invite Code 72238107987</h1>
+      <p>Use this independent guide before creating a YaarWin account for Aviator, Teen Patti, Rummy, Wingo, cricket betting, slots, live casino, bonus checks and UPI withdrawal readiness.</p>
       <div class="hero-actions">
-        <a class="btn btn-primary" href="<?= e($site['register_url']) ?>" rel="nofollow noopener" target="_blank">Continue to YaarWin Register</a>
-        <a class="btn btn-ghost" href="<?= e($site['telegram_url']) ?>" rel="nofollow noopener" target="_blank">Ask Human Teacher</a>
+        <a class="btn btn-primary" href="<?= e($site['register_url']) ?>" rel="nofollow noopener" target="_blank">Open YaarWin Register</a>
+        <a class="btn btn-ghost" href="/login/">Check Login Guide</a>
       </div>
       <p class="guide-disclosure">This page is an independent guide and may contain referral links. Always check the platform's latest terms before registering.</p>
     </div>
     <aside class="invite-box">
       <h2>Invite Code</h2>
-      <p>This code is prefilled for the intended YaarWin access path.</p>
+      <p>This code should stay fixed during the intended YaarWin registration path.</p>
       <input class="invite-code" type="text" value="<?= e($site['invite_code']) ?>" readonly aria-label="YaarWin invite code">
-      <p><strong>Do not change this code.</strong> If the code is missing, return to this page and open register again.</p>
+      <p><strong>Do not change this code.</strong> If it is missing, return here and open register again.</p>
     </aside>
   </div>
 </section>
-<section class="section">
-  <div class="container content-grid">
-    <article class="content-card"><h2>Before You Register</h2><p>Keep OTP private, use your own mobile number and check local rules before playing real money games.</p></article>
-    <article class="content-card"><h2>Games After Signup</h2><p>YaarWin users usually compare Aviator, Teen Patti, Rummy, Wingo, cricket betting, slots and live casino first.</p></article>
-    <article class="content-card"><h2>Payment Check</h2><p>Prepare correct UPI or wallet details before adding funds or requesting fast withdrawal.</p></article>
+<article class="container article-body">
+  <nav class="toc-box" aria-label="Register contents">
+    <strong>Contents</strong>
+    <a href="#register-steps">Signup steps</a>
+    <a href="#before-deposit">Before deposit</a>
+    <a href="#games">Games after register</a>
+    <a href="#faq">FAQ</a>
+  </nav>
+  <div class="trust-strip">
+    <span>Last updated: May 10, 2026</span>
+    <span>Independent guide with referral links</span>
+    <span>18+ only. No guaranteed winning</span>
+    <span>Keep OTP private</span>
+    <span>Check local rules</span>
+    <span>Invite code <?= e($site['invite_code']) ?></span>
   </div>
-</section>
+  <h2 id="register-steps">Step-by-step YaarWin register guide</h2>
+  <p>Open the YaarWin register path from this page, confirm invite code <?= e($site['invite_code']) ?>, enter your mobile number carefully, create a private password and keep OTP messages away from shared devices or unknown chats.</p>
+  <p>After account creation, move to the <a href="/login/">YaarWin login guide</a> and confirm that your account, wallet and bonus information look consistent before adding funds.</p>
+  <div class="inline-cta"><strong>Register with the intended invite code</strong><span>Use the guided path so <?= e($site['invite_code']) ?> stays attached.</span><a class="btn btn-primary" href="<?= e($site['register_url']) ?>" rel="nofollow noopener" target="_blank">Open YaarWin Register</a></div>
+  <h2 id="before-deposit">Before deposit or bonus claim</h2>
+  <p>Welcome Bonus Info: Up to ₹25,000. Check current YaarWin terms before deposit. Bonus availability may depend on account, deposit and platform rules. Do not add funds only because a bonus looks attractive.</p>
+  <p>Prepare UPI or wallet details, save screenshots for payment issues and review the <a href="/yaarwin-withdrawal/">withdrawal checklist</a> before entering a longer session.</p>
+  <h2 id="games">Popular games after registration</h2>
+  <p>New users usually compare <a href="/aviator-betting-india/">Aviator</a>, <a href="/teen-patti-online/">Teen Patti</a>, <a href="/rummy-game-india/">Rummy</a>, <a href="/wingo-game-india/">Wingo colour prediction</a>, <a href="/cricket-betting-india/">cricket betting</a>, slots and live casino after registration. Start small and decide your budget before opening any game.</p>
+  <div class="link-row internal-link-grid">
+    <a href="/login/">Login</a><a href="/yaarwin-withdrawal/">Withdrawal</a><a href="/cricket-betting-india/">Cricket betting</a><a href="/aviator-betting-india/">Aviator</a><a href="/wingo-game-india/">Wingo</a><a href="/teen-patti-online/">Teen Patti</a><a href="/rummy-game-india/">Rummy</a><a href="/responsible-gaming/">Responsible Gaming</a>
+  </div>
+  <section class="faq-block" id="faq">
+    <h2>YaarWin Register FAQ</h2>
+    <details><summary>How do I register with invite code <?= e($site['invite_code']) ?>?</summary><p>Use the register button on this page and confirm the invite code field before continuing.</p></details>
+    <details><summary>Can I change the invite code?</summary><p>No. If the code is missing or different, reopen the register path from this guide.</p></details>
+    <details><summary>What bonus should beginners check first?</summary><p>Check welcome bonus information, deposit rules, wagering terms and withdrawal conditions before adding funds.</p></details>
+  </section>
+</article>
 <?php require dirname(__DIR__) . '/includes/footer.php'; ?>
