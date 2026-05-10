@@ -299,35 +299,35 @@ require __DIR__ . '/includes/header.php';
       <article class="panel">
         <h3>Latest result recap and watchlist</h3>
         <div class="win-list">
-          <div class="win-row"><span>Gujarat Titans 229/4 vs Rajasthan Royals 152</span><span class="amount">GT won</span></div>
-          <div class="win-row"><span>Delhi Capitals 142 vs Kolkata Knight Riders 143/2</span><span class="amount">KKR won</span></div>
-          <div class="win-row"><span>Chennai Super Kings vs Lucknow Super Giants</span><span class="amount">Today</span></div>
-          <div class="win-row"><span>Royal Challengers Bengaluru vs Mumbai Indians</span><span class="amount">Today</span></div>
+          <div class="win-row"><span>Royal Challengers Bengaluru 167/8 vs Mumbai Indians 166/7</span><span class="amount">RCB won</span></div>
+          <div class="win-row"><span>Chennai Super Kings 204/5 vs Lucknow Super Giants 203/8</span><span class="amount">CSK won</span></div>
+          <div class="win-row"><span>Punjab Kings vs Delhi Capitals</span><span class="amount">Today</span></div>
+          <div class="win-row"><span>Gujarat Titans vs Sunrisers Hyderabad</span><span class="amount">May 12</span></div>
         </div>
       </article>
     </div>
     <div class="match-article-grid">
       <article class="match-article-card">
-        <img src="/assets/img/articles/cricket-betting-india-match.webp" alt="RR vs GT result IPL 2026 cricket betting India recap" loading="lazy" decoding="async" width="1200" height="675">
+        <img src="/assets/img/articles/cricket-betting-india-match.webp" alt="RCB vs MI result IPL 2026 cricket betting India recap" loading="lazy" decoding="async" width="1200" height="675">
         <div>
           <span class="eyebrow">IPL 2026 Result</span>
-          <h3>RR vs GT Result: Gill 84 and Rashid 4/33 power Gujarat</h3>
-          <a class="text-link" href="/rr-vs-gt-result-ipl-2026/">Read match recap</a>
+          <h3>RCB vs MI Result: Bengaluru steal a last-ball chase</h3>
+          <a class="text-link" href="/rcb-vs-mi-result-ipl-2026/">Read match recap</a>
         </div>
       </article>
       <article class="match-article-card">
-        <img src="/assets/img/articles/cricket-betting-india-match.webp" alt="DC vs KKR cricket betting India match recap" loading="lazy" decoding="async" width="1200" height="675">
+        <img src="/assets/img/articles/cricket-betting-india-match.webp" alt="CSK vs LSG result IPL 2026 cricket betting India recap" loading="lazy" decoding="async" width="1200" height="675">
         <div>
           <span class="eyebrow">IPL 2026 Recap</span>
-          <h3>DC vs KKR Result: Finn Allen 100* powers Kolkata chase</h3>
-          <a class="text-link" href="/dc-vs-kkr-result-ipl-2026/">Read match recap</a>
+          <h3>CSK vs LSG Result: Chennai chase 204 by 5 wickets</h3>
+          <a class="text-link" href="/csk-vs-lsg-result-ipl-2026/">Read match recap</a>
         </div>
       </article>
       <article class="match-article-card">
-        <img src="/assets/img/articles/cricket-betting-india-match.webp" alt="CSK vs LSG cricket betting preview India" loading="lazy" decoding="async" width="1200" height="675">
+        <img src="/assets/img/articles/cricket-betting-india-match.webp" alt="PBKS vs DC cricket betting India watchlist" loading="lazy" decoding="async" width="1200" height="675">
         <div>
           <span class="eyebrow">Upcoming Match</span>
-          <h3>CSK vs LSG Watchlist: prepare your YaarWin register path before toss</h3>
+          <h3>PBKS vs DC Watchlist: prepare your YaarWin register path before toss</h3>
           <a class="text-link" href="/cricket-betting-india/">Open cricket guide</a>
         </div>
       </article>
