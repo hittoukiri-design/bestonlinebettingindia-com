@@ -5,7 +5,7 @@
   --green-soft: #eaf8ee;
   --gold: #d59a1b;
   --ink: #0d1710;
-  --muted: #5c6b62;
+  --muted: #415348;
   --line: #ddeade;
   --bg: #fbfffc;
   --card: #ffffff;
@@ -31,6 +31,11 @@ main,
 }
 a { color: inherit; text-decoration: none; }
 img { max-width: 100%; height: auto; }
+:where(a, button, input, select, textarea, summary, [tabindex]):focus-visible {
+  outline: 3px solid rgba(8, 115, 39, .72);
+  outline-offset: 3px;
+  border-radius: 12px;
+}
 .skip-link {
   position: absolute;
   left: -999px;
@@ -1234,6 +1239,9 @@ h1 {
   opacity: 0;
   transition: transform .24s ease, opacity .24s ease;
 }
+.promo-nudge:focus {
+  outline: none;
+}
 .promo-nudge.is-visible {
   transform: translateY(0);
   opacity: 1;
@@ -1268,7 +1276,7 @@ h1 {
 }
 .promo-nudge p {
   margin: 10px 0 14px;
-  color: var(--muted);
+  color: #304137;
   font-size: 14px;
   line-height: 1.5;
 }

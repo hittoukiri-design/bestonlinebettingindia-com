@@ -6,6 +6,12 @@ if (navToggle && navMenu) {
     navToggle.setAttribute('aria-expanded', String(!expanded));
     navMenu.classList.toggle('is-open', !expanded);
   });
+  document.addEventListener('keydown', (event) => {
+    if (event.key !== 'Escape' || navToggle.getAttribute('aria-expanded') !== 'true') return;
+    navToggle.setAttribute('aria-expanded', 'false');
+    navMenu.classList.remove('is-open');
+    navToggle.focus({ preventScroll: true });
+  });
 }
 
 (() => {
@@ -108,11 +114,14 @@ if (navToggle && navMenu) {
       return;
     }
     localStorage.setItem(seenKey, today);
+    const previousFocus = document.activeElement;
 
     const promo = document.createElement('aside');
     promo.className = 'promo-nudge';
     promo.setAttribute('role', 'dialog');
-    promo.setAttribute('aria-label', 'YaarWin registration reminder');
+    promo.setAttribute('aria-modal', 'false');
+    promo.setAttribute('aria-labelledby', 'promo-nudge-title');
+    promo.setAttribute('tabindex', '-1');
 
     const closeButton = document.createElement('button');
     closeButton.className = 'promo-nudge__close';
@@ -125,6 +134,7 @@ if (navToggle && navMenu) {
     eyebrow.textContent = 'YaarWin register window';
 
     const headline = document.createElement('strong');
+    headline.id = 'promo-nudge-title';
     headline.textContent = 'Ready to start with invite code 72238107987?';
 
     const copy = document.createElement('p');
@@ -139,12 +149,42 @@ if (navToggle && navMenu) {
 
     promo.append(closeButton, eyebrow, headline, copy, cta);
 
-    closeButton.addEventListener('click', () => {
+    const closePromo = () => {
+      document.removeEventListener('keydown', handlePromoKeydown);
       promo.remove();
-    });
+      if (previousFocus && typeof previousFocus.focus === 'function') {
+        previousFocus.focus({ preventScroll: true });
+      }
+    };
+
+    const handlePromoKeydown = (event) => {
+      if (event.key === 'Escape') {
+        event.preventDefault();
+        closePromo();
+        return;
+      }
+      if (event.key !== 'Tab') return;
+      const focusable = promo.querySelectorAll('a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])');
+      if (!focusable.length) return;
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+      if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault();
+        last.focus();
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault();
+        first.focus();
+      }
+    };
+
+    closeButton.addEventListener('click', closePromo);
 
     document.body.appendChild(promo);
-    requestAnimationFrame(() => promo.classList.add('is-visible'));
+    document.addEventListener('keydown', handlePromoKeydown);
+    requestAnimationFrame(() => {
+      promo.classList.add('is-visible');
+      closeButton.focus({ preventScroll: true });
+    });
     sendSignal('promo_shown');
   };
 
