@@ -442,6 +442,27 @@ $pages = [
       ['Next action for India betting readers', 'Use this recap as a reminder to compare the cricket betting India guide with Aviator, Teen Patti, Rummy, Wingo colour prediction and fast withdrawal pages. No outcome is guaranteed, so treat match-day betting as high-risk entertainment and never chase losses.'],
     ],
   ],
+  'pbks-vs-dc-result-ipl-2026' => [
+    'title' => 'PBKS vs DC Result IPL 2026 | Delhi Capitals Win by 3 Wickets, YaarWin Cricket Betting Recap',
+    'description' => 'PBKS vs DC IPL 2026 result recap: Punjab Kings posted 210/5, Delhi Capitals chased the 211 target with 216/7 in 19 overs and won by 3 wickets. Read YaarWin cricket betting India notes and next match prep.',
+    'h1' => 'PBKS vs DC Result IPL 2026: Delhi Capitals Chase 211 by 3 Wickets',
+    'kicker' => 'IPL 2026 match recap',
+    'intro' => 'Delhi Capitals beat Punjab Kings by 3 wickets in Dharamsala after chasing a 211 target in only 19 overs. This Best Online Betting India recap gives YaarWin cricket betting readers the score, the match lesson and the next registration window before GT vs SRH and RCB vs KKR.',
+    'image' => '/assets/img/articles/cricket-betting-india-match.webp',
+    'image_alt' => 'PBKS vs DC result IPL 2026 recap for YaarWin cricket betting India users',
+    'sections' => [
+      ['Quick score summary', 'Punjab Kings reached 210/5 in 20 overs, but Delhi Capitals answered with 216/7 in 19 overs and won by 3 wickets. A 211 chase finishing with an over left is exactly the kind of result that makes cricket betting India, YaarWin register and IPL match recap searches move quickly the next morning.'],
+      ['Commentator-style match note', 'PBKS gave themselves a strong total, but Delhi did not let the asking rate become panic. The chase had pressure, wickets and late drama, yet DC still found enough boundary momentum to finish early. For YaarWin cricket betting users, the lesson is simple: check team form, chase strength and match timing before the toss instead of opening the register path after the market has already moved.'],
+      ['Congratulations to prepared YaarWin users', 'If you had already completed your YaarWin register path before match time and backed Delhi within your own budget, congratulations. These are the nights prepared users remember because the account was ready, the invite code 72238107987 was visible and the YaarWin login path did not need to be rushed during the chase.'],
+      ['Missed PBKS vs DC?', 'If you watched the Delhi chase without registering, this was a classic FOMO match. Do not wait until GT vs SRH, RCB vs KKR or PBKS vs MI is already live. Open the YaarWin register guide early, review the cricket betting India page, keep your wallet details ready and decide your session limit before the first ball.'],
+      ['Where to go next', 'Move from this PBKS vs DC recap into the YaarWin register guide, YaarWin login guide, cricket betting India page, Aviator betting India, Teen Patti online, Rummy game India, Wingo colour prediction and fast withdrawal betting India pages. Every match-day session should start with a budget, responsible play and the discipline to stop instead of chasing losses.'],
+    ],
+    'questions' => [
+      ['q' => 'Who won PBKS vs DC IPL 2026?', 'a' => 'Delhi Capitals beat Punjab Kings by 3 wickets after chasing the 211 target with 216/7 in 19 overs.'],
+      ['q' => 'What was the PBKS vs DC score?', 'a' => 'Punjab Kings made 210/5 in 20 overs. Delhi Capitals replied with 216/7 in 19 overs.'],
+      ['q' => 'What should YaarWin users check before the next cricket match?', 'a' => 'Check the latest toss, playing XI, match timing, wallet details, invite code, personal budget and responsible play limit before opening any cricket betting session.'],
+    ],
+  ],
   'fast-withdrawal-betting-india' => [
     'title' => 'Fast Withdrawal Betting India | YaarWin UPI Cashout, Wallet & Payment Guide',
     'description' => 'Fast Withdrawal Betting India guide for YaarWin users covering UPI cashout readiness, wallet details, order checks, account safety and common delay reasons.',

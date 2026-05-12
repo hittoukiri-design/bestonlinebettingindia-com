@@ -1,34 +1,34 @@
 {
-    "updated_at": "2026-05-11T14:45:00+05:30",
+    "updated_at": "2026-05-12T10:30:00+05:30",
     "source": "manual-cache",
     "featured": {
         "badge": "Latest Result",
-        "title": "RCB vs MI: Bengaluru chase 167 in last-ball finish",
-        "subtitle": "IPL 2026 - May 10 recap - RCB 167/8 beat MI 166/7 by 2 wickets",
+        "title": "PBKS vs DC: Delhi chase 211 in Dharamsala thriller",
+        "subtitle": "IPL 2026 - May 11 recap - DC 216/7 beat PBKS 210/5 by 3 wickets",
         "team_a": {
-            "code": "RCB",
-            "name": "Royal Challengers Bengaluru",
-            "note": "167/8, chase completed on the final ball"
+            "code": "PBKS",
+            "name": "Punjab Kings",
+            "note": "210/5 after 20 overs, strong first-innings total"
         },
         "team_b": {
-            "code": "MI",
-            "name": "Mumbai Indians",
-            "note": "166/7, defended deep but lost by 2 wickets"
+            "code": "DC",
+            "name": "Delhi Capitals",
+            "note": "216/7 in 19 overs, won by 3 wickets"
         },
         "status_title": "Result note",
-        "status_text": "Congratulations if your YaarWin cricket betting pick stayed with Bengaluru. If you missed the May 10 drama, prepare early before PBKS vs DC, GT vs SRH and RCB vs KKR.",
+        "status_text": "Congratulations if your YaarWin cricket betting pick stayed with Delhi. If you missed the May 11 chase, prepare early before GT vs SRH, RCB vs KKR and PBKS vs MI.",
         "markets": [
             [
                 "Latest Score",
-                "RCB 167/8, MI 166/7"
+                "DC 216/7, PBKS 210/5"
             ],
             [
                 "Winning Margin",
-                "RCB by 2 wickets"
+                "DC by 3 wickets"
             ],
             [
                 "Next Watchlist",
-                "PBKS vs DC today"
+                "GT vs SRH today"
             ],
             [
                 "YaarWin Keyword",
@@ -39,20 +39,10 @@
     "matches": [
         {
             "league": "Indian Premier League",
-            "teams": "PBKS vs DC",
-            "team_a": "PBKS",
-            "team_b": "DC",
-            "date_label": "Today",
-            "time_label": "7:30 PM",
-            "venue": "Himachal Pradesh Cricket Association Stadium, Dharamsala",
-            "calendar_dates": "20260511T140000Z/20260511T173000Z"
-        },
-        {
-            "league": "Indian Premier League",
             "teams": "GT vs SRH",
             "team_a": "GT",
             "team_b": "SRH",
-            "date_label": "May 12",
+            "date_label": "Today",
             "time_label": "7:30 PM",
             "venue": "Narendra Modi Stadium, Ahmedabad",
             "calendar_dates": "20260512T140000Z/20260512T173000Z"
@@ -66,6 +56,16 @@
             "time_label": "7:30 PM",
             "venue": "Shaheed Veer Narayan Singh International Stadium, Raipur",
             "calendar_dates": "20260513T140000Z/20260513T173000Z"
+        },
+        {
+            "league": "Indian Premier League",
+            "teams": "PBKS vs MI",
+            "team_a": "PBKS",
+            "team_b": "MI",
+            "date_label": "May 14",
+            "time_label": "7:30 PM",
+            "venue": "Himachal Pradesh Cricket Association Stadium, Dharamsala",
+            "calendar_dates": "20260514T140000Z/20260514T173000Z"
         }
     ]
 }

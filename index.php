@@ -253,9 +253,9 @@ require __DIR__ . '/includes/header.php';
             <?php endforeach; ?>
           </div>
           <div class="cricket-article-links" aria-label="Cricket match articles">
-            <a href="/rr-vs-gt-result-ipl-2026/">Read RR vs GT Result</a>
-            <a href="/dc-vs-kkr-result-ipl-2026/">Read DC vs KKR Result</a>
-            <a href="/cricket-betting-india/">Prepare for CSK vs LSG</a>
+            <a href="/pbks-vs-dc-result-ipl-2026/">Read PBKS vs DC Result</a>
+            <a href="/rcb-vs-mi-result-ipl-2026/">Read RCB vs MI Result</a>
+            <a href="/cricket-betting-india/">Prepare for GT vs SRH</a>
           </div>
           <a class="cricket-link" href="/cricket-betting-india/">Open Cricket Betting Guide →</a>
         </article>
@@ -299,35 +299,35 @@ require __DIR__ . '/includes/header.php';
       <article class="panel">
         <h3>Latest result recap and watchlist</h3>
         <div class="win-list">
+          <div class="win-row"><span>Punjab Kings 210/5 vs Delhi Capitals 216/7</span><span class="amount">DC won</span></div>
           <div class="win-row"><span>Royal Challengers Bengaluru 167/8 vs Mumbai Indians 166/7</span><span class="amount">RCB won</span></div>
-          <div class="win-row"><span>Chennai Super Kings 204/5 vs Lucknow Super Giants 203/8</span><span class="amount">CSK won</span></div>
-          <div class="win-row"><span>Punjab Kings vs Delhi Capitals</span><span class="amount">Today</span></div>
-          <div class="win-row"><span>Gujarat Titans vs Sunrisers Hyderabad</span><span class="amount">May 12</span></div>
+          <div class="win-row"><span>Gujarat Titans vs Sunrisers Hyderabad</span><span class="amount">Today</span></div>
+          <div class="win-row"><span>Royal Challengers Bengaluru vs Kolkata Knight Riders</span><span class="amount">May 13</span></div>
         </div>
       </article>
     </div>
     <div class="match-article-grid">
       <article class="match-article-card">
-        <img src="/assets/img/articles/cricket-betting-india-match.webp" alt="RCB vs MI result IPL 2026 cricket betting India recap" loading="lazy" decoding="async" width="1200" height="675">
+        <img src="/assets/img/articles/cricket-betting-india-match.webp" alt="PBKS vs DC result IPL 2026 cricket betting India recap" loading="lazy" decoding="async" width="1200" height="675">
         <div>
           <span class="eyebrow">IPL 2026 Result</span>
-          <h3>RCB vs MI Result: Bengaluru steal a last-ball chase</h3>
-          <a class="text-link" href="/rcb-vs-mi-result-ipl-2026/">Read match recap</a>
+          <h3>PBKS vs DC Result: Delhi chase 211 in 19 overs</h3>
+          <a class="text-link" href="/pbks-vs-dc-result-ipl-2026/">Read match recap</a>
         </div>
       </article>
       <article class="match-article-card">
-        <img src="/assets/img/articles/cricket-betting-india-match.webp" alt="CSK vs LSG result IPL 2026 cricket betting India recap" loading="lazy" decoding="async" width="1200" height="675">
+        <img src="/assets/img/articles/cricket-betting-india-match.webp" alt="RCB vs MI result IPL 2026 cricket betting India recap" loading="lazy" decoding="async" width="1200" height="675">
         <div>
           <span class="eyebrow">IPL 2026 Recap</span>
-          <h3>CSK vs LSG Result: Chennai chase 204 by 5 wickets</h3>
-          <a class="text-link" href="/csk-vs-lsg-result-ipl-2026/">Read match recap</a>
+          <h3>RCB vs MI Result: Bengaluru steal a last-ball chase</h3>
+          <a class="text-link" href="/rcb-vs-mi-result-ipl-2026/">Read match recap</a>
         </div>
       </article>
       <article class="match-article-card">
         <img src="/assets/img/articles/cricket-betting-india-match.webp" alt="PBKS vs DC cricket betting India watchlist" loading="lazy" decoding="async" width="1200" height="675">
         <div>
           <span class="eyebrow">Upcoming Match</span>
-          <h3>PBKS vs DC Watchlist: prepare your YaarWin register path before toss</h3>
+          <h3>GT vs SRH Watchlist: prepare your YaarWin register path before toss</h3>
           <a class="text-link" href="/cricket-betting-india/">Open cricket guide</a>
         </div>
       </article>
