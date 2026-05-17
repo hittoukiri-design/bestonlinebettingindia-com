@@ -463,6 +463,27 @@ $pages = [
       ['q' => 'Which upcoming IPL matches should readers track next?', 'a' => 'The immediate watchlist includes CSK vs SRH, RR vs LSG, and KKR vs MI, with final checks on toss and playing XI before any betting decision.'],
     ],
   ],
+  'rr-vs-dc-result-ipl-2026' => [
+    'title' => 'RR vs DC Result IPL 2026 | Delhi Capitals Win by 5 Wickets, YaarWin Cricket Recap',
+    'description' => 'RR vs DC IPL 2026 result recap: Rajasthan Royals posted 193/8 and Delhi Capitals chased it with 197/5 to win by 5 wickets. Read YaarWin cricket betting India notes and next match prep.',
+    'h1' => 'RR vs DC Result IPL 2026: Delhi Capitals Chase 194 and Win by 5 Wickets',
+    'kicker' => 'IPL 2026 result recap',
+    'intro' => 'Delhi Capitals beat Rajasthan Royals by 5 wickets in Match 62 after chasing 194 in Delhi. This recap gives YaarWin cricket betting India readers the confirmed scoreline, a short match read, and next-fixture planning notes.',
+    'image' => '/assets/img/articles/cricket-betting-india-match.webp',
+    'image_alt' => 'RR vs DC result IPL 2026 recap for YaarWin cricket betting India users',
+    'sections' => [
+      ['Quick score summary', 'Rajasthan Royals scored 193/8 in 20 overs, while Delhi Capitals completed the chase at 197/5 in 19.2 overs to win by 5 wickets. KL Rahul guided the chase with a key fifty as Delhi held nerve through the last phase.'],
+      ['Commentator-style match note', 'RR built pressure with a strong total, but DC timed the chase well and avoided panic when the required rate climbed. The finishing sequence showed why middle-overs control and calm batting depth matter more than one explosive spell.'],
+      ['What prepared YaarWin users can learn', 'Prepared users check toss, confirmed XI, and venue trend early, then set a fixed budget before match time. This reduces rushed decisions and keeps cricket betting activity in a controlled, responsible frame.'],
+      ['Next IPL watchlist', 'CSK vs SRH, RR vs LSG, and KKR vs MI are the immediate fixtures to track. If you plan to follow YaarWin-related cricket coverage, keep your register flow, wallet checks, and personal limit ready before the first ball.'],
+      ['Responsible play note', 'A winning pick should not trigger overconfidence, and a losing pick should not trigger chasing. Treat every match as high-risk entertainment, keep limits strict, and stop when the session budget is reached.'],
+    ],
+    'questions' => [
+      ['q' => 'Who won RR vs DC IPL 2026 Match 62?', 'a' => 'Delhi Capitals won by 5 wickets after chasing 194 with 197/5 in 19.2 overs.'],
+      ['q' => 'What was the RR vs DC scoreline?', 'a' => 'Rajasthan Royals made 193/8 and Delhi Capitals replied with 197/5.'],
+      ['q' => 'Which matches are next on the IPL watchlist?', 'a' => 'The immediate watchlist is CSK vs SRH, RR vs LSG, and KKR vs MI, with final checks on toss and playing XI before any betting decision.'],
+    ],
+  ],
   'pbks-vs-dc-result-ipl-2026' => [
     'title' => 'PBKS vs DC Result IPL 2026 | Delhi Capitals Win by 3 Wickets, YaarWin Cricket Betting Recap',
     'description' => 'PBKS vs DC IPL 2026 result recap: Punjab Kings posted 210/5, Delhi Capitals chased the 211 target with 216/7 in 19 overs and won by 3 wickets. Read YaarWin cricket betting India notes and next match prep.',

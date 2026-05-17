@@ -1,38 +1,38 @@
 {
-    "updated_at": "2026-05-18T10:30:00+05:30",
+    "updated_at": "2026-05-18T20:15:00+05:30",
     "source": "manual-cache",
     "featured": {
         "badge": "Latest Result",
-        "title": "RCB vs PBKS: Bengaluru post 222 and win by 23 runs",
-        "subtitle": "IPL 2026 - May 17 result - RCB 222/4 beat PBKS 199/8 by 23 runs",
+        "title": "RR vs DC: Delhi chase 194 and win by 5 wickets",
+        "subtitle": "IPL 2026 - May 17 result - RR 193/8, DC 197/5 in 19.2 overs",
         "team_a": {
-            "code": "RCB",
-            "name": "Royal Challengers Bengaluru",
-            "note": "222/4 after 20 overs, with Venkatesh Iyer driving the total"
+            "code": "RR",
+            "name": "Rajasthan Royals",
+            "note": "193/8 after 20 overs, set a strong first-innings target"
         },
         "team_b": {
-            "code": "PBKS",
-            "name": "Punjab Kings",
-            "note": "199/8 after 20 overs, finished 23 runs short in the chase"
+            "code": "DC",
+            "name": "Delhi Capitals",
+            "note": "197/5 in 19.2 overs, completed the chase with 4 balls left"
         },
         "status_title": "Result note",
-        "status_text": "RCB became the first side to seal an IPL playoff berth after defending 222. If you missed the window before RCB vs PBKS, prepare earlier for the next watchlist and keep responsible limits ready.",
+        "status_text": "Delhi Capitals kept their campaign alive with a composed chase. If you missed RR vs DC, prepare earlier for CSK vs SRH and keep responsible limits ready.",
         "markets": [
             [
                 "Latest Score",
-                "RCB 222/4, PBKS 199/8"
+                "RR 193/8, DC 197/5"
             ],
             [
                 "Winning Margin",
-                "RCB by 23 runs"
+                "DC by 5 wickets"
             ],
             [
                 "Player Watch",
-                "Venkatesh Iyer impact knock"
+                "KL Rahul chase anchor"
             ],
             [
                 "Top Support",
-                "Bhuvneshwar and pace unit control"
+                "Mitchell Starc death overs"
             ]
         ]
     },
