@@ -1,71 +1,71 @@
 {
-    "updated_at": "2026-05-12T10:30:00+05:30",
+    "updated_at": "2026-05-17T10:00:00+05:30",
     "source": "manual-cache",
     "featured": {
         "badge": "Latest Result",
-        "title": "PBKS vs DC: Delhi chase 211 in Dharamsala thriller",
-        "subtitle": "IPL 2026 - May 11 recap - DC 216/7 beat PBKS 210/5 by 3 wickets",
+        "title": "KKR vs GT: Kolkata post 247 and win by 29 runs",
+        "subtitle": "IPL 2026 - May 16 recap - KKR 247/2 beat GT 218/4 by 29 runs",
         "team_a": {
-            "code": "PBKS",
-            "name": "Punjab Kings",
-            "note": "210/5 after 20 overs, strong first-innings total"
+            "code": "KKR",
+            "name": "Kolkata Knight Riders",
+            "note": "247/2 after 20 overs, powered by Finn Allen 93 and Angkrish Raghuvanshi 82*"
         },
         "team_b": {
-            "code": "DC",
-            "name": "Delhi Capitals",
-            "note": "216/7 in 19 overs, won by 3 wickets"
+            "code": "GT",
+            "name": "Gujarat Titans",
+            "note": "218/4 after 20 overs, chase stopped 29 runs short"
         },
         "status_title": "Result note",
-        "status_text": "Congratulations if your YaarWin cricket betting pick stayed with Delhi. If you missed the May 11 chase, prepare early before GT vs SRH, RCB vs KKR and PBKS vs MI.",
+        "status_text": "Kolkata's 247/2 created the kind of IPL scoreboard that rewards early match research. If you missed the YaarWin register window before KKR vs GT, prepare earlier for the next IPL watchlist and keep responsible limits ready.",
         "markets": [
             [
                 "Latest Score",
-                "DC 216/7, PBKS 210/5"
+                "KKR 247/2, GT 218/4"
             ],
             [
                 "Winning Margin",
-                "DC by 3 wickets"
+                "KKR by 29 runs"
             ],
             [
-                "Next Watchlist",
-                "GT vs SRH today"
+                "Player Watch",
+                "Finn Allen 93"
             ],
             [
-                "YaarWin Keyword",
-                "Cricket betting India"
+                "Top Support",
+                "Angkrish Raghuvanshi 82*"
             ]
         ]
     },
     "matches": [
         {
             "league": "Indian Premier League",
-            "teams": "GT vs SRH",
-            "team_a": "GT",
-            "team_b": "SRH",
-            "date_label": "Today",
-            "time_label": "7:30 PM",
-            "venue": "Narendra Modi Stadium, Ahmedabad",
-            "calendar_dates": "20260512T140000Z/20260512T173000Z"
-        },
-        {
-            "league": "Indian Premier League",
-            "teams": "RCB vs KKR",
-            "team_a": "RCB",
-            "team_b": "KKR",
-            "date_label": "May 13",
-            "time_label": "7:30 PM",
-            "venue": "Shaheed Veer Narayan Singh International Stadium, Raipur",
-            "calendar_dates": "20260513T140000Z/20260513T173000Z"
-        },
-        {
-            "league": "Indian Premier League",
-            "teams": "PBKS vs MI",
+            "teams": "PBKS vs RCB",
             "team_a": "PBKS",
-            "team_b": "MI",
-            "date_label": "May 14",
-            "time_label": "7:30 PM",
-            "venue": "Himachal Pradesh Cricket Association Stadium, Dharamsala",
-            "calendar_dates": "20260514T140000Z/20260514T173000Z"
+            "team_b": "RCB",
+            "date_label": "Today",
+            "time_label": "3:30 PM IST",
+            "venue": "HPCA Stadium, Dharamsala",
+            "calendar_dates": "20260517T100000Z/20260517T133000Z"
+        },
+        {
+            "league": "Indian Premier League",
+            "teams": "DC vs RR",
+            "team_a": "DC",
+            "team_b": "RR",
+            "date_label": "Today",
+            "time_label": "7:30 PM IST",
+            "venue": "Arun Jaitley Stadium, Delhi",
+            "calendar_dates": "20260517T140000Z/20260517T173000Z"
+        },
+        {
+            "league": "Indian Premier League",
+            "teams": "CSK vs SRH",
+            "team_a": "CSK",
+            "team_b": "SRH",
+            "date_label": "May 18",
+            "time_label": "7:30 PM IST",
+            "venue": "MA Chidambaram Stadium, Chennai",
+            "calendar_dates": "20260518T140000Z/20260518T173000Z"
         }
     ]
 }
