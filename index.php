@@ -253,9 +253,9 @@ require __DIR__ . '/includes/header.php';
             <?php endforeach; ?>
           </div>
           <div class="cricket-article-links" aria-label="Cricket match articles">
+            <a href="/rcb-vs-pbks-result-ipl-2026/">Read RCB vs PBKS Result</a>
             <a href="/kkr-vs-gt-result-ipl-2026/">Read KKR vs GT Result</a>
-            <a href="/pbks-vs-dc-result-ipl-2026/">Read PBKS vs DC Result</a>
-            <a href="/cricket-betting-india/">Prepare for PBKS vs RCB</a>
+            <a href="/cricket-betting-india/">Prepare for CSK vs SRH</a>
           </div>
           <a class="cricket-link" href="/cricket-betting-india/">Open Cricket Betting Guide →</a>
         </article>
@@ -299,35 +299,35 @@ require __DIR__ . '/includes/header.php';
       <article class="panel">
         <h3>Latest result recap and watchlist</h3>
         <div class="win-list">
+          <div class="win-row"><span>Royal Challengers Bengaluru 222/4 vs Punjab Kings 199/8</span><span class="amount">RCB won</span></div>
           <div class="win-row"><span>Kolkata Knight Riders 247/2 vs Gujarat Titans 218/4</span><span class="amount">KKR won</span></div>
-          <div class="win-row"><span>Punjab Kings 210/5 vs Delhi Capitals 216/7</span><span class="amount">DC won</span></div>
-          <div class="win-row"><span>Punjab Kings vs Royal Challengers Bengaluru</span><span class="amount">Today 3:30 PM</span></div>
-          <div class="win-row"><span>Delhi Capitals vs Rajasthan Royals</span><span class="amount">Today 7:30 PM</span></div>
+          <div class="win-row"><span>Chennai Super Kings vs Sunrisers Hyderabad</span><span class="amount">May 18, 7:30 PM</span></div>
+          <div class="win-row"><span>Rajasthan Royals vs Lucknow Super Giants</span><span class="amount">May 19, 7:30 PM</span></div>
         </div>
       </article>
     </div>
     <div class="match-article-grid">
       <article class="match-article-card">
-        <img src="/assets/img/articles/cricket-betting-india-match.webp" alt="KKR vs GT result IPL 2026 cricket betting India recap" loading="lazy" decoding="async" width="1200" height="675">
+        <img src="/assets/img/articles/cricket-betting-india-match.webp" alt="RCB vs PBKS result IPL 2026 cricket betting India recap" loading="lazy" decoding="async" width="1200" height="675">
         <div>
           <span class="eyebrow">IPL 2026 Result Recap</span>
-          <h3>KKR vs GT Result: Kolkata post 247/2 and win by 29 runs</h3>
-          <a class="text-link" href="/kkr-vs-gt-result-ipl-2026/">Read match recap</a>
+          <h3>RCB vs PBKS Result: Bengaluru defend 222 and win by 23 runs</h3>
+          <a class="text-link" href="/rcb-vs-pbks-result-ipl-2026/">Read match recap</a>
         </div>
       </article>
       <article class="match-article-card">
         <img src="/assets/img/articles/cricket-betting-india-match.webp" alt="PBKS vs DC result IPL 2026 cricket betting India recap" loading="lazy" decoding="async" width="1200" height="675">
         <div>
           <span class="eyebrow">IPL 2026 Result</span>
-          <h3>PBKS vs DC Result: Delhi chase 211 in 19 overs</h3>
-          <a class="text-link" href="/pbks-vs-dc-result-ipl-2026/">Read match recap</a>
+          <h3>KKR vs GT Result: Kolkata post 247/2 and win by 29 runs</h3>
+          <a class="text-link" href="/kkr-vs-gt-result-ipl-2026/">Read match recap</a>
         </div>
       </article>
       <article class="match-article-card">
-        <img src="/assets/img/articles/cricket-betting-india-match.webp" alt="PBKS vs RCB cricket betting India watchlist" loading="lazy" decoding="async" width="1200" height="675">
+        <img src="/assets/img/articles/cricket-betting-india-match.webp" alt="CSK vs SRH IPL 2026 watchlist cricket betting India" loading="lazy" decoding="async" width="1200" height="675">
         <div>
           <span class="eyebrow">Upcoming Match</span>
-          <h3>PBKS vs RCB Watchlist: prepare before the Dharamsala afternoon session</h3>
+          <h3>CSK vs SRH Watchlist: prepare before tonight&apos;s Chennai match</h3>
           <a class="text-link" href="/cricket-betting-india/">Open cricket guide</a>
         </div>
       </article>

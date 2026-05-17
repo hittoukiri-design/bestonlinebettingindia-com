@@ -1,62 +1,42 @@
 {
-    "updated_at": "2026-05-17T10:00:00+05:30",
+    "updated_at": "2026-05-18T10:30:00+05:30",
     "source": "manual-cache",
     "featured": {
         "badge": "Latest Result",
-        "title": "KKR vs GT: Kolkata post 247 and win by 29 runs",
-        "subtitle": "IPL 2026 - May 16 recap - KKR 247/2 beat GT 218/4 by 29 runs",
+        "title": "RCB vs PBKS: Bengaluru post 222 and win by 23 runs",
+        "subtitle": "IPL 2026 - May 17 result - RCB 222/4 beat PBKS 199/8 by 23 runs",
         "team_a": {
-            "code": "KKR",
-            "name": "Kolkata Knight Riders",
-            "note": "247/2 after 20 overs, powered by Finn Allen 93 and Angkrish Raghuvanshi 82*"
+            "code": "RCB",
+            "name": "Royal Challengers Bengaluru",
+            "note": "222/4 after 20 overs, with Venkatesh Iyer driving the total"
         },
         "team_b": {
-            "code": "GT",
-            "name": "Gujarat Titans",
-            "note": "218/4 after 20 overs, chase stopped 29 runs short"
+            "code": "PBKS",
+            "name": "Punjab Kings",
+            "note": "199/8 after 20 overs, finished 23 runs short in the chase"
         },
         "status_title": "Result note",
-        "status_text": "Kolkata's 247/2 created the kind of IPL scoreboard that rewards early match research. If you missed the YaarWin register window before KKR vs GT, prepare earlier for the next IPL watchlist and keep responsible limits ready.",
+        "status_text": "RCB became the first side to seal an IPL playoff berth after defending 222. If you missed the window before RCB vs PBKS, prepare earlier for the next watchlist and keep responsible limits ready.",
         "markets": [
             [
                 "Latest Score",
-                "KKR 247/2, GT 218/4"
+                "RCB 222/4, PBKS 199/8"
             ],
             [
                 "Winning Margin",
-                "KKR by 29 runs"
+                "RCB by 23 runs"
             ],
             [
                 "Player Watch",
-                "Finn Allen 93"
+                "Venkatesh Iyer impact knock"
             ],
             [
                 "Top Support",
-                "Angkrish Raghuvanshi 82*"
+                "Bhuvneshwar and pace unit control"
             ]
         ]
     },
     "matches": [
-        {
-            "league": "Indian Premier League",
-            "teams": "PBKS vs RCB",
-            "team_a": "PBKS",
-            "team_b": "RCB",
-            "date_label": "Today",
-            "time_label": "3:30 PM IST",
-            "venue": "HPCA Stadium, Dharamsala",
-            "calendar_dates": "20260517T100000Z/20260517T133000Z"
-        },
-        {
-            "league": "Indian Premier League",
-            "teams": "DC vs RR",
-            "team_a": "DC",
-            "team_b": "RR",
-            "date_label": "Today",
-            "time_label": "7:30 PM IST",
-            "venue": "Arun Jaitley Stadium, Delhi",
-            "calendar_dates": "20260517T140000Z/20260517T173000Z"
-        },
         {
             "league": "Indian Premier League",
             "teams": "CSK vs SRH",
@@ -66,6 +46,26 @@
             "time_label": "7:30 PM IST",
             "venue": "MA Chidambaram Stadium, Chennai",
             "calendar_dates": "20260518T140000Z/20260518T173000Z"
+        },
+        {
+            "league": "Indian Premier League",
+            "teams": "RR vs LSG",
+            "team_a": "RR",
+            "team_b": "LSG",
+            "date_label": "May 19",
+            "time_label": "7:30 PM IST",
+            "venue": "Sawai Mansingh Stadium, Jaipur",
+            "calendar_dates": "20260519T140000Z/20260519T173000Z"
+        },
+        {
+            "league": "Indian Premier League",
+            "teams": "KKR vs MI",
+            "team_a": "KKR",
+            "team_b": "MI",
+            "date_label": "May 20",
+            "time_label": "7:30 PM IST",
+            "venue": "Eden Gardens, Kolkata",
+            "calendar_dates": "20260520T140000Z/20260520T173000Z"
         }
     ]
 }

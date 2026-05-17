@@ -442,6 +442,27 @@ $pages = [
       ['Next action for India betting readers', 'Use this recap as a reminder to compare the cricket betting India guide with Aviator, Teen Patti, Rummy, Wingo colour prediction and fast withdrawal pages. No outcome is guaranteed, so treat match-day betting as high-risk entertainment and never chase losses.'],
     ],
   ],
+  'rcb-vs-pbks-result-ipl-2026' => [
+    'title' => 'RCB vs PBKS Result IPL 2026 | Bengaluru Win by 23 Runs, YaarWin Cricket Recap',
+    'description' => 'RCB vs PBKS IPL 2026 result recap: Royal Challengers Bengaluru posted 222/4 and beat Punjab Kings 199/8 by 23 runs. Read YaarWin cricket betting India notes and next match prep.',
+    'h1' => 'RCB vs PBKS Result IPL 2026: Bengaluru Win by 23 Runs',
+    'kicker' => 'IPL 2026 result recap',
+    'intro' => 'Royal Challengers Bengaluru beat Punjab Kings by 23 runs after setting 222/4 in Dharamsala. This recap gives YaarWin cricket betting India readers the verified scoreline, match lesson, and next fixture prep window.',
+    'image' => '/assets/img/articles/cricket-betting-india-match.webp',
+    'image_alt' => 'RCB vs PBKS result IPL 2026 recap for YaarWin cricket betting India users',
+    'sections' => [
+      ['Quick score summary', 'Royal Challengers Bengaluru scored 222/4 in 20 overs, then held Punjab Kings to 199/8 to win by 23 runs. Venkatesh Iyer earned Player of the Match after driving the first-innings surge that shaped the game.'],
+      ['Commentator-style match note', 'PBKS needed a sharp powerplay to stay on pace, but early wickets forced a recovery chase instead of a clean pursuit. RCB stayed ahead by defending key phases with experienced pace bowling and never allowed the required rate to settle.'],
+      ['What prepared YaarWin users can learn', 'This was another reminder to prepare before toss: check the confirmed XI, venue trend, and chase patterns early, then decide your personal limit before any market momentum starts. No pick is guaranteed, but disciplined timing helps avoid rushed decisions.'],
+      ['Next IPL watchlist', 'CSK vs SRH, RR vs LSG, and KKR vs MI are the next fixtures in this cycle. If you plan to follow YaarWin-related cricket betting coverage, keep your register path, wallet checks, and responsible budget ready before match time.'],
+      ['Responsible play note', 'If your side won, keep the same discipline for the next game. If your side lost, do not chase. Use fixed limits, treat betting as high-risk entertainment, and stop when your session budget is reached.'],
+    ],
+    'questions' => [
+      ['q' => 'Who won RCB vs PBKS IPL 2026?', 'a' => 'Royal Challengers Bengaluru won by 23 runs after scoring 222/4 and restricting Punjab Kings to 199/8.'],
+      ['q' => 'What was the RCB vs PBKS score?', 'a' => 'RCB posted 222/4 in 20 overs. PBKS replied with 199/8 in 20 overs.'],
+      ['q' => 'Which upcoming IPL matches should readers track next?', 'a' => 'The immediate watchlist includes CSK vs SRH, RR vs LSG, and KKR vs MI, with final checks on toss and playing XI before any betting decision.'],
+    ],
+  ],
   'pbks-vs-dc-result-ipl-2026' => [
     'title' => 'PBKS vs DC Result IPL 2026 | Delhi Capitals Win by 3 Wickets, YaarWin Cricket Betting Recap',
     'description' => 'PBKS vs DC IPL 2026 result recap: Punjab Kings posted 210/5, Delhi Capitals chased the 211 target with 216/7 in 19 overs and won by 3 wickets. Read YaarWin cricket betting India notes and next match prep.',
