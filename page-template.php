@@ -318,6 +318,21 @@ $pages = [
     ],
     'faqs' => true,
   ],
+  'csk-vs-srh-result-ipl-2026' => [
+    'title' => 'CSK vs SRH Result IPL 2026 | Hyderabad Win by 5 Wickets, YaarWin Cricket Betting Recap',
+    'description' => 'CSK vs SRH IPL 2026 result recap: Chennai Super Kings 180/7, Sunrisers Hyderabad 181/5 in 19 overs. Read YaarWin cricket betting India notes and next match prep.',
+    'h1' => 'CSK vs SRH Result IPL 2026: Hyderabad Win by 5 Wickets',
+    'kicker' => 'IPL 2026 match recap',
+    'intro' => 'Sunrisers Hyderabad beat Chennai Super Kings by 5 wickets after chasing 181 in 19 overs at Chennai. This Best Online Betting India recap gives YaarWin cricket betting users the latest result, match lesson and next preparation window.',
+    'image' => '/assets/img/articles/cricket-betting-india-match.webp',
+    'image_alt' => 'CSK vs SRH result IPL 2026 recap for YaarWin cricket betting India users',
+    'sections' => [
+      ['Quick score summary', 'Chennai Super Kings posted 180/7 in 20 overs, but Sunrisers Hyderabad reached 181/5 in 19 overs and won by 5 wickets. It was the newest IPL 2026 result on the watchlist and a clear reminder that chasing rhythm can decide a match quickly.'],
+      ['What India cricket betting users should note', 'This was a match where preparation before toss mattered more than late emotion. Users who checked venue, chase conditions, team form and personal limits before opening a cricket betting India session had a cleaner view of the risk.'],
+      ['Congratulations to winning YaarWin users', 'If you had already completed your YaarWin register path and stayed with Hyderabad inside a fixed limit, congratulations. If you missed the window, do not chase; prepare earlier for RR vs LSG, KKR vs MI and GT vs CSK.'],
+      ['Next step for YaarWin users', 'Before the next IPL 2026 fixture, open the YaarWin register path, keep invite code 72238107987 ready and review cricket betting, Aviator, Teen Patti, Rummy, Wingo colour prediction and fast withdrawal pages.'],
+    ],
+  ],
   'dc-vs-csk-result-ipl-2026' => [
     'title' => 'DC vs CSK Result IPL 2026 | Chennai Win by 8 Wickets, YaarWin Cricket Betting Recap',
     'description' => 'DC vs CSK IPL 2026 result recap: Chennai Super Kings chased Delhi Capitals by 8 wickets. Read the quick score, betting notes, YaarWin register reminder and next match guide.',

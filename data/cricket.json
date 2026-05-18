@@ -1,52 +1,42 @@
 {
-    "updated_at": "2026-05-18T20:15:00+05:30",
+    "updated_at": "2026-05-19T00:15:00+05:30",
     "source": "manual-cache",
     "featured": {
         "badge": "Latest Result",
-        "title": "RR vs DC: Delhi chase 194 and win by 5 wickets",
-        "subtitle": "IPL 2026 - May 17 result - RR 193/8, DC 197/5 in 19.2 overs",
+        "title": "CSK vs SRH: Hyderabad win by 5 wickets",
+        "subtitle": "IPL 2026 - May 18 Match 63 recap - SRH 181/5 beat CSK 180/7",
         "team_a": {
-            "code": "RR",
-            "name": "Rajasthan Royals",
-            "note": "193/8 after 20 overs, set a strong first-innings target"
+            "code": "CSK",
+            "name": "Chennai Super Kings",
+            "note": "180/7 in 20 overs at Chennai"
         },
         "team_b": {
-            "code": "DC",
-            "name": "Delhi Capitals",
-            "note": "197/5 in 19.2 overs, completed the chase with 4 balls left"
+            "code": "SRH",
+            "name": "Sunrisers Hyderabad",
+            "note": "181/5 in 19 overs, won by 5 wickets"
         },
         "status_title": "Result note",
-        "status_text": "Delhi Capitals kept their campaign alive with a composed chase. If you missed RR vs DC, prepare earlier for CSK vs SRH and keep responsible limits ready.",
+        "status_text": "Congratulations if your YaarWin cricket betting pick stayed with Hyderabad. If you missed it, prepare early before RR vs LSG and KKR vs MI.",
         "markets": [
             [
                 "Latest Score",
-                "RR 193/8, DC 197/5"
+                "CSK 180/7, SRH 181/5"
             ],
             [
                 "Winning Margin",
-                "DC by 5 wickets"
+                "SRH by 5 wickets"
             ],
             [
-                "Player Watch",
-                "KL Rahul chase anchor"
+                "Next Watchlist",
+                "RR vs LSG today"
             ],
             [
-                "Top Support",
-                "Mitchell Starc death overs"
+                "Top Batsman",
+                "Ishan Kishan 70"
             ]
         ]
     },
     "matches": [
-        {
-            "league": "Indian Premier League",
-            "teams": "CSK vs SRH",
-            "team_a": "CSK",
-            "team_b": "SRH",
-            "date_label": "May 18",
-            "time_label": "7:30 PM IST",
-            "venue": "MA Chidambaram Stadium, Chennai",
-            "calendar_dates": "20260518T140000Z/20260518T173000Z"
-        },
         {
             "league": "Indian Premier League",
             "teams": "RR vs LSG",
@@ -66,6 +56,26 @@
             "time_label": "7:30 PM IST",
             "venue": "Eden Gardens, Kolkata",
             "calendar_dates": "20260520T140000Z/20260520T173000Z"
+        },
+        {
+            "league": "Indian Premier League",
+            "teams": "GT vs CSK",
+            "team_a": "GT",
+            "team_b": "CSK",
+            "date_label": "May 21",
+            "time_label": "7:30 PM IST",
+            "venue": "Ahmedabad",
+            "calendar_dates": "20260521T140000Z/20260521T173000Z"
+        },
+        {
+            "league": "Indian Premier League",
+            "teams": "SRH vs RCB",
+            "team_a": "SRH",
+            "team_b": "RCB",
+            "date_label": "May 22",
+            "time_label": "7:30 PM IST",
+            "venue": "Hyderabad",
+            "calendar_dates": "20260522T140000Z/20260522T173000Z"
         }
     ]
 }
