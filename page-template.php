@@ -329,7 +329,7 @@ $pages = [
     'sections' => [
       ['Quick score summary', 'Chennai Super Kings posted 180/7 in 20 overs, but Sunrisers Hyderabad reached 181/5 in 19 overs and won by 5 wickets. It was the newest IPL 2026 result on the watchlist and a clear reminder that chasing rhythm can decide a match quickly.'],
       ['What India cricket betting users should note', 'This was a match where preparation before toss mattered more than late emotion. Users who checked venue, chase conditions, team form and personal limits before opening a cricket betting India session had a cleaner view of the risk.'],
-      ['Congratulations to winning YaarWin users', 'If you had already completed your YaarWin register path and stayed with Hyderabad inside a fixed limit, congratulations. If you missed the window, do not chase; prepare earlier for RR vs LSG, KKR vs MI and GT vs CSK.'],
+      ['Congratulations to winning YaarWin users', 'If you had already completed your YaarWin register path and stayed with Hyderabad inside a fixed limit, congratulations. If you missed the window, do not chase; prepare earlier for KKR vs MI, GT vs CSK and SRH vs RCB.'],
       ['Next step for YaarWin users', 'Before the next IPL 2026 fixture, open the YaarWin register path, keep invite code 72238107987 ready and review cricket betting, Aviator, Teen Patti, Rummy, Wingo colour prediction and fast withdrawal pages.'],
     ],
   ],
@@ -469,13 +469,13 @@ $pages = [
       ['Quick score summary', 'Royal Challengers Bengaluru scored 222/4 in 20 overs, then held Punjab Kings to 199/8 to win by 23 runs. Venkatesh Iyer earned Player of the Match after driving the first-innings surge that shaped the game.'],
       ['Commentator-style match note', 'PBKS needed a sharp powerplay to stay on pace, but early wickets forced a recovery chase instead of a clean pursuit. RCB stayed ahead by defending key phases with experienced pace bowling and never allowed the required rate to settle.'],
       ['What prepared YaarWin users can learn', 'This was another reminder to prepare before toss: check the confirmed XI, venue trend, and chase patterns early, then decide your personal limit before any market momentum starts. No pick is guaranteed, but disciplined timing helps avoid rushed decisions.'],
-      ['Next IPL watchlist', 'CSK vs SRH, RR vs LSG, and KKR vs MI are the next fixtures in this cycle. If you plan to follow YaarWin-related cricket betting coverage, keep your register path, wallet checks, and responsible budget ready before match time.'],
+      ['Next IPL watchlist', 'KKR vs MI, GT vs CSK, and SRH vs RCB are the next fixtures in this cycle. If you plan to follow YaarWin-related cricket betting coverage, keep your register path, wallet checks, and responsible budget ready before match time.'],
       ['Responsible play note', 'If your side won, keep the same discipline for the next game. If your side lost, do not chase. Use fixed limits, treat betting as high-risk entertainment, and stop when your session budget is reached.'],
     ],
     'questions' => [
       ['q' => 'Who won RCB vs PBKS IPL 2026?', 'a' => 'Royal Challengers Bengaluru won by 23 runs after scoring 222/4 and restricting Punjab Kings to 199/8.'],
       ['q' => 'What was the RCB vs PBKS score?', 'a' => 'RCB posted 222/4 in 20 overs. PBKS replied with 199/8 in 20 overs.'],
-      ['q' => 'Which upcoming IPL matches should readers track next?', 'a' => 'The immediate watchlist includes CSK vs SRH, RR vs LSG, and KKR vs MI, with final checks on toss and playing XI before any betting decision.'],
+      ['q' => 'Which upcoming IPL matches should readers track next?', 'a' => 'The immediate watchlist includes KKR vs MI, GT vs CSK, and SRH vs RCB, with final checks on toss and playing XI before any betting decision.'],
     ],
   ],
   'rr-vs-dc-result-ipl-2026' => [
@@ -490,13 +490,13 @@ $pages = [
       ['Quick score summary', 'Rajasthan Royals scored 193/8 in 20 overs, while Delhi Capitals completed the chase at 197/5 in 19.2 overs to win by 5 wickets. KL Rahul guided the chase with a key fifty as Delhi held nerve through the last phase.'],
       ['Commentator-style match note', 'RR built pressure with a strong total, but DC timed the chase well and avoided panic when the required rate climbed. The finishing sequence showed why middle-overs control and calm batting depth matter more than one explosive spell.'],
       ['What prepared YaarWin users can learn', 'Prepared users check toss, confirmed XI, and venue trend early, then set a fixed budget before match time. This reduces rushed decisions and keeps cricket betting activity in a controlled, responsible frame.'],
-      ['Next IPL watchlist', 'CSK vs SRH, RR vs LSG, and KKR vs MI are the immediate fixtures to track. If you plan to follow YaarWin-related cricket coverage, keep your register flow, wallet checks, and personal limit ready before the first ball.'],
+      ['Next IPL watchlist', 'KKR vs MI, GT vs CSK, and SRH vs RCB are the immediate fixtures to track. If you plan to follow YaarWin-related cricket coverage, keep your register flow, wallet checks, and personal limit ready before the first ball.'],
       ['Responsible play note', 'A winning pick should not trigger overconfidence, and a losing pick should not trigger chasing. Treat every match as high-risk entertainment, keep limits strict, and stop when the session budget is reached.'],
     ],
     'questions' => [
       ['q' => 'Who won RR vs DC IPL 2026 Match 62?', 'a' => 'Delhi Capitals won by 5 wickets after chasing 194 with 197/5 in 19.2 overs.'],
       ['q' => 'What was the RR vs DC scoreline?', 'a' => 'Rajasthan Royals made 193/8 and Delhi Capitals replied with 197/5.'],
-      ['q' => 'Which matches are next on the IPL watchlist?', 'a' => 'The immediate watchlist is CSK vs SRH, RR vs LSG, and KKR vs MI, with final checks on toss and playing XI before any betting decision.'],
+      ['q' => 'Which matches are next on the IPL watchlist?', 'a' => 'The immediate watchlist is KKR vs MI, GT vs CSK, and SRH vs RCB, with final checks on toss and playing XI before any betting decision.'],
     ],
   ],
   'pbks-vs-dc-result-ipl-2026' => [
@@ -511,7 +511,7 @@ $pages = [
       ['Quick score summary', 'Punjab Kings reached 210/5 in 20 overs, but Delhi Capitals answered with 216/7 in 19 overs and won by 3 wickets. A 211 chase finishing with an over left is exactly the kind of result that makes cricket betting India, YaarWin register and IPL match recap searches move quickly the next morning.'],
       ['Commentator-style match note', 'PBKS gave themselves a strong total, but Delhi did not let the asking rate become panic. The chase had pressure, wickets and late drama, yet DC still found enough boundary momentum to finish early. For YaarWin cricket betting users, the lesson is simple: check team form, chase strength and match timing before the toss instead of opening the register path after the market has already moved.'],
       ['Congratulations to prepared YaarWin users', 'If you had already completed your YaarWin register path before match time and backed Delhi within your own budget, congratulations. These are the nights prepared users remember because the account was ready, the invite code 72238107987 was visible and the YaarWin login path did not need to be rushed during the chase.'],
-      ['Missed PBKS vs DC?', 'If you watched the Delhi chase without registering, this was a classic FOMO match. Do not wait until GT vs SRH, RCB vs KKR or PBKS vs MI is already live. Open the YaarWin register guide early, review the cricket betting India page, keep your wallet details ready and decide your session limit before the first ball.'],
+      ['Missed PBKS vs DC?', 'If you watched the Delhi chase without registering, this was a classic FOMO match. Do not wait until KKR vs MI, GT vs CSK or SRH vs RCB is already live. Open the YaarWin register guide early, review the cricket betting India page, keep your wallet details ready and decide your session limit before the first ball.'],
       ['Where to go next', 'Move from this PBKS vs DC recap into the YaarWin register guide, YaarWin login guide, cricket betting India page, Aviator betting India, Teen Patti online, Rummy game India, Wingo colour prediction and fast withdrawal betting India pages. Every match-day session should start with a budget, responsible play and the discipline to stop instead of chasing losses.'],
     ],
     'questions' => [
@@ -532,7 +532,7 @@ $pages = [
       ['Quick score summary', 'KKR finished on 247/2 in 20 overs, with Finn Allen blasting 93 and Angkrish Raghuvanshi staying unbeaten on 82. Gujarat Titans replied with 218/4, strong enough to keep the scoreboard alive but still 29 runs short.'],
       ['Commentator-style match note', 'This was the kind of Kolkata innings where early boundaries changed the entire betting conversation. Once KKR crossed 200 with wickets in hand, every over became a reminder that cricket betting India users need to watch run rate, wickets left and chase pressure together.'],
       ['What prepared YaarWin users can learn', 'If you had already completed the YaarWin register step, checked login access and set a match budget before toss, you had more time to think calmly. If you missed the window, use the next fixture to prepare earlier instead of rushing during live momentum.'],
-      ['Next IPL watchlist', 'PBKS vs RCB, DC vs RR and CSK vs SRH are the next games to watch. Before opening any YaarWin cricket betting session, check toss, playing XI, pitch note, UPI readiness and withdrawal checklist.'],
+      ['Next IPL watchlist', 'KKR vs MI, GT vs CSK and SRH vs RCB are the next games to watch. Before opening any YaarWin cricket betting session, check toss, playing XI, pitch note, UPI readiness and withdrawal checklist.'],
       ['Responsible play note', 'Congratulations if your cricket pick was on the winning side. If not, do not chase losses. Treat IPL betting as high-risk entertainment, set limits before match time and stop when the budget is reached.'],
     ],
     'questions' => [

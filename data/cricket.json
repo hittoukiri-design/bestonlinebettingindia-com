@@ -1,52 +1,42 @@
 {
-    "updated_at": "2026-05-19T00:15:00+05:30",
+    "updated_at": "2026-05-20T00:05:00+08:00",
     "source": "manual-cache",
     "featured": {
         "badge": "Latest Result",
-        "title": "CSK vs SRH: Hyderabad win by 5 wickets",
-        "subtitle": "IPL 2026 - May 18 Match 63 recap - SRH 181/5 beat CSK 180/7",
+        "title": "RR vs LSG: Rajasthan chase 221",
+        "subtitle": "IPL 2026 - May 19 Match 64 live context - LSG set 220, RR chase underway",
         "team_a": {
-            "code": "CSK",
-            "name": "Chennai Super Kings",
-            "note": "180/7 in 20 overs at Chennai"
+            "code": "LSG",
+            "name": "Lucknow Super Giants",
+            "note": "Set a 220-run score in Jaipur"
         },
         "team_b": {
-            "code": "SRH",
-            "name": "Sunrisers Hyderabad",
-            "note": "181/5 in 19 overs, won by 5 wickets"
+            "code": "RR",
+            "name": "Rajasthan Royals",
+            "note": "Chasing 221 in the latest match window"
         },
-        "status_title": "Result note",
-        "status_text": "Congratulations if your YaarWin cricket betting pick stayed with Hyderabad. If you missed it, prepare early before RR vs LSG and KKR vs MI.",
+        "status_title": "Live score note",
+        "status_text": "RR vs LSG is the latest match context. Treat the 221 chase as a live score note, then prepare early for KKR vs MI and GT vs CSK.",
         "markets": [
             [
-                "Latest Score",
-                "CSK 180/7, SRH 181/5"
+                "Latest Context",
+                "RR chase target 221"
             ],
             [
-                "Winning Margin",
-                "SRH by 5 wickets"
+                "Match Status",
+                "Live chase window"
             ],
             [
                 "Next Watchlist",
-                "RR vs LSG today"
+                "KKR vs MI"
             ],
             [
-                "Top Batsman",
-                "Ishan Kishan 70"
+                "Upcoming",
+                "GT vs CSK"
             ]
         ]
     },
     "matches": [
-        {
-            "league": "Indian Premier League",
-            "teams": "RR vs LSG",
-            "team_a": "RR",
-            "team_b": "LSG",
-            "date_label": "May 19",
-            "time_label": "7:30 PM IST",
-            "venue": "Sawai Mansingh Stadium, Jaipur",
-            "calendar_dates": "20260519T140000Z/20260519T173000Z"
-        },
         {
             "league": "Indian Premier League",
             "teams": "KKR vs MI",
@@ -76,6 +66,16 @@
             "time_label": "7:30 PM IST",
             "venue": "Hyderabad",
             "calendar_dates": "20260522T140000Z/20260522T173000Z"
+        },
+        {
+            "league": "Indian Premier League",
+            "teams": "LSG vs PBKS",
+            "team_a": "LSG",
+            "team_b": "PBKS",
+            "date_label": "May 23",
+            "time_label": "7:30 PM IST",
+            "venue": "Lucknow",
+            "calendar_dates": "20260523T140000Z/20260523T173000Z"
         }
     ]
 }
