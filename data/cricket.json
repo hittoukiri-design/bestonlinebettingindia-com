@@ -1,30 +1,30 @@
 {
-    "updated_at": "2026-05-20T00:05:00+08:00",
+    "updated_at": "2026-05-20T02:20:00+08:00",
     "source": "manual-cache",
     "featured": {
         "badge": "Latest Result",
-        "title": "RR vs LSG: Rajasthan chase 221",
-        "subtitle": "IPL 2026 - May 19 Match 64 live context - LSG set 220, RR chase underway",
+        "title": "RR vs LSG: Rajasthan win by 7 wickets",
+        "subtitle": "IPL 2026 - May 19 Match 64 result - RR 225/3 beat LSG 220/5 in Jaipur",
         "team_a": {
             "code": "LSG",
             "name": "Lucknow Super Giants",
-            "note": "Set a 220-run score in Jaipur"
+            "note": "220/5 in 20 overs"
         },
         "team_b": {
             "code": "RR",
             "name": "Rajasthan Royals",
-            "note": "Chasing 221 in the latest match window"
+            "note": "225/3 in 19.1 overs"
         },
-        "status_title": "Live score note",
-        "status_text": "RR vs LSG is the latest match context. Treat the 221 chase as a live score note, then prepare early for KKR vs MI and GT vs CSK.",
+        "status_title": "Latest result",
+        "status_text": "Rajasthan Royals beat Lucknow Super Giants by 7 wickets in Jaipur. The next prep window moves to KKR vs MI, GT vs CSK and SRH vs RCB.",
         "markets": [
             [
-                "Latest Context",
-                "RR chase target 221"
+                "Latest Result",
+                "RR won by 7 wickets"
             ],
             [
                 "Match Status",
-                "Live chase window"
+                "Final score confirmed"
             ],
             [
                 "Next Watchlist",

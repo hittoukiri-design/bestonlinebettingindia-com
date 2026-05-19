@@ -520,6 +520,27 @@ $pages = [
       ['q' => 'What should YaarWin users check before the next cricket match?', 'a' => 'Check the latest toss, playing XI, match timing, wallet details, invite code, personal budget and responsible play limit before opening any cricket betting session.'],
     ],
   ],
+  'rr-vs-lsg-result-ipl-2026' => [
+    'title' => 'RR vs LSG Result IPL 2026 | Rajasthan Win by 7 Wickets, YaarWin Cricket Recap',
+    'description' => 'RR vs LSG IPL 2026 result recap: Rajasthan Royals 225/3 beat Lucknow Super Giants 220/5 by 7 wickets in Jaipur. Read YaarWin cricket betting India notes and next match prep.',
+    'h1' => 'RR vs LSG Result IPL 2026: Rajasthan Win by 7 Wickets',
+    'kicker' => 'IPL 2026 match recap',
+    'intro' => 'Rajasthan Royals beat Lucknow Super Giants by 7 wickets after chasing 221 in Jaipur. This Best Online Betting India recap gives YaarWin cricket betting readers the final score, match lesson and next preparation window before KKR vs MI.',
+    'image' => '/assets/img/articles/cricket-betting-india-match.webp',
+    'image_alt' => 'RR vs LSG result IPL 2026 recap for YaarWin cricket betting India users',
+    'sections' => [
+      ['Quick score summary', 'Lucknow Super Giants made 220/5 in 20 overs, but Rajasthan Royals reached 225/3 in 19.1 overs and won by 7 wickets. A successful 221 chase is exactly the kind of result that makes cricket betting India users revisit run rate, wickets in hand and finishing depth.'],
+      ['Commentator-style match note', 'RR kept the chase controlled instead of turning the target into panic. Once Rajasthan stayed ahead of the required rate with wickets available, LSG needed a sudden breakthrough that never fully arrived. For YaarWin cricket betting users, the lesson is to read chase rhythm together with venue, batting depth and pressure overs.'],
+      ['Congratulations to prepared YaarWin users', 'If you had completed the YaarWin register path before match time and backed Rajasthan within a fixed budget, congratulations. Good preparation means the invite code, login path and wallet checks were ready before the chase started moving.'],
+      ['Next IPL watchlist', 'KKR vs MI is the next May 20 match window, followed by GT vs CSK on May 21 and SRH vs RCB on May 22. Check toss, playing XI, personal limits and withdrawal readiness before opening any cricket betting session.'],
+      ['Responsible play note', 'A winning result is never a reason to increase risk, and a losing pick is never a reason to chase. Treat every IPL session as high-risk entertainment, set your budget before match time and stop when the limit is reached.'],
+    ],
+    'questions' => [
+      ['q' => 'Who won RR vs LSG IPL 2026?', 'a' => 'Rajasthan Royals beat Lucknow Super Giants by 7 wickets after reaching 225/3 in 19.1 overs.'],
+      ['q' => 'What was the RR vs LSG score?', 'a' => 'Lucknow Super Giants scored 220/5 in 20 overs. Rajasthan Royals replied with 225/3 in 19.1 overs.'],
+      ['q' => 'What is the next IPL watchlist match?', 'a' => 'KKR vs MI on May 20 is the next watchlist match, followed by GT vs CSK and SRH vs RCB.'],
+    ],
+  ],
   'kkr-vs-gt-result-ipl-2026' => [
     'title' => 'KKR vs GT Result IPL 2026 | Kolkata 247/2, YaarWin Cricket Recap',
     'description' => 'KKR vs GT result recap for IPL 2026: Kolkata Knight Riders 247/2 beat Gujarat Titans 218/4 by 29 runs. Read YaarWin cricket betting India notes, register timing and next match prep.',

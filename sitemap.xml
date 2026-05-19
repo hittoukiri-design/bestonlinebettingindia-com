@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://bestonlinebettingindia.com/</loc>
-    <lastmod>2026-05-10</lastmod>
+    <lastmod>2026-05-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -122,9 +122,15 @@
   </url>
   <url>
     <loc>https://bestonlinebettingindia.com/cricket-betting-india/</loc>
-    <lastmod>2026-05-18</lastmod>
+    <lastmod>2026-05-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.84</priority>
+  </url>
+  <url>
+    <loc>https://bestonlinebettingindia.com/rr-vs-lsg-result-ipl-2026/</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.86</priority>
   </url>
   <url>
     <loc>https://bestonlinebettingindia.com/rcb-vs-pbks-result-ipl-2026/</loc>
