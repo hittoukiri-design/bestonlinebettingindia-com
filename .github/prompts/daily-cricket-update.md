@@ -2,6 +2,13 @@ You are updating the Best Online Betting India / BOBI repository.
 
 Goal: keep cricket data, homepage cricket widget, schedule, and cricket articles fresh.
 
+Safety boundary:
+- This job is a content updater, not a site redesign or deployment job.
+- Allowed changes are limited to `data/cricket.json`, `index.php`, `page-template.php`, `blog/index.php`, `sitemap.xml`, cricket article route shims matching `*-vs-*/index.php`, and article images under `assets/img/articles/`.
+- Do not edit `.htaccess`, `includes/`, `api/`, `assets/css/`, `assets/js/`, private/runtime data, analytics tags, the BOBI admin counter, or deployment configuration.
+- Preserve the homepage title/H1, config/header/footer includes, invite code, visitor endpoint, and `?bobi_admin=1` counter markers.
+- If the required update falls outside the allowed paths, leave it unchanged and report `blocked_by_guard`.
+
 Workflow:
 1. Verify the latest completed IPL/cricket result and upcoming schedule from current reliable sources.
 2. Update `data/cricket.json` when the featured match, live context, latest result, or upcoming matches are stale.
@@ -13,5 +20,4 @@ Workflow:
 8. If a match is in progress or a final score is uncertain, use wording like "live context", "latest note", or "watchlist".
 9. Validate changed PHP files with `php -l`, validate `data/cricket.json`, and check the final diff.
 
-Do not edit unrelated security headers, ad tags, images, or layout files unless required by the cricket update.
 If no cricket update is needed, leave files unchanged.

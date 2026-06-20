@@ -58,14 +58,18 @@ jobs:
             --output-last-message "$RUNNER_TEMP/codex-cricket-summary.txt" \
             - < .github/prompts/daily-cricket-update.md
 
+      - name: Run BOBI safety guard
+        run: bash .github/scripts/guard-daily-cricket-update.sh
+
       - name: Commit and push changes
         run: |
-          if git diff --quiet && git diff --cached --quiet; then
+          if git diff --quiet && git diff --cached --quiet && [ -z "$(git ls-files --others --exclude-standard)" ]; then
             echo "No cricket changes to commit."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A
+          git add data/cricket.json index.php page-template.php blog/index.php sitemap.xml assets/img/articles
+          find . -mindepth 2 -maxdepth 2 -type f -path './*-vs-*/index.php' -print0 | xargs -0 -r git add --
           git commit -m "Daily cricket content update"
           git push
